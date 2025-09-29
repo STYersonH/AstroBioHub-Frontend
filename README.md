@@ -130,12 +130,6 @@ The project uses a custom design system built from Figma variables:
 - **Components**: Reusable component library
 - **Animations**: Smooth transitions and micro-interactions
 
-## 📱 Responsive Design
-
-- **Desktop First**: Optimized for desktop viewing experience
-- **Tablet Support**: Responsive layout for tablet devices
-- **Mobile Considerations**: Touch-friendly interactions and sizing
-
 ## 🔧 Development
 
 ### Available Scripts
@@ -157,41 +151,6 @@ bun lint:fix     # Fix ESLint issues
 - **Prettier**: Code formatting (if configured)
 - **Component Structure**: Functional components with hooks
 - **State Management**: Zustand for global state
-
-## 🚀 Deployment
-
-### Build for Production
-
-```bash
-bun run build
-```
-
-### Deploy
-
-The built files in the `dist/` directory can be deployed to any static hosting service:
-
-- Vercel
-- Netlify
-- GitHub Pages
-- AWS S3 + CloudFront
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Research Data**: Sample data for space biology research papers
-- **Design System**: Custom design tokens and components
-- **UI Inspiration**: Modern academic and research platform interfaces
 
 ---
 
