@@ -1,0 +1,612 @@
+/* Generated CSS from Figma Variables */
+/* Generated on: 2025-09-24T00:16:30.918Z */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+
+/* Spacing Classes */
+@theme {
+  --spacing-4xl: 48px;
+  --spacing-3xl: 40px;
+  --spacing-2xl: 32px;
+  --spacing-lg: 16px;
+  --spacing-xl: 24px;
+  --spacing-md: 12px;
+  --spacing-sm: 8px;
+  --spacing-10xl: 180px;
+  --spacing-9xl: 140px;
+  --spacing-8xl: 120px;
+  --spacing-xs: 4px;
+  --spacing-6xl: 64px;
+  --spacing-5xl: 56px;
+  --spacing-2xs: 2px;
+  --spacing-7xl: 80px;
+  --spacing-none: 0px;
+}
+/* Border Radius Classes */
+@theme {
+  --radius-xs: 6px;
+  --radius-2xl: 24px;
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --radius-4xl: 32px;
+  --radius-none: 0px;
+  --radius-sm: 8px;
+  --radius-full: 999px;
+  --radius-2xs: 4px;
+  --radius-3xl: 28px;
+  --radius-xl: 20px;
+  --radius-5xl: 40px;
+}
+/* Color Classes */
+@theme {
+  --color-b-w-black: #000000;
+  --color-b-w-black: #000000;
+  --color-b-w-white: #ffffff;
+  --color-b-w-white: #ffffff;
+  --color-blue-100: #dde8f5;
+  --color-blue-200: #afc8e9;
+  --color-blue-300: #87adde;
+  --color-blue-400: #5f91d3;
+  --color-blue-50: #ebf1fa;
+  --color-blue-500: #3067b0;
+  --color-blue-600: #2c5ea0;
+  --color-blue-700: #214778;
+  --color-blue-800: #162f50;
+  --color-blue-900: #0b1828;
+  --color-blue-950: #050c14;
+  --color-brown-100: #f1e5da;
+  --color-brown-200: #e2cbb6;
+  --color-brown-300: #d4b191;
+  --color-brown-400: #c6986c;
+  --color-brown-50: #f8f2ed;
+  --color-brown-500: #b9804b;
+  --color-brown-600: #936539;
+  --color-brown-700: #6e4b2b;
+  --color-brown-800: #49321d;
+  --color-brown-900: #25190e;
+  --color-brown-950: #120d07;
+  --color-creamy-100: #f1e7da;
+  --color-creamy-200: #ebdecc;
+  --color-creamy-300: #e2d0b6;
+  --color-creamy-400: #d3b892;
+  --color-creamy-50: #f8f3ed;
+  --color-creamy-500: #c5a06d;
+  --color-creamy-600: #a17840;
+  --color-creamy-700: #6d522c;
+  --color-creamy-800: #49371d;
+  --color-creamy-900: #241b0f;
+  --color-creamy-950: #120e07;
+  --color-error-base-error-100: #fdd0d5;
+  --color-error-base-error-200: #faa0ab;
+  --color-error-base-error-300: #f87181;
+  --color-error-base-error-400: #f54156;
+  --color-error-base-error-50: #fee7ea;
+  --color-error-base-error-500: #f3122c;
+  --color-error-base-error-600: #c20e23;
+  --color-error-base-error-700: #920b1b;
+  --color-error-base-error-800: #610712;
+  --color-error-base-error-900: #310409;
+  --color-gray-100: #e6e6e6;
+  --color-gray-200: #cccccc;
+  --color-gray-300: #b3b3b3;
+  --color-gray-400: #999999;
+  --color-gray-50: #f2f2f2;
+  --color-gray-500: #7b7b7b;
+  --color-gray-600: #666666;
+  --color-gray-700: #4d4d4d;
+  --color-gray-800: #333333;
+  --color-gray-900: #191919;
+  --color-gray-950: #0d0d0d;
+  --color-green-100: #ccffdf;
+  --color-green-200: #99ffbe;
+  --color-green-300: #66ff9e;
+  --color-green-400: #33ff7e;
+  --color-green-50: #e5ffef;
+  --color-green-50-2: #e5ffef;
+  --color-green-500: #00cc4b;
+  --color-green-600: #00a63d;
+  --color-green-700: #009938;
+  --color-green-800: #006625;
+  --color-green-900: #003313;
+  --color-green-950: #001a09;
+  --color-info-base-info-100: #cce5fd;
+  --color-info-base-info-200: #99cafb;
+  --color-info-base-info-300: #66aff9;
+  --color-info-base-info-400: #3395f7;
+  --color-info-base-info-50: #e6f2fe;
+  --color-info-base-info-500: #0469b2;
+  --color-info-base-info-600: #0062c4;
+  --color-info-base-info-700: #004a93;
+  --color-info-base-info-800: #003162;
+  --color-info-base-info-900: #001931;
+  --color-lime-100: #e9f5d6;
+  --color-lime-200: #d2ebad;
+  --color-lime-300: #bce184;
+  --color-lime-400: #a5d75b;
+  --color-lime-50: #f4faea;
+  --color-lime-500: #82bb2d;
+  --color-lime-600: #72a428;
+  --color-lime-700: #567b1e;
+  --color-lime-800: #395214;
+  --color-lime-900: #1d290a;
+  --color-lime-950: #0e1505;
+  --color-orange-100: #fce9d6;
+  --color-orange-200: #f9ca9f;
+  --color-orange-300: #f6b06f;
+  --color-orange-400: #f3963f;
+  --color-orange-50: #fef2e7;
+  --color-orange-500: #f1821b;
+  --color-orange-600: #c0630c;
+  --color-orange-700: #904a09;
+  --color-orange-800: #603106;
+  --color-orange-900: #301903;
+  --color-orange-950: #180c01;
+  --color-pink-100: #f9d2e3;
+  --color-pink-200: #f4a4c7;
+  --color-pink-300: #ee77ab;
+  --color-pink-400: #e84a8e;
+  --color-pink-50: #fce8f1;
+  --color-pink-500: #e8488d;
+  --color-pink-600: #b5175b;
+  --color-pink-700: #881145;
+  --color-pink-800: #5b0b2e;
+  --color-pink-900: #2d0617;
+  --color-pink-950: #17030b;
+  --color-purple-100: #e8dbf0;
+  --color-purple-200: #d2b7e1;
+  --color-purple-300: #bb94d1;
+  --color-purple-400: #a470c2;
+  --color-purple-50: #f4edf7;
+  --color-purple-500: #723d90;
+  --color-purple-600: #713d8f;
+  --color-purple-700: #552e6b;
+  --color-purple-800: #391e48;
+  --color-purple-900: #1c0f24;
+  --color-purple-950: #0e0812;
+  --color-red-100: #ffcccc;
+  --color-red-200: #ff9999;
+  --color-red-300: #ff6666;
+  --color-red-400: #ff4e4e;
+  --color-red-50: #ffe5e5;
+  --color-red-500: #ff3d3d;
+  --color-red-600: #cc0000;
+  --color-red-700: #990000;
+  --color-red-800: #660000;
+  --color-red-900: #330000;
+  --color-red-950: #1a0000;
+  --color-sky-100: #d6e8f5;
+  --color-sky-200: #add1eb;
+  --color-sky-300: #83bae2;
+  --color-sky-400: #5aa3d8;
+  --color-sky-50: #eaf4fa;
+  --color-sky-500: #4196d2;
+  --color-sky-600: #2770a5;
+  --color-sky-700: #1d547c;
+  --color-sky-800: #143852;
+  --color-sky-900: #0a1c29;
+  --color-sky-950: #050e15;
+  --color-success-base-success-100: #d1f4db;
+  --color-success-base-success-200: #a2e9b7;
+  --color-success-base-success-300: #74df94;
+  --color-success-base-success-400: #45d470;
+  --color-success-base-success-50: #e8faed;
+  --color-success-base-success-500: #17c94c;
+  --color-success-base-success-600: #12a13d;
+  --color-success-base-success-700: #0e792e;
+  --color-success-base-success-800: #09501e;
+  --color-success-base-success-900: #09501e;
+  --color-warning-base-warning-000: #fef9e8;
+  --color-warning-base-warning-100: #fdf3d3;
+  --color-warning-base-warning-200: #fbe7a7;
+  --color-warning-base-warning-300: #f9dc7c;
+  --color-warning-base-warning-400: #f7d050;
+  --color-warning-base-warning-500: #f5c424;
+  --color-warning-base-warning-600: #c49d1d;
+  --color-warning-base-warning-700: #937616;
+  --color-warning-base-warning-800: #624e0e;
+  --color-warning-base-warning-900: #312707;
+  --color-yellow-100: #fff5cc;
+  --color-yellow-200: #feea9a;
+  --color-yellow-300: #fee067;
+  --color-yellow-400: #fdd535;
+  --color-yellow-50: #fffae6;
+  --color-yellow-500: #fdcf17;
+  --color-yellow-600: #caa202;
+  --color-yellow-700: #987a01;
+  --color-yellow-800: #655101;
+  --color-yellow-900: #332900;
+  --color-yellow-950: #191400;
+}
+/* Font Size Utility Classes */
+@theme {
+  --text-100: 100px;
+  --text-78: 78px;
+  --text-64: 64px;
+  --text-40: 40px;
+  --text-22: 22px;
+  --text-120: 120px;
+  --text-20: 20px;
+  --text-24: 24px;
+  --text-18: 18px;
+  --text-26: 26px;
+  --text-14: 14px;
+  --text-16: 16px;
+  --text-32: 32px;
+  --text-12: 12px;
+  --text-10: 10px;
+  --text-48: 48px;
+  --text-8: 8px;
+}
+/* Font Family Utility Classes */
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+  --font-merriweather: "Merriweather", sans-serif;
+  --font-source-serif-4: "Source Serif 4", sans-serif;
+  --font-cambria: "Cambria", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+/* Font Weight Utility Classes */
+.font-fontstyle-b {
+  font-weight: 700;
+}
+.font-fontstyle-sb {
+  font-weight: 600;
+}
+.font-fontstyle-m {
+  font-weight: 500;
+}
+.font-fontstyle-r {
+  font-weight: 400;
+}
+
+/* Text Style Classes */
+.text-ui-lg-b {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 145%;
+}
+
+.text-ui-lg-sb {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 145%;
+}
+
+.text-ui-lg-r {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 145%;
+}
+
+.text-ui-lg-m {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 145%;
+}
+
+.text-ui-md-b {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 145%;
+}
+
+.text-ui-md-sb {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 145%;
+}
+
+.text-ui-md-r {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 145%;
+}
+
+.text-ui-md-m {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 145%;
+}
+
+.text-ui-sm-b {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 145%;
+}
+
+.text-ui-sm-sb {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 145%;
+}
+
+.text-ui-sm-r {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 145%;
+}
+
+.text-ui-sm-m {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 145%;
+}
+
+.text-ui-xs-b {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 145%;
+}
+
+.text-ui-xs-sb {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 145%;
+}
+
+.text-ui-xs-r {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 145%;
+}
+
+.text-ui-xs-m {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 145%;
+}
+
+.text-ui-2xs-b {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 145%;
+}
+
+.text-ui-2xs-sb {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 145%;
+}
+
+.text-ui-2xs-r {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 145%;
+}
+
+.text-ui-2xs-m {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 145%;
+}
+
+.text-c-body-lg-b {
+  font-family: "Source Serif 4", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.text-c-body-lg-sb {
+  font-family: "Source Serif 4", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.text-c-body-lg-r {
+  font-family: "Source Serif 4", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.text-c-body-md-b {
+  font-family: "Source Serif 4", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.text-c-body-md-sb {
+  font-family: "Source Serif 4", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.text-c-body-md-r {
+  font-family: "Source Serif 4", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.text-s-body-lg-b {
+  font-family: "Cambria", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.text-s-body-lg-r {
+  font-family: "Cambria", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.text-s-body-md-b {
+  font-family: "Cambria", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.text-s-body-md-r {
+  font-family: "Cambria", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.text-s-heading-lg-b {
+  font-family: "Merriweather", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.text-s-heading-lg-r {
+  font-family: "Merriweather", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-s-heading-xl-b {
+  font-family: "Merriweather", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.text-s-heading-xl-r {
+  font-family: "Merriweather", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-s-heading-md-b {
+  font-family: "Merriweather", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.text-s-heading-md-r {
+  font-family: "Merriweather", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-s-heading-sm-b {
+  font-family: "Merriweather", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.text-s-heading-sm-r {
+  font-family: "Merriweather", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-s-heading-xs-b {
+  font-family: "Merriweather", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.text-s-heading-xs-r {
+  font-family: "Merriweather", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-s-heading-2xs-b {
+  font-family: "Merriweather", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.text-s-heading-2xs-r {
+  font-family: "Merriweather", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-c-heading-xl-b {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.text-c-heading-xl-sb {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.text-c-heading-lg-b {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.text-c-heading-lg-sb {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.text-c-heading-md-b {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.text-c-heading-md-sb {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.text-c-heading-sm-b {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.text-c-heading-sm-sb {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 150%;
+}

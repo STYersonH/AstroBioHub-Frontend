@@ -1,0 +1,5044 @@
+{
+  "id": "VariableCollectionId:45:809",
+  "name": "Primitives",
+  "modes": { "45:0": "Mode 1" },
+  "variableIds": [
+    "VariableID:45:848",
+    "VariableID:45:849",
+    "VariableID:102:1717",
+    "VariableID:102:1593",
+    "VariableID:102:1582",
+    "VariableID:102:1578",
+    "VariableID:102:1656",
+    "VariableID:102:1566",
+    "VariableID:102:1558",
+    "VariableID:102:1553",
+    "VariableID:102:1695",
+    "VariableID:102:1687",
+    "VariableID:102:1665",
+    "VariableID:102:1660",
+    "VariableID:102:1664",
+    "VariableID:102:1662",
+    "VariableID:102:1631",
+    "VariableID:102:1713",
+    "VariableID:102:1709",
+    "VariableID:102:1658",
+    "VariableID:102:1592",
+    "VariableID:102:1590",
+    "VariableID:102:1657",
+    "VariableID:102:1588",
+    "VariableID:102:1587",
+    "VariableID:102:1586",
+    "VariableID:102:1585",
+    "VariableID:102:1633",
+    "VariableID:102:1651",
+    "VariableID:102:1584",
+    "VariableID:102:1613",
+    "VariableID:102:1642",
+    "VariableID:102:1712",
+    "VariableID:102:1583",
+    "VariableID:102:1726",
+    "VariableID:102:1635",
+    "VariableID:102:1581",
+    "VariableID:102:1580",
+    "VariableID:102:1618",
+    "VariableID:102:1577",
+    "VariableID:102:1576",
+    "VariableID:102:1669",
+    "VariableID:102:1575",
+    "VariableID:102:1589",
+    "VariableID:102:1663",
+    "VariableID:102:1716",
+    "VariableID:102:1574",
+    "VariableID:102:1572",
+    "VariableID:102:1599",
+    "VariableID:102:1601",
+    "VariableID:102:1637",
+    "VariableID:102:1570",
+    "VariableID:102:1568",
+    "VariableID:102:1573",
+    "VariableID:102:1567",
+    "VariableID:102:1565",
+    "VariableID:102:1564",
+    "VariableID:102:1562",
+    "VariableID:102:1561",
+    "VariableID:102:1667",
+    "VariableID:102:1696",
+    "VariableID:102:1594",
+    "VariableID:102:1690",
+    "VariableID:102:1559",
+    "VariableID:102:1626",
+    "VariableID:102:1557",
+    "VariableID:102:1556",
+    "VariableID:102:1597",
+    "VariableID:102:1684",
+    "VariableID:102:1554",
+    "VariableID:102:1655",
+    "VariableID:102:1728",
+    "VariableID:102:1563",
+    "VariableID:102:1604",
+    "VariableID:102:1555",
+    "VariableID:102:1552",
+    "VariableID:102:1711",
+    "VariableID:102:1551",
+    "VariableID:102:1550",
+    "VariableID:102:1571",
+    "VariableID:102:1549",
+    "VariableID:102:1622",
+    "VariableID:102:1548",
+    "VariableID:102:1547",
+    "VariableID:102:1681",
+    "VariableID:102:1596",
+    "VariableID:102:1579",
+    "VariableID:102:1703",
+    "VariableID:102:1720",
+    "VariableID:102:1609",
+    "VariableID:102:1629",
+    "VariableID:102:1640",
+    "VariableID:102:1707",
+    "VariableID:102:1649",
+    "VariableID:102:1702",
+    "VariableID:102:1694",
+    "VariableID:102:1692",
+    "VariableID:102:1698",
+    "VariableID:102:1727",
+    "VariableID:102:1691",
+    "VariableID:102:1724",
+    "VariableID:102:1706",
+    "VariableID:102:1689",
+    "VariableID:102:1650",
+    "VariableID:102:1686",
+    "VariableID:102:1682",
+    "VariableID:102:1680",
+    "VariableID:102:1678",
+    "VariableID:102:1677",
+    "VariableID:102:1679",
+    "VariableID:102:1672",
+    "VariableID:102:1710",
+    "VariableID:102:1608",
+    "VariableID:102:1714",
+    "VariableID:102:1670",
+    "VariableID:102:1666",
+    "VariableID:102:1730",
+    "VariableID:102:1723",
+    "VariableID:102:1661",
+    "VariableID:102:1653",
+    "VariableID:102:1725",
+    "VariableID:102:1699",
+    "VariableID:102:1624",
+    "VariableID:102:1671",
+    "VariableID:102:1647",
+    "VariableID:102:1645",
+    "VariableID:102:1643",
+    "VariableID:102:1610",
+    "VariableID:102:1652",
+    "VariableID:102:1641",
+    "VariableID:102:1634",
+    "VariableID:102:1659",
+    "VariableID:102:1722",
+    "VariableID:102:1721",
+    "VariableID:102:1632",
+    "VariableID:102:1683",
+    "VariableID:102:1644",
+    "VariableID:102:1627",
+    "VariableID:102:1623",
+    "VariableID:102:1646",
+    "VariableID:102:1693",
+    "VariableID:102:1697",
+    "VariableID:102:1654",
+    "VariableID:102:1715",
+    "VariableID:102:1729",
+    "VariableID:102:1673",
+    "VariableID:102:1621",
+    "VariableID:102:1630",
+    "VariableID:102:1619",
+    "VariableID:102:1639",
+    "VariableID:102:1705",
+    "VariableID:102:1605",
+    "VariableID:102:1617",
+    "VariableID:102:1625",
+    "VariableID:102:1616",
+    "VariableID:102:1676",
+    "VariableID:102:1615",
+    "VariableID:102:1612",
+    "VariableID:102:1648",
+    "VariableID:102:1611",
+    "VariableID:102:1701",
+    "VariableID:102:1636",
+    "VariableID:102:1607",
+    "VariableID:102:1606",
+    "VariableID:102:1719",
+    "VariableID:102:1688",
+    "VariableID:102:1603",
+    "VariableID:102:1668",
+    "VariableID:102:1602",
+    "VariableID:102:1600",
+    "VariableID:102:1598",
+    "VariableID:102:1614",
+    "VariableID:102:1595",
+    "VariableID:102:1628",
+    "VariableID:102:1674",
+    "VariableID:102:1591",
+    "VariableID:102:1620"
+  ],
+  "variables": [
+    {
+      "id": "VariableID:45:848",
+      "name": "B&W/black",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": { "45:0": { "r": 0, "g": 0, "b": 0, "a": 1 } },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": { "r": 0, "g": 0, "b": 0, "a": 1 },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:45:849",
+      "name": "B&W/white",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": { "45:0": { "r": 1, "g": 1, "b": 1, "a": 1 } },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": { "r": 1, "g": 1, "b": 1, "a": 1 },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1547",
+      "name": "Red / 400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 1,
+          "g": 0.30588236451148987,
+          "b": 0.30588236451148987,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 1,
+            "g": 0.30588236451148987,
+            "b": 0.30588236451148987,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1548",
+      "name": "Red / 300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 1,
+          "g": 0.4000000059604645,
+          "b": 0.4000000059604645,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 1,
+            "g": 0.4000000059604645,
+            "b": 0.4000000059604645,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1549",
+      "name": "Red /  100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 1,
+          "g": 0.800000011920929,
+          "b": 0.800000011920929,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 1,
+            "g": 0.800000011920929,
+            "b": 0.800000011920929,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1550",
+      "name": "Red / 950",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": { "r": 0.10196078568696976, "g": 0, "b": 0, "a": 1 }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": { "r": 0.10196078568696976, "g": 0, "b": 0, "a": 1 },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1551",
+      "name": "Red / 900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": { "r": 0.20000000298023224, "g": 0, "b": 0, "a": 1 }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": { "r": 0.20000000298023224, "g": 0, "b": 0, "a": 1 },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1552",
+      "name": "Orange / 700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.5647059082984924,
+          "g": 0.29019609093666077,
+          "b": 0.03529411926865578,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.5647059082984924,
+            "g": 0.29019609093666077,
+            "b": 0.03529411926865578,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1553",
+      "name": "Colors/Status/Info/base-info-200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.6000000238418579,
+          "g": 0.7921568751335144,
+          "b": 0.9843137264251709,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.6000000238418579,
+            "g": 0.7921568751335144,
+            "b": 0.9843137264251709,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1554",
+      "name": "Orange /  100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9882352948188782,
+          "g": 0.9137254953384399,
+          "b": 0.8392156958580017,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9882352948188782,
+            "g": 0.9137254953384399,
+            "b": 0.8392156958580017,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1555",
+      "name": "Orange / 600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.7529411911964417,
+          "g": 0.38823530077934265,
+          "b": 0.0470588244497776,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.7529411911964417,
+            "g": 0.38823530077934265,
+            "b": 0.0470588244497776,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1556",
+      "name": "Orange / 900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.1882352977991104,
+          "g": 0.09803921729326248,
+          "b": 0.0117647061124444,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.1882352977991104,
+            "g": 0.09803921729326248,
+            "b": 0.0117647061124444,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1557",
+      "name": "Purple/800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.2235294133424759,
+          "g": 0.11764705926179886,
+          "b": 0.2823529541492462,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.2235294133424759,
+            "g": 0.11764705926179886,
+            "b": 0.2823529541492462,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1558",
+      "name": "Colors/Status/Info/base-info-300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.4000000059604645,
+          "g": 0.6882352828979492,
+          "b": 0.9764705896377563,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.4000000059604645,
+            "g": 0.6882352828979492,
+            "b": 0.9764705896377563,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1559",
+      "name": "Purple/600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.4431372582912445,
+          "g": 0.239215686917305,
+          "b": 0.5607843399047852,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.4431372582912445,
+            "g": 0.239215686917305,
+            "b": 0.5607843399047852,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1561",
+      "name": "Purple/100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9098039269447327,
+          "g": 0.8588235378265381,
+          "b": 0.9411764740943909,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9098039269447327,
+            "g": 0.8588235378265381,
+            "b": 0.9411764740943909,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1562",
+      "name": "Purple/50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.95686274766922,
+          "g": 0.929411768913269,
+          "b": 0.9686274528503418,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.95686274766922,
+            "g": 0.929411768913269,
+            "b": 0.9686274528503418,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1563",
+      "name": "Orange / 400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9529411792755127,
+          "g": 0.5882353186607361,
+          "b": 0.24705882370471954,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9529411792755127,
+            "g": 0.5882353186607361,
+            "b": 0.24705882370471954,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1564",
+      "name": "Purple/950",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.054901961237192154,
+          "g": 0.0313725508749485,
+          "b": 0.07058823853731155,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.054901961237192154,
+            "g": 0.0313725508749485,
+            "b": 0.07058823853731155,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1565",
+      "name": "Purple/900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.10980392247438431,
+          "g": 0.05882352963089943,
+          "b": 0.1411764770746231,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.10980392247438431,
+            "g": 0.05882352963089943,
+            "b": 0.1411764770746231,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1566",
+      "name": "Colors/Status/Info/base-info-400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.20000000298023224,
+          "g": 0.5843137502670288,
+          "b": 0.9686274528503418,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.20000000298023224,
+            "g": 0.5843137502670288,
+            "b": 0.9686274528503418,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1567",
+      "name": "Blue / 950",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.019607843831181526,
+          "g": 0.0470588244497776,
+          "b": 0.0784313753247261,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.019607843831181526,
+            "g": 0.0470588244497776,
+            "b": 0.0784313753247261,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1568",
+      "name": "Blue / 700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.12941177189350128,
+          "g": 0.27843138575553894,
+          "b": 0.47058823704719543,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.12941177189350128,
+            "g": 0.27843138575553894,
+            "b": 0.47058823704719543,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1570",
+      "name": "Blue / 600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.1725490242242813,
+          "g": 0.3686274588108063,
+          "b": 0.6274510025978088,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.1725490242242813,
+            "g": 0.3686274588108063,
+            "b": 0.6274510025978088,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1571",
+      "name": "Red / 50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 1,
+          "g": 0.8980392217636108,
+          "b": 0.8980392217636108,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 1,
+            "g": 0.8980392217636108,
+            "b": 0.8980392217636108,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1572",
+      "name": "Blue / 200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.686274528503418,
+          "g": 0.7843137383460999,
+          "b": 0.9137254953384399,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.686274528503418,
+            "g": 0.7843137383460999,
+            "b": 0.9137254953384399,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1573",
+      "name": "Blue / 800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.08627451211214066,
+          "g": 0.18431372940540314,
+          "b": 0.3137255012989044,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.08627451211214066,
+            "g": 0.18431372940540314,
+            "b": 0.3137255012989044,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1574",
+      "name": "Blue /  100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.8666666746139526,
+          "g": 0.9098039269447327,
+          "b": 0.9607843160629272,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.8666666746139526,
+            "g": 0.9098039269447327,
+            "b": 0.9607843160629272,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1575",
+      "name": "Colors/Neutral/B&W/White",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": { "45:0": { "r": 1, "g": 1, "b": 1, "a": 1 } },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": { "r": 1, "g": 1, "b": 1, "a": 1 },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1576",
+      "name": "Colors/Status/Error/base-error-100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9921568632125854,
+          "g": 0.8156862854957581,
+          "b": 0.8362745046615601,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9921568632125854,
+            "g": 0.8156862854957581,
+            "b": 0.8362745046615601,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1577",
+      "name": "Colors/Status/Error/base-error-200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9803921580314636,
+          "g": 0.6274510025978088,
+          "b": 0.6686275005340576,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9803921580314636,
+            "g": 0.6274510025978088,
+            "b": 0.6686275005340576,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1578",
+      "name": "Colors/Status/Info/base-info-600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0,
+          "g": 0.3843137323856354,
+          "b": 0.7686274647712708,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0,
+            "g": 0.3843137323856354,
+            "b": 0.7686274647712708,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1579",
+      "name": "Red / 700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": { "r": 0.6000000238418579, "g": 0, "b": 0, "a": 1 }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": { "r": 0.6000000238418579, "g": 0, "b": 0, "a": 1 },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1580",
+      "name": "Colors/Status/Error/base-error-400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9607843160629272,
+          "g": 0.2549019753932953,
+          "b": 0.33725491166114807,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9607843160629272,
+            "g": 0.2549019753932953,
+            "b": 0.33725491166114807,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1581",
+      "name": "Colors/Status/Error/base-error-500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9529411792755127,
+          "g": 0.07058823853731155,
+          "b": 0.17352941632270813,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9529411792755127,
+            "g": 0.07058823853731155,
+            "b": 0.17352941632270813,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1582",
+      "name": "Colors/Status/Info/base-info-700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0,
+          "g": 0.28823530673980713,
+          "b": 0.5764706134796143,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0,
+            "g": 0.28823530673980713,
+            "b": 0.5764706134796143,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1583",
+      "name": "Colors/Status/Error/base-error-800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.3803921639919281,
+          "g": 0.027450980618596077,
+          "b": 0.06862745434045792,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.3803921639919281,
+            "g": 0.027450980618596077,
+            "b": 0.06862745434045792,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1584",
+      "name": "Colors/Status/Warning/base-warning-200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9843137264251709,
+          "g": 0.9074509739875793,
+          "b": 0.6549019813537598,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9843137264251709,
+            "g": 0.9074509739875793,
+            "b": 0.6549019813537598,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1585",
+      "name": "Colors/Status/Warning/base-warning-500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9607843160629272,
+          "g": 0.7695425152778625,
+          "b": 0.1411764770746231,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9607843160629272,
+            "g": 0.7695425152778625,
+            "b": 0.1411764770746231,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1586",
+      "name": "Colors/Status/Warning/base-warning-600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.7686274647712708,
+          "g": 0.6158170104026794,
+          "b": 0.11372549086809158,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.7686274647712708,
+            "g": 0.6158170104026794,
+            "b": 0.11372549086809158,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1587",
+      "name": "Colors/Status/Warning/base-warning-700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.5764706134796143,
+          "g": 0.4620915353298187,
+          "b": 0.08627451211214066,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.5764706134796143,
+            "g": 0.4620915353298187,
+            "b": 0.08627451211214066,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1588",
+      "name": "Colors/Status/Warning/base-warning-800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.3843137323856354,
+          "g": 0.3074509799480438,
+          "b": 0.054901961237192154,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.3843137323856354,
+            "g": 0.3074509799480438,
+            "b": 0.054901961237192154,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1589",
+      "name": "Colors/Neutral/B&W/Black",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": { "45:0": { "r": 0, "g": 0, "b": 0, "a": 1 } },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": { "r": 0, "g": 0, "b": 0, "a": 1 },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1590",
+      "name": "Colors/Status/Success/base-success-50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9098039269447327,
+          "g": 0.9803921580314636,
+          "b": 0.930980384349823,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9098039269447327,
+            "g": 0.9803921580314636,
+            "b": 0.930980384349823,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1591",
+      "name": "Green/900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0,
+          "g": 0.20000000298023224,
+          "b": 0.07450980693101883,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0,
+            "g": 0.20000000298023224,
+            "b": 0.07450980693101883,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1592",
+      "name": "Colors/Status/Success/base-success-100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.8196078538894653,
+          "g": 0.95686274766922,
+          "b": 0.8607842922210693,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.8196078538894653,
+            "g": 0.95686274766922,
+            "b": 0.8607842922210693,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1593",
+      "name": "Colors/Status/Info/base-info-800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0,
+          "g": 0.1921568661928177,
+          "b": 0.3843137323856354,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0,
+            "g": 0.1921568661928177,
+            "b": 0.3843137323856354,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1594",
+      "name": "Purple/400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.6431372761726379,
+          "g": 0.43921568989753723,
+          "b": 0.7607843279838562,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.6431372761726379,
+            "g": 0.43921568989753723,
+            "b": 0.7607843279838562,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1595",
+      "name": "Green/600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0,
+          "g": 0.6509804129600525,
+          "b": 0.239215686917305,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0,
+            "g": 0.6509804129600525,
+            "b": 0.239215686917305,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1596",
+      "name": "Red / 600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": { "r": 0.800000011920929, "g": 0, "b": 0, "a": 1 }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": { "r": 0.800000011920929, "g": 0, "b": 0, "a": 1 },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1597",
+      "name": "Orange / 950",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.0941176488995552,
+          "g": 0.0470588244497776,
+          "b": 0.003921568859368563,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.0941176488995552,
+            "g": 0.0470588244497776,
+            "b": 0.003921568859368563,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1598",
+      "name": "Green/400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.20000000298023224,
+          "g": 1,
+          "b": 0.4941176474094391,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.20000000298023224,
+            "g": 1,
+            "b": 0.4941176474094391,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1599",
+      "name": "Blue / 300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.529411792755127,
+          "g": 0.6784313917160034,
+          "b": 0.8705882430076599,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.529411792755127,
+            "g": 0.6784313917160034,
+            "b": 0.8705882430076599,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1600",
+      "name": "Green/300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.4000000059604645,
+          "g": 1,
+          "b": 0.6196078658103943,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.4000000059604645,
+            "g": 1,
+            "b": 0.6196078658103943,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1601",
+      "name": "Blue / 400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.37254902720451355,
+          "g": 0.5686274766921997,
+          "b": 0.8274509906768799,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.37254902720451355,
+            "g": 0.5686274766921997,
+            "b": 0.8274509906768799,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1602",
+      "name": "Green/200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.6000000238418579,
+          "g": 1,
+          "b": 0.7450980544090271,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.6000000238418579,
+            "g": 1,
+            "b": 0.7450980544090271,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1603",
+      "name": "Green/100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.800000011920929,
+          "g": 1,
+          "b": 0.8745098114013672,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.800000011920929,
+            "g": 1,
+            "b": 0.8745098114013672,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1604",
+      "name": "Orange / 500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9450980424880981,
+          "g": 0.5098039507865906,
+          "b": 0.10588235408067703,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9450980424880981,
+            "g": 0.5098039507865906,
+            "b": 0.10588235408067703,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1605",
+      "name": "Lime / 600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.4470588266849518,
+          "g": 0.6431372761726379,
+          "b": 0.1568627506494522,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.4470588266849518,
+            "g": 0.6431372761726379,
+            "b": 0.1568627506494522,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1606",
+      "name": "Creamy/900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.1411764770746231,
+          "g": 0.10588235408067703,
+          "b": 0.05882352963089943,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.1411764770746231,
+            "g": 0.10588235408067703,
+            "b": 0.05882352963089943,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1607",
+      "name": "Creamy/800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.2862745225429535,
+          "g": 0.21568627655506134,
+          "b": 0.11372549086809158,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.2862745225429535,
+            "g": 0.21568627655506134,
+            "b": 0.11372549086809158,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1608",
+      "name": "Brown / 50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9725490212440491,
+          "g": 0.9490196108818054,
+          "b": 0.929411768913269,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9725490212440491,
+            "g": 0.9490196108818054,
+            "b": 0.929411768913269,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1609",
+      "name": "Sky / 950",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.019607843831181526,
+          "g": 0.054901961237192154,
+          "b": 0.08235294371843338,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.019607843831181526,
+            "g": 0.054901961237192154,
+            "b": 0.08235294371843338,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1610",
+      "name": "Gray / 400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.6000000238418579,
+          "g": 0.6000000238418579,
+          "b": 0.6000000238418579,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.6000000238418579,
+            "g": 0.6000000238418579,
+            "b": 0.6000000238418579,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1611",
+      "name": "Creamy/500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.772549033164978,
+          "g": 0.6274510025978088,
+          "b": 0.4274509847164154,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.772549033164978,
+            "g": 0.6274510025978088,
+            "b": 0.4274509847164154,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1612",
+      "name": "Creamy/300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.886274516582489,
+          "g": 0.8156862854957581,
+          "b": 0.7137255072593689,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.886274516582489,
+            "g": 0.8156862854957581,
+            "b": 0.7137255072593689,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1613",
+      "name": "Colors/Status/Warning/base-warning-100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9921568632125854,
+          "g": 0.9537255167961121,
+          "b": 0.8274509906768799,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9921568632125854,
+            "g": 0.9537255167961121,
+            "b": 0.8274509906768799,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1614",
+      "name": "Green/500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0,
+          "g": 0.800000011920929,
+          "b": 0.29411765933036804,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0,
+            "g": 0.800000011920929,
+            "b": 0.29411765933036804,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1615",
+      "name": "Creamy/200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9215686321258545,
+          "g": 0.8705882430076599,
+          "b": 0.800000011920929,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9215686321258545,
+            "g": 0.8705882430076599,
+            "b": 0.800000011920929,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1616",
+      "name": "Creamy/50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9725490212440491,
+          "g": 0.9529411792755127,
+          "b": 0.929411768913269,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9725490212440491,
+            "g": 0.9529411792755127,
+            "b": 0.929411768913269,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1617",
+      "name": "Lime / 700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.33725491166114807,
+          "g": 0.48235294222831726,
+          "b": 0.11764705926179886,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.33725491166114807,
+            "g": 0.48235294222831726,
+            "b": 0.11764705926179886,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1618",
+      "name": "Colors/Status/Error/base-error-300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9725490212440491,
+          "g": 0.4431372582912445,
+          "b": 0.5049019455909729,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9725490212440491,
+            "g": 0.4431372582912445,
+            "b": 0.5049019455909729,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1619",
+      "name": "Lime / 300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.7372549176216125,
+          "g": 0.8823529481887817,
+          "b": 0.5176470875740051,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.7372549176216125,
+            "g": 0.8823529481887817,
+            "b": 0.5176470875740051,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1620",
+      "name": "Green/950",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0,
+          "g": 0.10196078568696976,
+          "b": 0.03529411926865578,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0,
+            "g": 0.10196078568696976,
+            "b": 0.03529411926865578,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1621",
+      "name": "Lime /  100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9137254953384399,
+          "g": 0.9607843160629272,
+          "b": 0.8392156958580017,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9137254953384399,
+            "g": 0.9607843160629272,
+            "b": 0.8392156958580017,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1622",
+      "name": "Red / 200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 1,
+          "g": 0.6000000238418579,
+          "b": 0.6000000238418579,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 1,
+            "g": 0.6000000238418579,
+            "b": 0.6000000238418579,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1623",
+      "name": "Yellow / 400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9921568632125854,
+          "g": 0.8352941274642944,
+          "b": 0.2078431397676468,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9921568632125854,
+            "g": 0.8352941274642944,
+            "b": 0.2078431397676468,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1624",
+      "name": "Gray / 950",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.05098039284348488,
+          "g": 0.05098039284348488,
+          "b": 0.05098039284348488,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.05098039284348488,
+            "g": 0.05098039284348488,
+            "b": 0.05098039284348488,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1625",
+      "name": "Lime / 800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.2235294133424759,
+          "g": 0.32156863808631897,
+          "b": 0.0784313753247261,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.2235294133424759,
+            "g": 0.32156863808631897,
+            "b": 0.0784313753247261,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1626",
+      "name": "Purple/700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.3333333432674408,
+          "g": 0.18039216101169586,
+          "b": 0.41960784792900085,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.3333333432674408,
+            "g": 0.18039216101169586,
+            "b": 0.41960784792900085,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1627",
+      "name": "Yellow / 300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9960784316062927,
+          "g": 0.8784313797950745,
+          "b": 0.40392157435417175,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9960784316062927,
+            "g": 0.8784313797950745,
+            "b": 0.40392157435417175,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1628",
+      "name": "Green/700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0,
+          "g": 0.6000000238418579,
+          "b": 0.21960784494876862,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0,
+            "g": 0.6000000238418579,
+            "b": 0.21960784494876862,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1629",
+      "name": "Sky / 50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9176470637321472,
+          "g": 0.95686274766922,
+          "b": 0.9803921580314636,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9176470637321472,
+            "g": 0.95686274766922,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1630",
+      "name": "Lime / 200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.8235294222831726,
+          "g": 0.9215686321258545,
+          "b": 0.6784313917160034,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.8235294222831726,
+            "g": 0.9215686321258545,
+            "b": 0.6784313917160034,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1631",
+      "name": "Colors/Status/Success/base-success-500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.09019608050584793,
+          "g": 0.7882353067398071,
+          "b": 0.2996078431606293,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.09019608050584793,
+            "g": 0.7882353067398071,
+            "b": 0.2996078431606293,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1632",
+      "name": "Yellow / 50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 1,
+          "g": 0.9803921580314636,
+          "b": 0.9019607901573181,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 1,
+            "g": 0.9803921580314636,
+            "b": 0.9019607901573181,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1633",
+      "name": "Colors/Status/Warning/base-warning-400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9686274528503418,
+          "g": 0.8158169984817505,
+          "b": 0.3137255012989044,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9686274528503418,
+            "g": 0.8158169984817505,
+            "b": 0.3137255012989044,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1634",
+      "name": "Gray / 700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.3019607961177826,
+          "g": 0.3019607961177826,
+          "b": 0.3019607961177826,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.3019607961177826,
+            "g": 0.3019607961177826,
+            "b": 0.3019607961177826,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1635",
+      "name": "Colors/Status/Error/base-error-600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.7607843279838562,
+          "g": 0.054901961237192154,
+          "b": 0.13725490868091583,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.7607843279838562,
+            "g": 0.054901961237192154,
+            "b": 0.13725490868091583,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1636",
+      "name": "Creamy/700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.4274509847164154,
+          "g": 0.32156863808631897,
+          "b": 0.1725490242242813,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.4274509847164154,
+            "g": 0.32156863808631897,
+            "b": 0.1725490242242813,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1637",
+      "name": "Blue / 500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.1882352977991104,
+          "g": 0.40392157435417175,
+          "b": 0.6901960968971252,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.1882352977991104,
+            "g": 0.40392157435417175,
+            "b": 0.6901960968971252,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1639",
+      "name": "Lime / 400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.6470588445663452,
+          "g": 0.843137264251709,
+          "b": 0.35686275362968445,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.6470588445663452,
+            "g": 0.843137264251709,
+            "b": 0.35686275362968445,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1640",
+      "name": "Sky /  100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.8392156958580017,
+          "g": 0.9098039269447327,
+          "b": 0.9607843160629272,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.8392156958580017,
+            "g": 0.9098039269447327,
+            "b": 0.9607843160629272,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1641",
+      "name": "Gray / 600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.4000000059604645,
+          "g": 0.4000000059604645,
+          "b": 0.4000000059604645,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.4000000059604645,
+            "g": 0.4000000059604645,
+            "b": 0.4000000059604645,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1642",
+      "name": "Colors/Status/Warning/base-warning-000",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9960784316062927,
+          "g": 0.9759477376937866,
+          "b": 0.9098039269447327,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9960784316062927,
+            "g": 0.9759477376937866,
+            "b": 0.9098039269447327,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1643",
+      "name": "Gray / 300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.7019608020782471,
+          "g": 0.7019608020782471,
+          "b": 0.7019608020782471,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.7019608020782471,
+            "g": 0.7019608020782471,
+            "b": 0.7019608020782471,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1644",
+      "name": "Yellow / 200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9960784316062927,
+          "g": 0.9176470637321472,
+          "b": 0.6039215922355652,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9960784316062927,
+            "g": 0.9176470637321472,
+            "b": 0.6039215922355652,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1645",
+      "name": "Gray / 200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.800000011920929,
+          "g": 0.800000011920929,
+          "b": 0.800000011920929,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.800000011920929,
+            "g": 0.800000011920929,
+            "b": 0.800000011920929,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1646",
+      "name": "Yellow / 500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9921568632125854,
+          "g": 0.8117647171020508,
+          "b": 0.09019608050584793,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9921568632125854,
+            "g": 0.8117647171020508,
+            "b": 0.09019608050584793,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1647",
+      "name": "Gray /  100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9019607901573181,
+          "g": 0.9019607901573181,
+          "b": 0.9019607901573181,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9019607901573181,
+            "g": 0.9019607901573181,
+            "b": 0.9019607901573181,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1648",
+      "name": "Creamy/400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.8274509906768799,
+          "g": 0.7215686440467834,
+          "b": 0.572549045085907,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.8274509906768799,
+            "g": 0.7215686440467834,
+            "b": 0.572549045085907,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1649",
+      "name": "Sky / 300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.5137255191802979,
+          "g": 0.729411780834198,
+          "b": 0.886274516582489,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.5137255191802979,
+            "g": 0.729411780834198,
+            "b": 0.886274516582489,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1650",
+      "name": "Pink / 200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.95686274766922,
+          "g": 0.6431372761726379,
+          "b": 0.7803921699523926,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.95686274766922,
+            "g": 0.6431372761726379,
+            "b": 0.7803921699523926,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1651",
+      "name": "Colors/Status/Warning/base-warning-300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9764705896377563,
+          "g": 0.8620914816856384,
+          "b": 0.48627451062202454,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9764705896377563,
+            "g": 0.8620914816856384,
+            "b": 0.48627451062202454,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1652",
+      "name": "Gray / 500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.48235294222831726,
+          "g": 0.48235294222831726,
+          "b": 0.48235294222831726,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.48235294222831726,
+            "g": 0.48235294222831726,
+            "b": 0.48235294222831726,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1653",
+      "name": "Brown / 700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.4313725531101227,
+          "g": 0.29411765933036804,
+          "b": 0.16862745583057404,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.4313725531101227,
+            "g": 0.29411765933036804,
+            "b": 0.16862745583057404,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1654",
+      "name": "Yellow / 800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.3960784375667572,
+          "g": 0.3176470696926117,
+          "b": 0.003921568859368563,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.3960784375667572,
+            "g": 0.3176470696926117,
+            "b": 0.003921568859368563,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1655",
+      "name": "Orange / 200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9764705896377563,
+          "g": 0.7921568751335144,
+          "b": 0.6235294342041016,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9764705896377563,
+            "g": 0.7921568751335144,
+            "b": 0.6235294342041016,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1656",
+      "name": "Colors/Status/Info/base-info-500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.01568627543747425,
+          "g": 0.4117647111415863,
+          "b": 0.6980392336845398,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.01568627543747425,
+            "g": 0.4117647111415863,
+            "b": 0.6980392336845398,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1657",
+      "name": "Colors/Status/Warning/base-warning-900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.1921568661928177,
+          "g": 0.1537254899740219,
+          "b": 0.027450980618596077,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.1921568661928177,
+            "g": 0.1537254899740219,
+            "b": 0.027450980618596077,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1658",
+      "name": "Colors/Status/Success/base-success-200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.6352941393852234,
+          "g": 0.9137254953384399,
+          "b": 0.7188235521316528,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.6352941393852234,
+            "g": 0.9137254953384399,
+            "b": 0.7188235521316528,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1659",
+      "name": "Gray / 800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.20000000298023224,
+          "g": 0.20000000298023224,
+          "b": 0.20000000298023224,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.20000000298023224,
+            "g": 0.20000000298023224,
+            "b": 0.20000000298023224,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1660",
+      "name": "Colors/Status/Success/base-success-800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.03529411926865578,
+          "g": 0.3137255012989044,
+          "b": 0.11882353574037552,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.03529411926865578,
+            "g": 0.3137255012989044,
+            "b": 0.11882353574037552,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1661",
+      "name": "Brown / 600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.5764706134796143,
+          "g": 0.3960784375667572,
+          "b": 0.2235294133424759,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.5764706134796143,
+            "g": 0.3960784375667572,
+            "b": 0.2235294133424759,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1662",
+      "name": "Colors/Status/Success/base-success-600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.07058823853731155,
+          "g": 0.6313725709915161,
+          "b": 0.2388235330581665,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.07058823853731155,
+            "g": 0.6313725709915161,
+            "b": 0.2388235330581665,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1663",
+      "name": "Blue / 900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.04313725605607033,
+          "g": 0.0941176488995552,
+          "b": 0.1568627506494522,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.04313725605607033,
+            "g": 0.0941176488995552,
+            "b": 0.1568627506494522,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1664",
+      "name": "Colors/Status/Success/base-success-700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.054901961237192154,
+          "g": 0.4745098054409027,
+          "b": 0.18078431487083435,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.054901961237192154,
+            "g": 0.4745098054409027,
+            "b": 0.18078431487083435,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1665",
+      "name": "Colors/Status/Success/base-success-900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.03529411926865578,
+          "g": 0.3137255012989044,
+          "b": 0.11882353574037552,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.03529411926865578,
+            "g": 0.3137255012989044,
+            "b": 0.11882353574037552,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1666",
+      "name": "Brown / 300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.8313725590705872,
+          "g": 0.6941176652908325,
+          "b": 0.5686274766921997,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.8313725590705872,
+            "g": 0.6941176652908325,
+            "b": 0.5686274766921997,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1667",
+      "name": "Purple/200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.8235294222831726,
+          "g": 0.7176470756530762,
+          "b": 0.8823529481887817,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.8235294222831726,
+            "g": 0.7176470756530762,
+            "b": 0.8823529481887817,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1668",
+      "name": "Green/50 2",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.8980392217636108,
+          "g": 1,
+          "b": 0.9372549057006836,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.8980392217636108,
+            "g": 1,
+            "b": 0.9372549057006836,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1669",
+      "name": "Colors/Status/Error/base-error-50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9960784316062927,
+          "g": 0.9058823585510254,
+          "b": 0.9164052605628967,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9960784316062927,
+            "g": 0.9058823585510254,
+            "b": 0.9164052605628967,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1670",
+      "name": "Brown / 200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.886274516582489,
+          "g": 0.7960784435272217,
+          "b": 0.7137255072593689,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.886274516582489,
+            "g": 0.7960784435272217,
+            "b": 0.7137255072593689,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1671",
+      "name": "Gray / 50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9490196108818054,
+          "g": 0.9490196108818054,
+          "b": 0.9490196108818054,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9490196108818054,
+            "g": 0.9490196108818054,
+            "b": 0.9490196108818054,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1672",
+      "name": "Brown / 900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.14509804546833038,
+          "g": 0.09803921729326248,
+          "b": 0.054901961237192154,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.14509804546833038,
+            "g": 0.09803921729326248,
+            "b": 0.054901961237192154,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1673",
+      "name": "Lime / 50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.95686274766922,
+          "g": 0.9803921580314636,
+          "b": 0.9176470637321472,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.95686274766922,
+            "g": 0.9803921580314636,
+            "b": 0.9176470637321472,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1674",
+      "name": "Green/800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0,
+          "g": 0.4000000059604645,
+          "b": 0.14509804546833038,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0,
+            "g": 0.4000000059604645,
+            "b": 0.14509804546833038,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1676",
+      "name": "Creamy/100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9450980424880981,
+          "g": 0.9058823585510254,
+          "b": 0.8549019694328308,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9450980424880981,
+            "g": 0.9058823585510254,
+            "b": 0.8549019694328308,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1677",
+      "name": "Pink / 700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.5333333611488342,
+          "g": 0.06666667014360428,
+          "b": 0.2705882489681244,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.5333333611488342,
+            "g": 0.06666667014360428,
+            "b": 0.2705882489681244,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1678",
+      "name": "Pink / 600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.7098039388656616,
+          "g": 0.09019608050584793,
+          "b": 0.35686275362968445,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.7098039388656616,
+            "g": 0.09019608050584793,
+            "b": 0.35686275362968445,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1679",
+      "name": "Pink / 800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.35686275362968445,
+          "g": 0.04313725605607033,
+          "b": 0.18039216101169586,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.35686275362968445,
+            "g": 0.04313725605607033,
+            "b": 0.18039216101169586,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1680",
+      "name": "Pink / 500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9098039269447327,
+          "g": 0.2823529541492462,
+          "b": 0.5529412031173706,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9098039269447327,
+            "g": 0.2823529541492462,
+            "b": 0.5529412031173706,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1681",
+      "name": "Red / 500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 1,
+          "g": 0.239215686917305,
+          "b": 0.239215686917305,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 1,
+            "g": 0.239215686917305,
+            "b": 0.239215686917305,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1682",
+      "name": "Pink / 400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9098039269447327,
+          "g": 0.29019609093666077,
+          "b": 0.5568627715110779,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9098039269447327,
+            "g": 0.29019609093666077,
+            "b": 0.5568627715110779,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1683",
+      "name": "Yellow /  100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 1,
+          "g": 0.9607843160629272,
+          "b": 0.800000011920929,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 1,
+            "g": 0.9607843160629272,
+            "b": 0.800000011920929,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1684",
+      "name": "Orange / 50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9960784316062927,
+          "g": 0.9490196108818054,
+          "b": 0.9058823585510254,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9960784316062927,
+            "g": 0.9490196108818054,
+            "b": 0.9058823585510254,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1686",
+      "name": "Pink / 300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9333333373069763,
+          "g": 0.46666666865348816,
+          "b": 0.6705882549285889,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9333333373069763,
+            "g": 0.46666666865348816,
+            "b": 0.6705882549285889,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1687",
+      "name": "Colors/Status/Info/base-info-50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9019607901573181,
+          "g": 0.9490196108818054,
+          "b": 0.9960784316062927,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9019607901573181,
+            "g": 0.9490196108818054,
+            "b": 0.9960784316062927,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1688",
+      "name": "Green/50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.8980392217636108,
+          "g": 1,
+          "b": 0.9372549057006836,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.8980392217636108,
+            "g": 1,
+            "b": 0.9372549057006836,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1689",
+      "name": "Pink /  100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9764705896377563,
+          "g": 0.8235294222831726,
+          "b": 0.8901960849761963,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9764705896377563,
+            "g": 0.8235294222831726,
+            "b": 0.8901960849761963,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1690",
+      "name": "Purple/500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.4470588266849518,
+          "g": 0.239215686917305,
+          "b": 0.5647059082984924,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.4470588266849518,
+            "g": 0.239215686917305,
+            "b": 0.5647059082984924,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1691",
+      "name": "Pink / 900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.1764705926179886,
+          "g": 0.0235294122248888,
+          "b": 0.09019608050584793,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.1764705926179886,
+            "g": 0.0235294122248888,
+            "b": 0.09019608050584793,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1692",
+      "name": "Sky / 600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.15294118225574493,
+          "g": 0.43921568989753723,
+          "b": 0.6470588445663452,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.15294118225574493,
+            "g": 0.43921568989753723,
+            "b": 0.6470588445663452,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1693",
+      "name": "Yellow / 600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.7921568751335144,
+          "g": 0.6352941393852234,
+          "b": 0.007843137718737125,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.7921568751335144,
+            "g": 0.6352941393852234,
+            "b": 0.007843137718737125,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1694",
+      "name": "Sky / 500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.2549019753932953,
+          "g": 0.5882353186607361,
+          "b": 0.8235294222831726,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.2549019753932953,
+            "g": 0.5882353186607361,
+            "b": 0.8235294222831726,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1695",
+      "name": "Colors/Status/Info/base-info-100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.800000011920929,
+          "g": 0.8960784673690796,
+          "b": 0.9921568632125854,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.800000011920929,
+            "g": 0.8960784673690796,
+            "b": 0.9921568632125854,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1696",
+      "name": "Purple/300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.7333333492279053,
+          "g": 0.5803921818733215,
+          "b": 0.8196078538894653,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.7333333492279053,
+            "g": 0.5803921818733215,
+            "b": 0.8196078538894653,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1697",
+      "name": "Yellow / 700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.5960784554481506,
+          "g": 0.47843137383461,
+          "b": 0.003921568859368563,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.5960784554481506,
+            "g": 0.47843137383461,
+            "b": 0.003921568859368563,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1698",
+      "name": "Sky / 700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.11372549086809158,
+          "g": 0.3294117748737335,
+          "b": 0.48627451062202454,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.11372549086809158,
+            "g": 0.3294117748737335,
+            "b": 0.48627451062202454,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1699",
+      "name": "Gray / 900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.09803921729326248,
+          "g": 0.09803921729326248,
+          "b": 0.09803921729326248,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.09803921729326248,
+            "g": 0.09803921729326248,
+            "b": 0.09803921729326248,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1701",
+      "name": "Creamy/600",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.6298038959503174,
+          "g": 0.47019603848457336,
+          "b": 0.25019606947898865,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.6298038959503174,
+            "g": 0.47019603848457336,
+            "b": 0.25019606947898865,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1702",
+      "name": "Sky / 400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.3529411852359772,
+          "g": 0.6392157077789307,
+          "b": 0.8470588326454163,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.3529411852359772,
+            "g": 0.6392157077789307,
+            "b": 0.8470588326454163,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1703",
+      "name": "Red / 800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": { "r": 0.4000000059604645, "g": 0, "b": 0, "a": 1 }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": { "r": 0.4000000059604645, "g": 0, "b": 0, "a": 1 },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1705",
+      "name": "Lime / 500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.5098039507865906,
+          "g": 0.7333333492279053,
+          "b": 0.1764705926179886,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.5098039507865906,
+            "g": 0.7333333492279053,
+            "b": 0.1764705926179886,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1706",
+      "name": "Pink / 50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9882352948188782,
+          "g": 0.9098039269447327,
+          "b": 0.9450980424880981,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9882352948188782,
+            "g": 0.9098039269447327,
+            "b": 0.9450980424880981,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1707",
+      "name": "Sky / 200",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.6784313917160034,
+          "g": 0.8196078538894653,
+          "b": 0.9215686321258545,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.6784313917160034,
+            "g": 0.8196078538894653,
+            "b": 0.9215686321258545,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1709",
+      "name": "Colors/Status/Success/base-success-300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.45490196347236633,
+          "g": 0.8745098114013672,
+          "b": 0.5807843208312988,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.45490196347236633,
+            "g": 0.8745098114013672,
+            "b": 0.5807843208312988,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1710",
+      "name": "Brown / 950",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.07058823853731155,
+          "g": 0.05098039284348488,
+          "b": 0.027450980618596077,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.07058823853731155,
+            "g": 0.05098039284348488,
+            "b": 0.027450980618596077,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1711",
+      "name": "Orange / 800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.3764705955982208,
+          "g": 0.1921568661928177,
+          "b": 0.0235294122248888,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.3764705955982208,
+            "g": 0.1921568661928177,
+            "b": 0.0235294122248888,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1712",
+      "name": "Colors/Status/Error/base-error-900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.1921568661928177,
+          "g": 0.01568627543747425,
+          "b": 0.036274511367082596,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.1921568661928177,
+            "g": 0.01568627543747425,
+            "b": 0.036274511367082596,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1713",
+      "name": "Colors/Status/Success/base-success-400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.2705882489681244,
+          "g": 0.8313725590705872,
+          "b": 0.43882355093955994,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.2705882489681244,
+            "g": 0.8313725590705872,
+            "b": 0.43882355093955994,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1714",
+      "name": "Brown /  100",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9450980424880981,
+          "g": 0.8980392217636108,
+          "b": 0.8549019694328308,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9450980424880981,
+            "g": 0.8980392217636108,
+            "b": 0.8549019694328308,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1715",
+      "name": "Lime / 900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.11372549086809158,
+          "g": 0.16078431904315948,
+          "b": 0.03921568766236305,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.11372549086809158,
+            "g": 0.16078431904315948,
+            "b": 0.03921568766236305,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1716",
+      "name": "Blue / 50",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9215686321258545,
+          "g": 0.9450980424880981,
+          "b": 0.9803921580314636,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9215686321258545,
+            "g": 0.9450980424880981,
+            "b": 0.9803921580314636,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1717",
+      "name": "Colors/Status/Info/base-info-900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0,
+          "g": 0.09607843309640884,
+          "b": 0.1921568661928177,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0,
+            "g": 0.09607843309640884,
+            "b": 0.1921568661928177,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1719",
+      "name": "Creamy/950",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.07058823853731155,
+          "g": 0.054901961237192154,
+          "b": 0.027450980618596077,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.07058823853731155,
+            "g": 0.054901961237192154,
+            "b": 0.027450980618596077,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1720",
+      "name": "Sky / 900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.03921568766236305,
+          "g": 0.10980392247438431,
+          "b": 0.16078431904315948,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.03921568766236305,
+            "g": 0.10980392247438431,
+            "b": 0.16078431904315948,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1721",
+      "name": "Yellow / 950",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.09803921729326248,
+          "g": 0.0784313753247261,
+          "b": 0,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.09803921729326248,
+            "g": 0.0784313753247261,
+            "b": 0,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1722",
+      "name": "Yellow / 900",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.20000000298023224,
+          "g": 0.16078431904315948,
+          "b": 0,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.20000000298023224,
+            "g": 0.16078431904315948,
+            "b": 0,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1723",
+      "name": "Brown / 500",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.7254902124404907,
+          "g": 0.501960813999176,
+          "b": 0.29411765933036804,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.7254902124404907,
+            "g": 0.501960813999176,
+            "b": 0.29411765933036804,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1724",
+      "name": "Pink / 950",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.09019608050584793,
+          "g": 0.0117647061124444,
+          "b": 0.04313725605607033,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.09019608050584793,
+            "g": 0.0117647061124444,
+            "b": 0.04313725605607033,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1725",
+      "name": "Brown / 800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.2862745225429535,
+          "g": 0.19607843458652496,
+          "b": 0.11372549086809158,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.2862745225429535,
+            "g": 0.19607843458652496,
+            "b": 0.11372549086809158,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1726",
+      "name": "Colors/Status/Error/base-error-700",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.572549045085907,
+          "g": 0.04313725605607033,
+          "b": 0.10490196198225021,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.572549045085907,
+            "g": 0.04313725605607033,
+            "b": 0.10490196198225021,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1727",
+      "name": "Sky / 800",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.0784313753247261,
+          "g": 0.21960784494876862,
+          "b": 0.32156863808631897,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.0784313753247261,
+            "g": 0.21960784494876862,
+            "b": 0.32156863808631897,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1728",
+      "name": "Orange / 300",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.9647058844566345,
+          "g": 0.6901960968971252,
+          "b": 0.43529412150382996,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.9647058844566345,
+            "g": 0.6901960968971252,
+            "b": 0.43529412150382996,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1729",
+      "name": "Lime / 950",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.054901961237192154,
+          "g": 0.08235294371843338,
+          "b": 0.019607843831181526,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.054901961237192154,
+            "g": 0.08235294371843338,
+            "b": 0.019607843831181526,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:102:1730",
+      "name": "Brown / 400",
+      "description": "",
+      "type": "COLOR",
+      "valuesByMode": {
+        "45:0": {
+          "r": 0.7764706015586853,
+          "g": 0.5960784554481506,
+          "b": 0.42352941632270813,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "45:0": {
+          "resolvedValue": {
+            "r": 0.7764706015586853,
+            "g": 0.5960784554481506,
+            "b": 0.42352941632270813,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": true,
+      "codeSyntax": {}
+    }
+  ]
+}
