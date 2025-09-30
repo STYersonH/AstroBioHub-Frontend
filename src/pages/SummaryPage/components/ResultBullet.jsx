@@ -3,10 +3,18 @@ import Button from "../../../components/Button";
 import useSummaryPageStore from "../../../store/useSummaryPageStore";
 import Toggle from "../../../components/Toggle";
 
-const ButtonComponent = () => {
-  const { setShowPaperSummary } = useSummaryPageStore();
+const ButtonComponent = ({ orderPaperReference }) => {
+  const { setShowPaperSummary, setNumberCitationPaperSelected } =
+    useSummaryPageStore();
+  const { setShowRelatedPapers } = useSummaryPageStore();
+  const handleSeePaperPreview = () => {
+    setShowPaperSummary(true);
+    setNumberCitationPaperSelected(orderPaperReference);
+    // setShowRelatedPapers(false);
+  };
+
   return (
-    <Button onClick={() => setShowPaperSummary(true)}>See paper preview</Button>
+    <Button onClick={() => handleSeePaperPreview()}>See paper preview</Button>
   );
 };
 
@@ -39,7 +47,7 @@ const ResultBullet = ({ title, orderPaperReference, segments }) => {
   return (
     <Toggle
       title={title + " [" + orderPaperReference + "]"}
-      button={<ButtonComponent />}
+      button={<ButtonComponent orderPaperReference={orderPaperReference} />}
     >
       <ContentComponent segments={segments} />
     </Toggle>

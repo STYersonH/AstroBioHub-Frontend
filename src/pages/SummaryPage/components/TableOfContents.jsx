@@ -6,42 +6,44 @@ import useSummaryPageStore from "../../../store/useSummaryPageStore";
 import useAppStore from "../../../store/useAppStore";
 import { cn } from "../../../utils/cn";
 
-const data = [
-  {
-    id: 1,
-    content: "Overview",
-    sectionId: "overview",
-  },
-  {
-    id: 2,
-    content: "Why this matters",
-    sectionId: "why-matters",
-  },
-  {
-    id: 3,
-    content: "Related papers",
-    sectionId: "related-papers",
-  },
-];
-
-const TableOfContents = ({ onSectionClick, activeSection }) => {
-  const [activeTab, setActiveTab] = useState(data[0]);
+const TableOfContents = ({ onSectionClick, activeSection, sections }) => {
+  const [activeTabId, setActiveTabId] = useState(sections[0].id);
+  const [activeSubTabId, setActiveSubTabId] = useState(null);
   const { selectedMode } = useAppStore();
   const { showPaperSummary } = useSummaryPageStore();
 
   useEffect(() => {
     if (activeSection) {
-      const tab = data.find((item) => item.sectionId === activeSection);
+      const tab = sections.find((item) => item.sectionId === activeSection);
       if (tab) {
-        setActiveTab(tab);
+        setActiveTabId(tab.sectionId);
+        if (tab.sectionId !== sections[0].sectionId) {
+          setActiveSubTabId(null);
+        }
+      } else {
+        const subTab = sections[0].subsections.find(
+          (item) => item.sectionId === activeSection,
+        );
+        if (subTab) {
+          setActiveTabId(sections[0].sectionId);
+          setActiveSubTabId(subTab.sectionId);
+        }
       }
     }
   }, [activeSection]);
 
-  const handleClick = (item) => {
-    setActiveTab(item);
+  const handleClick = (itemId) => {
+    setActiveTabId(itemId);
+    setActiveSubTabId(null);
     if (onSectionClick) {
-      onSectionClick(item.sectionId);
+      onSectionClick(itemId);
+    }
+  };
+
+  const handleSubClick = (itemId) => {
+    setActiveSubTabId(itemId);
+    if (onSectionClick) {
+      onSectionClick(itemId);
     }
   };
 
@@ -63,20 +65,37 @@ const TableOfContents = ({ onSectionClick, activeSection }) => {
           selectedMode === "discover" ? "w-[278px]" : "w-[322px]",
         )}
       >
-        {data.map((item) => (
+        {sections.map((item) => (
           <div
             key={item.id}
             className="py-sm flex w-full flex-col justify-between border-b border-gray-100 last:border-b-0"
           >
             <button
-              onClick={() => handleClick(item)}
+              onClick={() => handleClick(item.sectionId)}
               className={clsx(
                 "text-ui-md-sb cursor-pointer text-start text-gray-400 transition-colors duration-200 hover:text-gray-600",
-                activeTab.id === item.id && "text-gray-900",
+                activeTabId === item.sectionId && "text-gray-900",
               )}
             >
               {item.content}
             </button>
+            {item.subsections && (
+              <div className="pt-md gap-md flex flex-col">
+                {item.subsections.map((subSection) => (
+                  <button
+                    key={subSection.id}
+                    onClick={() => handleSubClick(subSection.sectionId)}
+                    className={clsx(
+                      "pl-xl text-ui-sm-sb cursor-pointer text-start text-gray-400 transition-colors duration-200 hover:text-gray-600",
+                      activeSubTabId === subSection.sectionId &&
+                        "text-gray-900",
+                    )}
+                  >
+                    {subSection.content}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
         ))}
       </div>

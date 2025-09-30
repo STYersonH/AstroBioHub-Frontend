@@ -120,7 +120,7 @@ const Chat = () => {
   };
 
   return (
-    <div className="right-2xl bottom-2xl fixed z-90">
+    <div className="right-2xl bottom-2xl fixed z-90 bg-white">
       {/* close button */}
       {chatOpened && (
         <button

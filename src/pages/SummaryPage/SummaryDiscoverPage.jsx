@@ -9,7 +9,6 @@ import { useOutletContext } from "react-router";
 
 const SummaryDiscoverPage = () => {
   const data = useOutletContext().discoverData;
-  console.log("data", data);
 
   const overviewRef = useRef(null);
   const whyMattersRef = useRef(null);
@@ -36,6 +35,24 @@ const SummaryDiscoverPage = () => {
     }
   };
 
+  const sections = [
+    {
+      id: 1,
+      content: "Overview",
+      sectionId: "overview",
+    },
+    {
+      id: 2,
+      content: "Why this matters",
+      sectionId: "why-matters",
+    },
+    {
+      id: 3,
+      content: "Related papers",
+      sectionId: "related-papers",
+    },
+  ];
+
   return (
     <div className="w-full">
       {/* Content */}
@@ -52,6 +69,7 @@ const SummaryDiscoverPage = () => {
         <TableOfContents
           onSectionClick={scrollToSection}
           activeSection={activeSection}
+          sections={sections}
         />
         {/* text content */}
         <div className="gap-4xl flex w-[628px] flex-shrink-0 flex-col">
@@ -86,7 +104,7 @@ const SummaryDiscoverPage = () => {
                       </p>
                       {/* paragraph image */}
                       {contentBlock.image && (
-                        <div className="flex flex-col items-center">
+                        <div className="py-xl flex flex-col items-center">
                           <img
                             src={contentBlock.image.src}
                             alt={contentBlock.image.alt}

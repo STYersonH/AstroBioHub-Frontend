@@ -7,7 +7,6 @@ const useScrollSpy = (sectionIds) => {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        // Encontrar la sección que está más visible
         let maxRatio = 0;
         let mostVisibleSection = sectionIds[0];
 

@@ -147,6 +147,28 @@ const data = {
           },
         ],
       },
+      {
+        title: "the truth about bone density loss",
+        contentBlocks: [
+          {
+            segments: [
+              {
+                type: "text",
+                text: "The truth about bone density loss is that it is a complex issue that requires a multi-disciplinary approach to understand and address.",
+              },
+              {
+                type: "text",
+                text: "The mechanisms behind this bone loss involve multiple factors including reduced mechanical loading, altered calcium metabolism, and changes in hormonal regulation.",
+              },
+              {
+                type: "reference",
+                text: "This bone loss occurs primarily in the lumbar spine and hip regions, where mechanical loading is reduced in microgravity environments.",
+                citations: [3],
+              },
+            ],
+          },
+        ],
+      },
     ],
 
     relevantResults: [
@@ -210,6 +232,57 @@ const data = {
           },
         ],
       },
+      {
+        title:
+          "The bodies of astronauts in orbit are very similar to the bodies of people on Earth.",
+        orderPaperReference: 3,
+        segments: [
+          {
+            text: "The bodies of astronauts in orbit are very similar to the bodies of people on Earth.",
+          },
+          {
+            text: " This study found that the bodies of astronauts in orbit are very similar to the bodies of people on Earth.",
+            image: {
+              src: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80",
+              alt: "Medical X-ray showing bone structure",
+              caption:
+                "Comparison of bone density loss between Earth and space environments",
+            },
+          },
+          {
+            text: " This study found that the bodies of astronauts in orbit are very similar to the bodies of people on Earth.",
+            image: {
+              src: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80",
+              alt: "Medical X-ray showing bone structure",
+              caption:
+                "Comparison of bone density loss between Earth and space environments",
+            },
+          },
+          {
+            text: " This study found that the bodies of astronauts in orbit are very similar to the bodies of people on Earth.",
+          },
+        ],
+      },
+      {
+        title:
+          "The bodies of astronauts in orbit are very similar to the bodies of people on Earth.",
+        orderPaperReference: 4,
+        segments: [
+          {
+            text: "The bodies of astronauts in orbit are very similar to the bodies of people on Earth.",
+          },
+        ],
+      },
+      {
+        title:
+          "The bodies of astronauts in orbit are very similar to the bodies of people on Earth.",
+        orderPaperReference: 5,
+        segments: [
+          {
+            text: "The bodies of astronauts in orbit are very similar to the bodies of people on Earth.",
+          },
+        ],
+      },
     ],
 
     researchGaps: [
@@ -234,6 +307,60 @@ const data = {
       {
         title: "Microgravity conditions may influence bone health.",
         orderPaperReference: 3,
+        nextSteps: [
+          "Investigate the role of gravity-dependent mechanical forces on bone health.",
+          "Study the impact of microgravity on bone mineralization processes.",
+          "Explore potential therapeutic strategies to enhance bone density in space.",
+        ],
+      },
+      {
+        title: "Small astronaut cohorts limit statistical power.",
+        orderPaperReference: 4,
+        nextSteps: [
+          "Extend follow-up studies beyond 2 years to track recovery trajectories.",
+          "Investigate bone microarchitecture changes using high-resolution imaging.",
+          "Compare recovery patterns between astronauts and Earth-based analogs (e.g., bed rest).",
+        ],
+      },
+      {
+        title: "Long-term bone loss may be underestimated.",
+        orderPaperReference: 5,
+        nextSteps: [
+          "Enhance recovery assessment protocols with additional imaging modalities.",
+          "Explore potential interventions to mitigate bone loss in microgravity.",
+          "Develop predictive models to estimate bone density trajectories in space.",
+        ],
+      },
+      {
+        title: "Microgravity conditions may influence bone health.",
+        orderPaperReference: 6,
+        nextSteps: [
+          "Investigate the role of gravity-dependent mechanical forces on bone health.",
+          "Study the impact of microgravity on bone mineralization processes.",
+          "Explore potential therapeutic strategies to enhance bone density in space.",
+        ],
+      },
+      {
+        title: "Small astronaut cohorts limit statistical power.",
+        orderPaperReference: 7,
+        nextSteps: [
+          "Extend follow-up studies beyond 2 years to track recovery trajectories.",
+          "Investigate bone microarchitecture changes using high-resolution imaging.",
+          "Compare recovery patterns between astronauts and Earth-based analogs (e.g., bed rest).",
+        ],
+      },
+      {
+        title: "Long-term bone loss may be underestimated.",
+        orderPaperReference: 8,
+        nextSteps: [
+          "Enhance recovery assessment protocols with additional imaging modalities.",
+          "Explore potential interventions to mitigate bone loss in microgravity.",
+          "Develop predictive models to estimate bone density trajectories in space.",
+        ],
+      },
+      {
+        title: "Microgravity conditions may influence bone health.",
+        orderPaperReference: 9,
         nextSteps: [
           "Investigate the role of gravity-dependent mechanical forces on bone health.",
           "Study the impact of microgravity on bone mineralization processes.",

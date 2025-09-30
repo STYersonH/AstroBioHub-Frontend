@@ -9,7 +9,7 @@ const Toggle = ({ title, children, button }) => {
   const { setShowPaperSummary } = useSummaryPageStore();
 
   return (
-    <article className="px-md py-sm flex w-full flex-col rounded-sm">
+    <article className="pr-md py-sm flex w-full flex-col rounded-sm">
       <div
         className="gap-lg pr-md flex cursor-pointer flex-row items-start justify-between"
         onClick={() => setToggleOpened(!toggleOpened)}
@@ -20,7 +20,7 @@ const Toggle = ({ title, children, button }) => {
             <div className="h-[5px] w-[5px] rounded-full bg-gray-800"></div>
           </div>
           {/* title paper */}
-          <p className="text-c-body-lg-r">{title}</p>
+          <p className="text-c-body-md-r">{title}</p>
         </div>
 
         {/* icon toggle */}

@@ -3,17 +3,26 @@ import Button from "../../../components/Button";
 import useSummaryPageStore from "../../../store/useSummaryPageStore";
 import Toggle from "../../../components/Toggle";
 
-const ButtonComponent = () => {
-  const { setShowPaperSummary } = useSummaryPageStore();
+const ButtonComponent = ({ orderPaperReference }) => {
+  const { setShowPaperSummary, setNumberCitationPaperSelected } =
+    useSummaryPageStore();
+  const { setShowRelatedPapers } = useSummaryPageStore();
+
+  const handleSeePaperPreview = () => {
+    setShowPaperSummary(true);
+    setNumberCitationPaperSelected(orderPaperReference);
+    // setShowRelatedPapers(false);
+  };
+
   return (
-    <Button onClick={() => setShowPaperSummary(true)}>See paper preview</Button>
+    <Button onClick={() => handleSeePaperPreview()}>See paper preview</Button>
   );
 };
 
 const ContentComponent = ({ nextSteps }) => {
   return (
-    <div className="space-y-lg">
-      <h3 className="text-ui-md-sb">Next steps</h3>
+    <div className="space-y-sm">
+      <h3 className="text-ui-sm-sb">Next steps</h3>
       {nextSteps.map((step) => (
         <div className="flex flex-row">
           {/* circle */}
@@ -29,9 +38,12 @@ const ContentComponent = ({ nextSteps }) => {
   );
 };
 
-const GapBullet = ({ title, nextSteps }) => {
+const GapBullet = ({ title, orderPaperReference, nextSteps }) => {
   return (
-    <Toggle title={title} button={<ButtonComponent />}>
+    <Toggle
+      title={title + " [" + orderPaperReference + "]"}
+      button={<ButtonComponent orderPaperReference={orderPaperReference} />}
+    >
       <ContentComponent nextSteps={nextSteps} />
     </Toggle>
   );

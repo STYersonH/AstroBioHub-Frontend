@@ -7,6 +7,8 @@
 
 @theme {
   --font-merriweather: "Merriweather", serif;
+
+  --breakpoint-3xl: 1740px;
 }
 
 :root {

@@ -6,7 +6,6 @@ import useAppStore from "../store/useAppStore";
 const SearchBar = () => {
   const { selectedMode } = useAppStore();
   const { setSearchActive, searchActive } = useAppStore();
-  console.log("searchActive", searchActive);
   const navigate = useNavigate();
 
   return (

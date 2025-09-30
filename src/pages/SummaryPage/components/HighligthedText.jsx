@@ -24,8 +24,6 @@ const HighligthedText = ({ segment, listIntex }) => {
     setShowPaperSummary(true);
     setNumberCitationPaperSelected(numberCitation);
 
-    console.log("show paper summary", showPaperSummary);
-
     if (
       numberCitationHighlighted === numberCitation &&
       isHighlighted &&
@@ -50,7 +48,6 @@ const HighligthedText = ({ segment, listIntex }) => {
   };
 
   const handleMouseLeave = () => {
-    console.log("paper summary", showPaperSummary);
     if (!showPaperSummary) {
       setIsHighlighted(false);
       setNumberCitationHighlighted(null);
@@ -78,12 +75,12 @@ const HighligthedText = ({ segment, listIntex }) => {
   }, [showPaperSummary]);
 
   return (
-    <div>
-      <p className="text-s-body-lg-r">
+    <>
+      <span className="text-s-body-lg-r">
         <span
           className={cn(
             "transition-all duration-300",
-            isHighlighted ? "rounded-sm bg-blue-100 px-1 py-0.5 shadow-sm" : "",
+            isHighlighted ? "rounded-sm bg-blue-100 py-0.5 shadow-sm" : "",
           )}
         >
           {segment.text}
@@ -111,8 +108,8 @@ const HighligthedText = ({ segment, listIntex }) => {
           ))}
           {"]"}
         </span>
-      </p>
-    </div>
+      </span>
+    </>
   );
 };
 
