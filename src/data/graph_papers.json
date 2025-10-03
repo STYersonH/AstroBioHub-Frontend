@@ -1,0 +1,1146 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "name": "Bone density loss in microgravity (Study 1)",
+      "group": "Paper",
+      "year": 2006,
+      "authors": [
+        "Author 1",
+        "CoAuthor 1"
+      ],
+      "citationCount": 6
+    },
+    {
+      "id": 2,
+      "name": "Bone density loss in microgravity (Study 2)",
+      "group": "Paper",
+      "year": 2001,
+      "authors": [
+        "Author 2",
+        "CoAuthor 2"
+      ],
+      "citationCount": 11
+    },
+    {
+      "id": 3,
+      "name": "Effects of spaceflight on gut microbiome (Study 3)",
+      "group": "Paper",
+      "year": 2005,
+      "authors": [
+        "Author 3",
+        "CoAuthor 3"
+      ],
+      "citationCount": 7
+    },
+    {
+      "id": 4,
+      "name": "Radiation shielding techniques for long missions (Study 4)",
+      "group": "Paper",
+      "year": 2006,
+      "authors": [
+        "Author 4",
+        "CoAuthor 4"
+      ],
+      "citationCount": 6
+    },
+    {
+      "id": 5,
+      "name": "Effects of spaceflight on gut microbiome (Study 5)",
+      "group": "Paper",
+      "year": 2012,
+      "authors": [
+        "Author 5",
+        "CoAuthor 5"
+      ],
+      "citationCount": 3
+    },
+    {
+      "id": 6,
+      "name": "Immune system changes during spaceflight (Study 6)",
+      "group": "Paper",
+      "year": 2015,
+      "authors": [
+        "Author 6",
+        "CoAuthor 6"
+      ],
+      "citationCount": 2
+    },
+    {
+      "id": 7,
+      "name": "Radiation shielding techniques for long missions (Study 7)",
+      "group": "Paper",
+      "year": 2003,
+      "authors": [
+        "Author 7",
+        "CoAuthor 7"
+      ],
+      "citationCount": 4
+    },
+    {
+      "id": 8,
+      "name": "Radiation shielding techniques for long missions (Study 8)",
+      "group": "Paper",
+      "year": 2002,
+      "authors": [
+        "Author 8",
+        "CoAuthor 8"
+      ],
+      "citationCount": 3
+    },
+    {
+      "id": 9,
+      "name": "Genetic adaptations to low gravity (Study 9)",
+      "group": "Paper",
+      "year": 2016,
+      "authors": [
+        "Author 9",
+        "CoAuthor 9"
+      ],
+      "citationCount": 6
+    },
+    {
+      "id": 10,
+      "name": "Cardiovascular adaptations in microgravity (Study 10)",
+      "group": "Paper",
+      "year": 2023,
+      "authors": [
+        "Author 10",
+        "CoAuthor 10"
+      ],
+      "citationCount": 4
+    },
+    {
+      "id": 11,
+      "name": "Effects of spaceflight on gut microbiome (Study 11)",
+      "group": "Paper",
+      "year": 2010,
+      "authors": [
+        "Author 11",
+        "CoAuthor 11"
+      ],
+      "citationCount": 1
+    },
+    {
+      "id": 12,
+      "name": "Cardiovascular adaptations in microgravity (Study 12)",
+      "group": "Paper",
+      "year": 2020,
+      "authors": [
+        "Author 12",
+        "CoAuthor 12"
+      ],
+      "citationCount": 4
+    },
+    {
+      "id": 13,
+      "name": "Radiation shielding techniques for long missions (Study 13)",
+      "group": "Paper",
+      "year": 2008,
+      "authors": [
+        "Author 13",
+        "CoAuthor 13"
+      ],
+      "citationCount": 5
+    },
+    {
+      "id": 14,
+      "name": "Photosynthesis efficiency in space (Study 14)",
+      "group": "Paper",
+      "year": 2020,
+      "authors": [
+        "Author 14",
+        "CoAuthor 14"
+      ],
+      "citationCount": 8
+    },
+    {
+      "id": 15,
+      "name": "Genetic adaptations to low gravity (Study 15)",
+      "group": "Paper",
+      "year": 2022,
+      "authors": [
+        "Author 15",
+        "CoAuthor 15"
+      ],
+      "citationCount": 5
+    },
+    {
+      "id": 16,
+      "name": "Neuroplasticity in astronauts (Study 16)",
+      "group": "Paper",
+      "year": 2014,
+      "authors": [
+        "Author 16",
+        "CoAuthor 16"
+      ],
+      "citationCount": 4
+    },
+    {
+      "id": 17,
+      "name": "Immune system changes during spaceflight (Study 17)",
+      "group": "Paper",
+      "year": 2020,
+      "authors": [
+        "Author 17",
+        "CoAuthor 17"
+      ],
+      "citationCount": 3
+    },
+    {
+      "id": 18,
+      "name": "Cardiovascular adaptations in microgravity (Study 18)",
+      "group": "Paper",
+      "year": 2001,
+      "authors": [
+        "Author 18",
+        "CoAuthor 18"
+      ],
+      "citationCount": 2
+    },
+    {
+      "id": 19,
+      "name": "Neuroplasticity in astronauts (Study 19)",
+      "group": "Paper",
+      "year": 2006,
+      "authors": [
+        "Author 19",
+        "CoAuthor 19"
+      ],
+      "citationCount": 3
+    },
+    {
+      "id": 20,
+      "name": "Bone density loss in microgravity (Study 20)",
+      "group": "Paper",
+      "year": 2001,
+      "authors": [
+        "Author 20",
+        "CoAuthor 20"
+      ],
+      "citationCount": 1
+    },
+    {
+      "id": 21,
+      "name": "Immune system changes during spaceflight (Study 21)",
+      "group": "Paper",
+      "year": 2015,
+      "authors": [
+        "Author 21",
+        "CoAuthor 21"
+      ],
+      "citationCount": 4
+    },
+    {
+      "id": 22,
+      "name": "Osteoporosis risk in astronauts (Study 22)",
+      "group": "Paper",
+      "year": 2020,
+      "authors": [
+        "Author 22",
+        "CoAuthor 22"
+      ],
+      "citationCount": 1
+    },
+    {
+      "id": 23,
+      "name": "Cardiovascular adaptations in microgravity (Study 23)",
+      "group": "Paper",
+      "year": 2013,
+      "authors": [
+        "Author 23",
+        "CoAuthor 23"
+      ],
+      "citationCount": 1
+    },
+    {
+      "id": 24,
+      "name": "Photosynthesis efficiency in space (Study 24)",
+      "group": "Paper",
+      "year": 2001,
+      "authors": [
+        "Author 24",
+        "CoAuthor 24"
+      ],
+      "citationCount": 3
+    },
+    {
+      "id": 25,
+      "name": "Photosynthesis efficiency in space (Study 25)",
+      "group": "Paper",
+      "year": 2017,
+      "authors": [
+        "Author 25",
+        "CoAuthor 25"
+      ],
+      "citationCount": 1
+    },
+    {
+      "id": 26,
+      "name": "Radiation shielding techniques for long missions (Study 26)",
+      "group": "Paper",
+      "year": 2009,
+      "authors": [
+        "Author 26",
+        "CoAuthor 26"
+      ],
+      "citationCount": 2
+    },
+    {
+      "id": 27,
+      "name": "Immune system changes during spaceflight (Study 27)",
+      "group": "Paper",
+      "year": 2010,
+      "authors": [
+        "Author 27",
+        "CoAuthor 27"
+      ],
+      "citationCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Immune system changes during spaceflight (Study 28)",
+      "group": "Paper",
+      "year": 2007,
+      "authors": [
+        "Author 28",
+        "CoAuthor 28"
+      ],
+      "citationCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Immune system changes during spaceflight (Study 29)",
+      "group": "Paper",
+      "year": 2013,
+      "authors": [
+        "Author 29",
+        "CoAuthor 29"
+      ],
+      "citationCount": 3
+    },
+    {
+      "id": 30,
+      "name": "Cellular response to cosmic radiation (Study 30)",
+      "group": "Paper",
+      "year": 2021,
+      "authors": [
+        "Author 30",
+        "CoAuthor 30"
+      ],
+      "citationCount": 3
+    },
+    {
+      "id": 31,
+      "name": "Osteoporosis risk in astronauts (Study 31)",
+      "group": "Paper",
+      "year": 2001,
+      "authors": [
+        "Author 31",
+        "CoAuthor 31"
+      ],
+      "citationCount": 2
+    },
+    {
+      "id": 32,
+      "name": "Radiation shielding techniques for long missions (Study 32)",
+      "group": "Paper",
+      "year": 2010,
+      "authors": [
+        "Author 32",
+        "CoAuthor 32"
+      ],
+      "citationCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Cellular response to cosmic radiation (Study 33)",
+      "group": "Paper",
+      "year": 2020,
+      "authors": [
+        "Author 33",
+        "CoAuthor 33"
+      ],
+      "citationCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Cardiovascular adaptations in microgravity (Study 34)",
+      "group": "Paper",
+      "year": 2025,
+      "authors": [
+        "Author 34",
+        "CoAuthor 34"
+      ],
+      "citationCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Effects of spaceflight on gut microbiome (Study 35)",
+      "group": "Paper",
+      "year": 2015,
+      "authors": [
+        "Author 35",
+        "CoAuthor 35"
+      ],
+      "citationCount": 0
+    },
+    {
+      "id": 36,
+      "name": "Photosynthesis efficiency in space (Study 36)",
+      "group": "Paper",
+      "year": 2001,
+      "authors": [
+        "Author 36",
+        "CoAuthor 36"
+      ],
+      "citationCount": 0
+    },
+    {
+      "id": 37,
+      "name": "Bone density loss in microgravity (Study 37)",
+      "group": "Paper",
+      "year": 2017,
+      "authors": [
+        "Author 37",
+        "CoAuthor 37"
+      ],
+      "citationCount": 0
+    },
+    {
+      "id": 38,
+      "name": "Effects of spaceflight on gut microbiome (Study 38)",
+      "group": "Paper",
+      "year": 2013,
+      "authors": [
+        "Author 38",
+        "CoAuthor 38"
+      ],
+      "citationCount": 3
+    },
+    {
+      "id": 39,
+      "name": "Effects of spaceflight on gut microbiome (Study 39)",
+      "group": "Paper",
+      "year": 2005,
+      "authors": [
+        "Author 39",
+        "CoAuthor 39"
+      ],
+      "citationCount": 0
+    },
+    {
+      "id": 40,
+      "name": "Effects of spaceflight on gut microbiome (Study 40)",
+      "group": "Paper",
+      "year": 2016,
+      "authors": [
+        "Author 40",
+        "CoAuthor 40"
+      ],
+      "citationCount": 0
+    },
+    {
+      "id": 41,
+      "name": "Cellular response to cosmic radiation (Study 41)",
+      "group": "Paper",
+      "year": 2018,
+      "authors": [
+        "Author 41",
+        "CoAuthor 41"
+      ],
+      "citationCount": 0
+    },
+    {
+      "id": 42,
+      "name": "Genetic adaptations to low gravity (Study 42)",
+      "group": "Paper",
+      "year": 2021,
+      "authors": [
+        "Author 42",
+        "CoAuthor 42"
+      ],
+      "citationCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Genetic adaptations to low gravity (Study 43)",
+      "group": "Paper",
+      "year": 2014,
+      "authors": [
+        "Author 43",
+        "CoAuthor 43"
+      ],
+      "citationCount": 0
+    },
+    {
+      "id": 44,
+      "name": "Cardiovascular adaptations in microgravity (Study 44)",
+      "group": "Paper",
+      "year": 2001,
+      "authors": [
+        "Author 44",
+        "CoAuthor 44"
+      ],
+      "citationCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Neuroplasticity in astronauts (Study 45)",
+      "group": "Paper",
+      "year": 2025,
+      "authors": [
+        "Author 45",
+        "CoAuthor 45"
+      ],
+      "citationCount": 0
+    },
+    {
+      "id": 46,
+      "name": "Cellular response to cosmic radiation (Study 46)",
+      "group": "Paper",
+      "year": 2022,
+      "authors": [
+        "Author 46",
+        "CoAuthor 46"
+      ],
+      "citationCount": 0
+    },
+    {
+      "id": 47,
+      "name": "Neuroplasticity in astronauts (Study 47)",
+      "group": "Paper",
+      "year": 2018,
+      "authors": [
+        "Author 47",
+        "CoAuthor 47"
+      ],
+      "citationCount": 0
+    },
+    {
+      "id": 48,
+      "name": "Osteoporosis risk in astronauts (Study 48)",
+      "group": "Paper",
+      "year": 2004,
+      "authors": [
+        "Author 48",
+        "CoAuthor 48"
+      ],
+      "citationCount": 0
+    },
+    {
+      "id": 49,
+      "name": "Photosynthesis efficiency in space (Study 49)",
+      "group": "Paper",
+      "year": 2020,
+      "authors": [
+        "Author 49",
+        "CoAuthor 49"
+      ],
+      "citationCount": 0
+    },
+    {
+      "id": 50,
+      "name": "Effects of spaceflight on gut microbiome (Study 50)",
+      "group": "Paper",
+      "year": 2005,
+      "authors": [
+        "Author 50",
+        "CoAuthor 50"
+      ],
+      "citationCount": 0
+    }
+  ],
+  "links": [
+    {
+      "source": 2,
+      "target": 1,
+      "value": 2
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "value": 2
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "value": 2
+    },
+    {
+      "source": 5,
+      "target": 3,
+      "value": 2
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 5,
+      "target": 4,
+      "value": 2
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "value": 2
+    },
+    {
+      "source": 6,
+      "target": 3,
+      "value": 2
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "value": 2
+    },
+    {
+      "source": 7,
+      "target": 5,
+      "value": 2
+    },
+    {
+      "source": 7,
+      "target": 4,
+      "value": 2
+    },
+    {
+      "source": 7,
+      "target": 3,
+      "value": 2
+    },
+    {
+      "source": 7,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 7,
+      "target": 1,
+      "value": 2
+    },
+    {
+      "source": 10,
+      "target": 4,
+      "value": 2
+    },
+    {
+      "source": 11,
+      "target": 7,
+      "value": 2
+    },
+    {
+      "source": 11,
+      "target": 9,
+      "value": 2
+    },
+    {
+      "source": 13,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 13,
+      "target": 3,
+      "value": 2
+    },
+    {
+      "source": 13,
+      "target": 12,
+      "value": 2
+    },
+    {
+      "source": 13,
+      "target": 4,
+      "value": 2
+    },
+    {
+      "source": 13,
+      "target": 6,
+      "value": 2
+    },
+    {
+      "source": 14,
+      "target": 5,
+      "value": 2
+    },
+    {
+      "source": 15,
+      "target": 13,
+      "value": 2
+    },
+    {
+      "source": 15,
+      "target": 14,
+      "value": 2
+    },
+    {
+      "source": 15,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 15,
+      "target": 4,
+      "value": 2
+    },
+    {
+      "source": 16,
+      "target": 13,
+      "value": 2
+    },
+    {
+      "source": 17,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 18,
+      "target": 12,
+      "value": 2
+    },
+    {
+      "source": 18,
+      "target": 16,
+      "value": 2
+    },
+    {
+      "source": 18,
+      "target": 9,
+      "value": 2
+    },
+    {
+      "source": 18,
+      "target": 8,
+      "value": 2
+    },
+    {
+      "source": 19,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 19,
+      "target": 17,
+      "value": 2
+    },
+    {
+      "source": 19,
+      "target": 18,
+      "value": 2
+    },
+    {
+      "source": 19,
+      "target": 13,
+      "value": 2
+    },
+    {
+      "source": 19,
+      "target": 16,
+      "value": 2
+    },
+    {
+      "source": 20,
+      "target": 16,
+      "value": 2
+    },
+    {
+      "source": 20,
+      "target": 7,
+      "value": 2
+    },
+    {
+      "source": 21,
+      "target": 19,
+      "value": 2
+    },
+    {
+      "source": 22,
+      "target": 15,
+      "value": 2
+    },
+    {
+      "source": 22,
+      "target": 10,
+      "value": 2
+    },
+    {
+      "source": 23,
+      "target": 14,
+      "value": 2
+    },
+    {
+      "source": 24,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 25,
+      "target": 10,
+      "value": 2
+    },
+    {
+      "source": 25,
+      "target": 14,
+      "value": 2
+    },
+    {
+      "source": 25,
+      "target": 24,
+      "value": 2
+    },
+    {
+      "source": 25,
+      "target": 3,
+      "value": 2
+    },
+    {
+      "source": 25,
+      "target": 21,
+      "value": 2
+    },
+    {
+      "source": 26,
+      "target": 18,
+      "value": 2
+    },
+    {
+      "source": 26,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 27,
+      "target": 20,
+      "value": 2
+    },
+    {
+      "source": 27,
+      "target": 8,
+      "value": 2
+    },
+    {
+      "source": 27,
+      "target": 15,
+      "value": 2
+    },
+    {
+      "source": 27,
+      "target": 12,
+      "value": 2
+    },
+    {
+      "source": 27,
+      "target": 14,
+      "value": 2
+    },
+    {
+      "source": 28,
+      "target": 26,
+      "value": 2
+    },
+    {
+      "source": 28,
+      "target": 27,
+      "value": 2
+    },
+    {
+      "source": 28,
+      "target": 16,
+      "value": 2
+    },
+    {
+      "source": 28,
+      "target": 23,
+      "value": 2
+    },
+    {
+      "source": 28,
+      "target": 14,
+      "value": 2
+    },
+    {
+      "source": 29,
+      "target": 14,
+      "value": 2
+    },
+    {
+      "source": 29,
+      "target": 19,
+      "value": 2
+    },
+    {
+      "source": 29,
+      "target": 24,
+      "value": 2
+    },
+    {
+      "source": 29,
+      "target": 7,
+      "value": 2
+    },
+    {
+      "source": 30,
+      "target": 9,
+      "value": 2
+    },
+    {
+      "source": 31,
+      "target": 17,
+      "value": 2
+    },
+    {
+      "source": 31,
+      "target": 22,
+      "value": 2
+    },
+    {
+      "source": 31,
+      "target": 30,
+      "value": 2
+    },
+    {
+      "source": 31,
+      "target": 11,
+      "value": 2
+    },
+    {
+      "source": 32,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 32,
+      "target": 15,
+      "value": 2
+    },
+    {
+      "source": 32,
+      "target": 29,
+      "value": 2
+    },
+    {
+      "source": 33,
+      "target": 13,
+      "value": 2
+    },
+    {
+      "source": 33,
+      "target": 3,
+      "value": 2
+    },
+    {
+      "source": 33,
+      "target": 19,
+      "value": 2
+    },
+    {
+      "source": 34,
+      "target": 8,
+      "value": 2
+    },
+    {
+      "source": 35,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 35,
+      "target": 14,
+      "value": 2
+    },
+    {
+      "source": 35,
+      "target": 17,
+      "value": 2
+    },
+    {
+      "source": 35,
+      "target": 10,
+      "value": 2
+    },
+    {
+      "source": 35,
+      "target": 34,
+      "value": 2
+    },
+    {
+      "source": 36,
+      "target": 15,
+      "value": 2
+    },
+    {
+      "source": 36,
+      "target": 29,
+      "value": 2
+    },
+    {
+      "source": 36,
+      "target": 26,
+      "value": 2
+    },
+    {
+      "source": 37,
+      "target": 1,
+      "value": 2
+    },
+    {
+      "source": 38,
+      "target": 9,
+      "value": 2
+    },
+    {
+      "source": 39,
+      "target": 6,
+      "value": 2
+    },
+    {
+      "source": 39,
+      "target": 33,
+      "value": 2
+    },
+    {
+      "source": 40,
+      "target": 32,
+      "value": 2
+    },
+    {
+      "source": 41,
+      "target": 21,
+      "value": 2
+    },
+    {
+      "source": 41,
+      "target": 15,
+      "value": 2
+    },
+    {
+      "source": 41,
+      "target": 24,
+      "value": 2
+    },
+    {
+      "source": 42,
+      "target": 25,
+      "value": 2
+    },
+    {
+      "source": 42,
+      "target": 14,
+      "value": 2
+    },
+    {
+      "source": 42,
+      "target": 31,
+      "value": 2
+    },
+    {
+      "source": 42,
+      "target": 1,
+      "value": 2
+    },
+    {
+      "source": 42,
+      "target": 28,
+      "value": 2
+    },
+    {
+      "source": 45,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 45,
+      "target": 9,
+      "value": 2
+    },
+    {
+      "source": 46,
+      "target": 9,
+      "value": 2
+    },
+    {
+      "source": 46,
+      "target": 13,
+      "value": 2
+    },
+    {
+      "source": 46,
+      "target": 10,
+      "value": 2
+    },
+    {
+      "source": 46,
+      "target": 38,
+      "value": 2
+    },
+    {
+      "source": 47,
+      "target": 31,
+      "value": 2
+    },
+    {
+      "source": 47,
+      "target": 3,
+      "value": 2
+    },
+    {
+      "source": 47,
+      "target": 44,
+      "value": 2
+    },
+    {
+      "source": 48,
+      "target": 30,
+      "value": 2
+    },
+    {
+      "source": 48,
+      "target": 38,
+      "value": 2
+    },
+    {
+      "source": 48,
+      "target": 21,
+      "value": 2
+    },
+    {
+      "source": 49,
+      "target": 12,
+      "value": 2
+    },
+    {
+      "source": 49,
+      "target": 7,
+      "value": 2
+    },
+    {
+      "source": 50,
+      "target": 21,
+      "value": 2
+    },
+    {
+      "source": 50,
+      "target": 38,
+      "value": 2
+    },
+    {
+      "source": 50,
+      "target": 29,
+      "value": 2
+    },
+    {
+      "source": 50,
+      "target": 42,
+      "value": 2
+    },
+    {
+      "source": 50,
+      "target": 30,
+      "value": 2
+    }
+  ]
+}

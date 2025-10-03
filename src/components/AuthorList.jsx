@@ -23,7 +23,13 @@ const AuthorList = ({ authors }) => {
       {visibleAuthors.map((author) => (
         <div className="px-xs py-2xs rounded-xs border">{author}</div>
       ))}
-      <p className="cursor-pointer" onClick={() => handleShowAuthors()}>
+      <p
+        className="cursor-pointer"
+        onClick={(e) => {
+          e.stopPropagation();
+          handleShowAuthors();
+        }}
+      >
         {showAllAuthors ? "...See less" : "...See all"}
       </p>
     </div>

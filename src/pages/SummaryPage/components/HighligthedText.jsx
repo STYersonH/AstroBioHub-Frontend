@@ -7,22 +7,24 @@ const HighligthedText = ({ segment, listIntex }) => {
   const [isHighlighted, setIsHighlighted] = useState(false);
   const [numberCitationHighlighted, setNumberCitationHighlighted] =
     useState(null);
+
+  // const {};
   const { setHighlightedSegmentId, highlightedSegmentId } =
     useSummaryPageStore();
   const {
     showPaperSummary,
     setShowPaperSummary,
-    setNumberCitationPaperSelected,
+    setSelectedPaperCitationNumber,
     setShowRelatedPapers,
+    selectedPaperCitationNumber,
   } = useSummaryPageStore();
-  const { relatedPapers } = useAppStore();
 
-  const handleHighlight = (numberCitation) => {
+  const handleClick = (numberCitation) => {
     setHighlightedSegmentId(listIntex);
     setNumberCitationHighlighted(numberCitation);
     setIsHighlighted(true);
     setShowPaperSummary(true);
-    setNumberCitationPaperSelected(numberCitation);
+    setSelectedPaperCitationNumber(numberCitation);
 
     if (
       numberCitationHighlighted === numberCitation &&
@@ -35,7 +37,7 @@ const HighligthedText = ({ segment, listIntex }) => {
     } else {
       setIsHighlighted(true);
       setShowPaperSummary(true);
-      setNumberCitationPaperSelected(numberCitation);
+      setSelectedPaperCitationNumber(numberCitation);
       setShowRelatedPapers(false);
     }
   };
@@ -44,14 +46,14 @@ const HighligthedText = ({ segment, listIntex }) => {
     setHighlightedSegmentId(listIntex);
     setNumberCitationHighlighted(numberCitation);
     setIsHighlighted(true);
-    setNumberCitationPaperSelected(numberCitation);
+    setSelectedPaperCitationNumber(numberCitation);
   };
 
   const handleMouseLeave = () => {
     if (!showPaperSummary) {
       setIsHighlighted(false);
       setNumberCitationHighlighted(null);
-      setNumberCitationPaperSelected(null);
+      setSelectedPaperCitationNumber(null);
     }
   };
 
@@ -90,7 +92,7 @@ const HighligthedText = ({ segment, listIntex }) => {
           {segment.citations.map((numberCitation, index) => (
             <span
               key={numberCitation}
-              onClick={() => handleHighlight(numberCitation)}
+              onClick={() => handleClick(numberCitation)}
               onMouseEnter={() => handleMouseEnter(numberCitation)}
               onMouseLeave={handleMouseLeave}
               className={cn(
