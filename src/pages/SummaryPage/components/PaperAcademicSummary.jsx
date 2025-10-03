@@ -11,8 +11,8 @@ const PaperAcademicSummary = () => {
   const {
     showPaperSummary,
     setShowPaperSummary,
-    numberCitationPaperSelected,
-    setNumberCitationPaperSelected,
+    selectedPaperCitationNumber,
+    setSelectedPaperCitationNumber,
     setShowRelatedPapers,
   } = useSummaryPageStore();
   const { relatedPapers } = useAppStore();
@@ -22,14 +22,14 @@ const PaperAcademicSummary = () => {
   useEffect(() => {
     setPaperSummaryData(
       relatedPapers.find(
-        (paper) => paper.orderPaperReference === numberCitationPaperSelected,
+        (paper) => paper.orderPaperReference === selectedPaperCitationNumber,
       ),
     );
   });
 
   const handleClosePaperSummary = () => {
     setShowPaperSummary(false);
-    setNumberCitationPaperSelected(null);
+    setSelectedPaperCitationNumber(null);
     setShowRelatedPapers(true);
   };
 
@@ -54,7 +54,14 @@ const PaperAcademicSummary = () => {
       >
         {/* Buttons */}
         <div className="flex justify-between">
-          <button>
+          <button
+            onClick={() =>
+              window.open(
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC4136787/",
+                "_blank",
+              )
+            }
+          >
             <RedirectIcon />
           </button>
           <button

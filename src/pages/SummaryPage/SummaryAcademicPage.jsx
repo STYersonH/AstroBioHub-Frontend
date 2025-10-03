@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import TableOfContents from "./components/TableOfContents";
 import useSummaryPageStore from "../../store/useSummaryPageStore";
 import useScrollSpy from "../../hooks/useScrollSpy";
-import { useOutletContext } from "react-router";
+import { useOutletContext, useNavigate } from "react-router";
 import ResultBullet from "./components/ResultBullet";
 import GapBullet from "./components/GapBullet";
 import PaperAcademicCard from "./components/PaperAcademicCard";
@@ -11,6 +11,8 @@ import PaperAcademicSummary from "./components/PaperAcademicSummary";
 import HighligthedText from "./components/HighligthedText";
 import { cn } from "../../utils/cn";
 import useAppStore from "../../store/useAppStore";
+import ListOfRelatedPapers from "./components/ListOfRelatedPapers";
+import { GraphIcon } from "../../components/icons/Icons";
 
 const dataRelatedPapers = [
   {
@@ -156,16 +158,13 @@ const dataRelatedPapers = [
 const SummaryAcademicPage = () => {
   const context = useOutletContext();
   const data = context?.academicData;
-
+  const navigate = useNavigate();
   // in the academic page
   const overviewRef = useRef(null);
   const relevantResultsRef = useRef(null);
   const nextStepsRef = useRef(null);
   // Dynamic refs for subsections
   const subsectionRefs = useRef({});
-
-  // inside the papers container
-  const papersContainerRef = useRef(null);
 
   // Function to get or create a ref for a subsection
   const getSubsectionRef = (subsectionId) => {
@@ -247,39 +246,12 @@ const SummaryAcademicPage = () => {
 
   const activeSection = useScrollSpy(sectionIds);
 
-  const { showPaperSummary, numberCitationPaperSelected, showRelatedPapers } =
-    useSummaryPageStore();
+  const { showPaperSummary } = useSummaryPageStore();
   const { setRelatedPapers } = useAppStore();
 
   useEffect(() => {
     setRelatedPapers(dataRelatedPapers);
   }, []);
-
-  // Auto scroll to selected paper card
-  useEffect(() => {
-    if (numberCitationPaperSelected && papersContainerRef.current) {
-      const selectedCard = papersContainerRef.current.querySelector(
-        `[data-paper-reference="${numberCitationPaperSelected}"]`,
-      );
-      if (selectedCard) {
-        const container = papersContainerRef.current;
-        const containerRect = container.getBoundingClientRect();
-        const cardRect = selectedCard.getBoundingClientRect();
-
-        // Calculate the position to center the card in the container
-        const scrollTop =
-          container.scrollTop +
-          (cardRect.top - containerRect.top) -
-          containerRect.height / 2 +
-          cardRect.height / 2;
-
-        container.scrollTo({
-          top: scrollTop,
-          behavior: "smooth",
-        });
-      }
-    }
-  }, [numberCitationPaperSelected]);
 
   const sectionRefs = {
     overview: overviewRef,
@@ -316,12 +288,25 @@ const SummaryAcademicPage = () => {
       {/* buttons and line */}
       <div className="pt-2xl 3xl:w-[1570px] flex w-[1370px] flex-col justify-center">
         {/* buttons */}
-        <div className="px-xl gap-sm flex w-full flex-row">
-          <div className="px-2xl py-md rounded-t-sm border border-b-0 border-gray-100 bg-gray-50">
-            Topic Analysis
+        <div className="px-xl flex w-full flex-row justify-between">
+          <div className="gap-sm flex flex-row">
+            <div className="px-2xl py-md rounded-t-sm border border-b-0 border-gray-100 bg-gray-50">
+              Topic Analysis
+            </div>
+            <a
+              href="https://pmc.ncbi.nlm.nih.gov/search/?term=Space+Biology+Research+Overview"
+              className="px-2xl mb-sm flex cursor-pointer items-center justify-center rounded-sm transition-all duration-300 hover:bg-gray-50"
+            >
+              Paper Search
+            </a>
           </div>
-          <div className="px-2xl mb-sm flex cursor-pointer items-center justify-center rounded-sm transition-all duration-300 hover:bg-gray-50">
-            Paper Search
+
+          <div
+            className="px-2xl mb-sm gap-md flex cursor-pointer flex-row items-center rounded-sm border border-gray-100 transition-all duration-300 hover:bg-gray-50"
+            onClick={() => navigate("/knowledge-graph")}
+          >
+            <GraphIcon />
+            <p>Knowledge Graph</p>
           </div>
         </div>
         <div className="h-[1px] w-full bg-gray-100"></div>
@@ -464,22 +449,7 @@ const SummaryAcademicPage = () => {
         </div>
 
         {/* related papers */}
-        {showRelatedPapers && (
-          <div className="pt-3xl 3xl:w-[382px] sticky top-0 h-[644px] w-[322px]">
-            <div
-              ref={papersContainerRef}
-              className="ultra-minimal-scrollbar gap-md flex h-full flex-col overflow-y-scroll"
-            >
-              {data.relatedPapers.map((paper) => (
-                <PaperAcademicCard
-                  key={paper.id}
-                  dataPaper={paper}
-                  data-paper-reference={paper.orderPaperReference}
-                />
-              ))}
-            </div>
-          </div>
-        )}
+        <ListOfRelatedPapers relatedPapers={data.relatedPapers} />
 
         {/* paper summary */}
         <PaperAcademicSummary />

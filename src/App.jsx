@@ -1,12 +1,13 @@
 import { useState } from "react";
 import useAppStore from "./store/useAppStore";
 import { motion, AnimatePresence } from "framer-motion";
+import { useNavigate } from "react-router";
 import ModeSelector from "./components/ModeSelector";
 import SearchBar from "./components/SearchBar";
 
 function App() {
   const { selectedMode } = useAppStore();
-
+  const navigate = useNavigate();
   return (
     <>
       <motion.div

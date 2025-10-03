@@ -4,13 +4,13 @@ import useSummaryPageStore from "../../../store/useSummaryPageStore";
 import Toggle from "../../../components/Toggle";
 
 const ButtonComponent = ({ orderPaperReference }) => {
-  const { setShowPaperSummary, setNumberCitationPaperSelected } =
+  const { setShowPaperSummary, setSelectedPaperCitationNumber } =
     useSummaryPageStore();
   const { setShowRelatedPapers } = useSummaryPageStore();
 
   const handleSeePaperPreview = () => {
     setShowPaperSummary(true);
-    setNumberCitationPaperSelected(orderPaperReference);
+    setSelectedPaperCitationNumber(orderPaperReference);
     // setShowRelatedPapers(false);
   };
 

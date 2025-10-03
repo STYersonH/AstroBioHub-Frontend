@@ -1,0 +1,808 @@
+[
+  {
+    "id": 1,
+    "orderPaperReference": 1,
+    "references": [],
+    "authors": [
+      "Author 1",
+      "CoAuthor 1"
+    ],
+    "year": 2008,
+    "title": "Paper 1 on Space Biology",
+    "publicationPlace": "Cell",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 2,
+    "orderPaperReference": 2,
+    "references": [
+      1
+    ],
+    "authors": [
+      "Author 2",
+      "CoAuthor 2"
+    ],
+    "year": 2022,
+    "title": "Paper 2 on Space Biology",
+    "publicationPlace": "Nature",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 3,
+    "orderPaperReference": 3,
+    "references": [
+      1,
+      2
+    ],
+    "authors": [
+      "Author 3",
+      "CoAuthor 3"
+    ],
+    "year": 2021,
+    "title": "Paper 3 on Space Biology",
+    "publicationPlace": "Journal of Space Research",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 4,
+    "orderPaperReference": 4,
+    "references": [
+      3,
+      2
+    ],
+    "authors": [
+      "Author 4",
+      "CoAuthor 4"
+    ],
+    "year": 2011,
+    "title": "Paper 4 on Space Biology",
+    "publicationPlace": "Cell",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 5,
+    "orderPaperReference": 5,
+    "references": [
+      2
+    ],
+    "authors": [
+      "Author 5",
+      "CoAuthor 5"
+    ],
+    "year": 2001,
+    "title": "Paper 5 on Space Biology",
+    "publicationPlace": "Science",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 6,
+    "orderPaperReference": 6,
+    "references": [
+      1,
+      4,
+      3
+    ],
+    "authors": [
+      "Author 6",
+      "CoAuthor 6"
+    ],
+    "year": 2011,
+    "title": "Paper 6 on Space Biology",
+    "publicationPlace": "Astrobiology",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 7,
+    "orderPaperReference": 7,
+    "references": [
+      4,
+      1
+    ],
+    "authors": [
+      "Author 7",
+      "CoAuthor 7"
+    ],
+    "year": 2009,
+    "title": "Paper 7 on Space Biology",
+    "publicationPlace": "PNAS",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 8,
+    "orderPaperReference": 8,
+    "references": [
+      1,
+      3
+    ],
+    "authors": [
+      "Author 8",
+      "CoAuthor 8"
+    ],
+    "year": 2007,
+    "title": "Paper 8 on Space Biology",
+    "publicationPlace": "Journal of Space Research",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 9,
+    "orderPaperReference": 9,
+    "references": [
+      8,
+      5,
+      2
+    ],
+    "authors": [
+      "Author 9",
+      "CoAuthor 9"
+    ],
+    "year": 2002,
+    "title": "Paper 9 on Space Biology",
+    "publicationPlace": "Cell",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 10,
+    "orderPaperReference": 10,
+    "references": [
+      8
+    ],
+    "authors": [
+      "Author 10",
+      "CoAuthor 10"
+    ],
+    "year": 2008,
+    "title": "Paper 10 on Space Biology",
+    "publicationPlace": "Astrobiology",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 11,
+    "orderPaperReference": 11,
+    "references": [
+      4,
+      5,
+      7
+    ],
+    "authors": [
+      "Author 11",
+      "CoAuthor 11"
+    ],
+    "year": 2001,
+    "title": "Paper 11 on Space Biology",
+    "publicationPlace": "Science",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 12,
+    "orderPaperReference": 12,
+    "references": [],
+    "authors": [
+      "Author 12",
+      "CoAuthor 12"
+    ],
+    "year": 2009,
+    "title": "Paper 12 on Space Biology",
+    "publicationPlace": "Astrobiology",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 13,
+    "orderPaperReference": 13,
+    "references": [
+      10,
+      6,
+      5,
+      8
+    ],
+    "authors": [
+      "Author 13",
+      "CoAuthor 13"
+    ],
+    "year": 2015,
+    "title": "Paper 13 on Space Biology",
+    "publicationPlace": "Astrobiology",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 14,
+    "orderPaperReference": 14,
+    "references": [],
+    "authors": [
+      "Author 14",
+      "CoAuthor 14"
+    ],
+    "year": 2017,
+    "title": "Paper 14 on Space Biology",
+    "publicationPlace": "Journal of Space Research",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 15,
+    "orderPaperReference": 15,
+    "references": [
+      9,
+      12,
+      4
+    ],
+    "authors": [
+      "Author 15",
+      "CoAuthor 15"
+    ],
+    "year": 2004,
+    "title": "Paper 15 on Space Biology",
+    "publicationPlace": "Science",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 16,
+    "orderPaperReference": 16,
+    "references": [
+      15,
+      12,
+      7,
+      8,
+      3
+    ],
+    "authors": [
+      "Author 16",
+      "CoAuthor 16"
+    ],
+    "year": 2000,
+    "title": "Paper 16 on Space Biology",
+    "publicationPlace": "Astrobiology",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 17,
+    "orderPaperReference": 17,
+    "references": [
+      9
+    ],
+    "authors": [
+      "Author 17",
+      "CoAuthor 17"
+    ],
+    "year": 2017,
+    "title": "Paper 17 on Space Biology",
+    "publicationPlace": "Nature",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 18,
+    "orderPaperReference": 18,
+    "references": [
+      5,
+      8,
+      15,
+      9
+    ],
+    "authors": [
+      "Author 18",
+      "CoAuthor 18"
+    ],
+    "year": 2016,
+    "title": "Paper 18 on Space Biology",
+    "publicationPlace": "Astrobiology",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 19,
+    "orderPaperReference": 19,
+    "references": [
+      12,
+      16,
+      8,
+      13
+    ],
+    "authors": [
+      "Author 19",
+      "CoAuthor 19"
+    ],
+    "year": 2002,
+    "title": "Paper 19 on Space Biology",
+    "publicationPlace": "Journal of Space Research",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 20,
+    "orderPaperReference": 20,
+    "references": [
+      10,
+      1
+    ],
+    "authors": [
+      "Author 20",
+      "CoAuthor 20"
+    ],
+    "year": 2011,
+    "title": "Paper 20 on Space Biology",
+    "publicationPlace": "Journal of Space Research",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 21,
+    "orderPaperReference": 21,
+    "references": [
+      11,
+      13,
+      14
+    ],
+    "authors": [
+      "Author 21",
+      "CoAuthor 21"
+    ],
+    "year": 2003,
+    "title": "Paper 21 on Space Biology",
+    "publicationPlace": "PNAS",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 22,
+    "orderPaperReference": 22,
+    "references": [],
+    "authors": [
+      "Author 22",
+      "CoAuthor 22"
+    ],
+    "year": 2018,
+    "title": "Paper 22 on Space Biology",
+    "publicationPlace": "Science",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 23,
+    "orderPaperReference": 23,
+    "references": [
+      17,
+      1
+    ],
+    "authors": [
+      "Author 23",
+      "CoAuthor 23"
+    ],
+    "year": 2020,
+    "title": "Paper 23 on Space Biology",
+    "publicationPlace": "Journal of Space Research",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 24,
+    "orderPaperReference": 24,
+    "references": [
+      13
+    ],
+    "authors": [
+      "Author 24",
+      "CoAuthor 24"
+    ],
+    "year": 2017,
+    "title": "Paper 24 on Space Biology",
+    "publicationPlace": "Science",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 25,
+    "orderPaperReference": 25,
+    "references": [
+      15,
+      8
+    ],
+    "authors": [
+      "Author 25",
+      "CoAuthor 25"
+    ],
+    "year": 2018,
+    "title": "Paper 25 on Space Biology",
+    "publicationPlace": "Cell",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 26,
+    "orderPaperReference": 26,
+    "references": [
+      22,
+      14,
+      19
+    ],
+    "authors": [
+      "Author 26",
+      "CoAuthor 26"
+    ],
+    "year": 2001,
+    "title": "Paper 26 on Space Biology",
+    "publicationPlace": "Cell",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 27,
+    "orderPaperReference": 27,
+    "references": [
+      18,
+      19,
+      11
+    ],
+    "authors": [
+      "Author 27",
+      "CoAuthor 27"
+    ],
+    "year": 2016,
+    "title": "Paper 27 on Space Biology",
+    "publicationPlace": "Astrobiology",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 28,
+    "orderPaperReference": 28,
+    "references": [
+      16,
+      11
+    ],
+    "authors": [
+      "Author 28",
+      "CoAuthor 28"
+    ],
+    "year": 2017,
+    "title": "Paper 28 on Space Biology",
+    "publicationPlace": "Journal of Space Research",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 29,
+    "orderPaperReference": 29,
+    "references": [
+      25,
+      19,
+      8,
+      20,
+      5
+    ],
+    "authors": [
+      "Author 29",
+      "CoAuthor 29"
+    ],
+    "year": 2005,
+    "title": "Paper 29 on Space Biology",
+    "publicationPlace": "Science",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 30,
+    "orderPaperReference": 30,
+    "references": [
+      12,
+      22,
+      18,
+      17,
+      9
+    ],
+    "authors": [
+      "Author 30",
+      "CoAuthor 30"
+    ],
+    "year": 2018,
+    "title": "Paper 30 on Space Biology",
+    "publicationPlace": "PNAS",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 31,
+    "orderPaperReference": 31,
+    "references": [
+      12,
+      20,
+      2,
+      4
+    ],
+    "authors": [
+      "Author 31",
+      "CoAuthor 31"
+    ],
+    "year": 2010,
+    "title": "Paper 31 on Space Biology",
+    "publicationPlace": "Journal of Space Research",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 32,
+    "orderPaperReference": 32,
+    "references": [
+      10,
+      5,
+      3,
+      12,
+      29
+    ],
+    "authors": [
+      "Author 32",
+      "CoAuthor 32"
+    ],
+    "year": 2012,
+    "title": "Paper 32 on Space Biology",
+    "publicationPlace": "Cell",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 33,
+    "orderPaperReference": 33,
+    "references": [
+      1,
+      25
+    ],
+    "authors": [
+      "Author 33",
+      "CoAuthor 33"
+    ],
+    "year": 2018,
+    "title": "Paper 33 on Space Biology",
+    "publicationPlace": "Cell",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 34,
+    "orderPaperReference": 34,
+    "references": [
+      7
+    ],
+    "authors": [
+      "Author 34",
+      "CoAuthor 34"
+    ],
+    "year": 2023,
+    "title": "Paper 34 on Space Biology",
+    "publicationPlace": "PNAS",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 35,
+    "orderPaperReference": 35,
+    "references": [
+      27
+    ],
+    "authors": [
+      "Author 35",
+      "CoAuthor 35"
+    ],
+    "year": 2019,
+    "title": "Paper 35 on Space Biology",
+    "publicationPlace": "Science",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 36,
+    "orderPaperReference": 36,
+    "references": [
+      24,
+      15,
+      13
+    ],
+    "authors": [
+      "Author 36",
+      "CoAuthor 36"
+    ],
+    "year": 2019,
+    "title": "Paper 36 on Space Biology",
+    "publicationPlace": "Journal of Space Research",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 37,
+    "orderPaperReference": 37,
+    "references": [
+      11
+    ],
+    "authors": [
+      "Author 37",
+      "CoAuthor 37"
+    ],
+    "year": 2013,
+    "title": "Paper 37 on Space Biology",
+    "publicationPlace": "Astrobiology",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 38,
+    "orderPaperReference": 38,
+    "references": [
+      19
+    ],
+    "authors": [
+      "Author 38",
+      "CoAuthor 38"
+    ],
+    "year": 2008,
+    "title": "Paper 38 on Space Biology",
+    "publicationPlace": "Journal of Space Research",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 39,
+    "orderPaperReference": 39,
+    "references": [],
+    "authors": [
+      "Author 39",
+      "CoAuthor 39"
+    ],
+    "year": 2004,
+    "title": "Paper 39 on Space Biology",
+    "publicationPlace": "Astrobiology",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 40,
+    "orderPaperReference": 40,
+    "references": [],
+    "authors": [
+      "Author 40",
+      "CoAuthor 40"
+    ],
+    "year": 2002,
+    "title": "Paper 40 on Space Biology",
+    "publicationPlace": "Nature",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 41,
+    "orderPaperReference": 41,
+    "references": [
+      10,
+      32
+    ],
+    "authors": [
+      "Author 41",
+      "CoAuthor 41"
+    ],
+    "year": 2024,
+    "title": "Paper 41 on Space Biology",
+    "publicationPlace": "PNAS",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 42,
+    "orderPaperReference": 42,
+    "references": [
+      1,
+      26,
+      2,
+      13
+    ],
+    "authors": [
+      "Author 42",
+      "CoAuthor 42"
+    ],
+    "year": 2013,
+    "title": "Paper 42 on Space Biology",
+    "publicationPlace": "Cell",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 43,
+    "orderPaperReference": 43,
+    "references": [
+      39,
+      35,
+      12,
+      6,
+      27
+    ],
+    "authors": [
+      "Author 43",
+      "CoAuthor 43"
+    ],
+    "year": 2006,
+    "title": "Paper 43 on Space Biology",
+    "publicationPlace": "Astrobiology",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 44,
+    "orderPaperReference": 44,
+    "references": [
+      23,
+      13
+    ],
+    "authors": [
+      "Author 44",
+      "CoAuthor 44"
+    ],
+    "year": 2001,
+    "title": "Paper 44 on Space Biology",
+    "publicationPlace": "Journal of Space Research",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 45,
+    "orderPaperReference": 45,
+    "references": [
+      2,
+      25,
+      13,
+      1,
+      36
+    ],
+    "authors": [
+      "Author 45",
+      "CoAuthor 45"
+    ],
+    "year": 2019,
+    "title": "Paper 45 on Space Biology",
+    "publicationPlace": "Nature",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 46,
+    "orderPaperReference": 46,
+    "references": [
+      25,
+      28,
+      36,
+      38
+    ],
+    "authors": [
+      "Author 46",
+      "CoAuthor 46"
+    ],
+    "year": 2024,
+    "title": "Paper 46 on Space Biology",
+    "publicationPlace": "Cell",
+    "typeResearch": "Experimental"
+  },
+  {
+    "id": 47,
+    "orderPaperReference": 47,
+    "references": [],
+    "authors": [
+      "Author 47",
+      "CoAuthor 47"
+    ],
+    "year": 2013,
+    "title": "Paper 47 on Space Biology",
+    "publicationPlace": "Cell",
+    "typeResearch": "Theoretical"
+  },
+  {
+    "id": 48,
+    "orderPaperReference": 48,
+    "references": [],
+    "authors": [
+      "Author 48",
+      "CoAuthor 48"
+    ],
+    "year": 2003,
+    "title": "Paper 48 on Space Biology",
+    "publicationPlace": "Science",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 49,
+    "orderPaperReference": 49,
+    "references": [
+      20,
+      24,
+      44
+    ],
+    "authors": [
+      "Author 49",
+      "CoAuthor 49"
+    ],
+    "year": 2024,
+    "title": "Paper 49 on Space Biology",
+    "publicationPlace": "Science",
+    "typeResearch": "Review"
+  },
+  {
+    "id": 50,
+    "orderPaperReference": 50,
+    "references": [
+      40,
+      27
+    ],
+    "authors": [
+      "Author 50",
+      "CoAuthor 50"
+    ],
+    "year": 2016,
+    "title": "Paper 50 on Space Biology",
+    "publicationPlace": "Journal of Space Research",
+    "typeResearch": "Theoretical"
+  }
+]
