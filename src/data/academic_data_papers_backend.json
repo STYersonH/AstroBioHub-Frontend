@@ -2,6 +2,7 @@
   {
     "id": 1,
     "orderPaperReference": 1,
+    "PMCID": "PMC4136787",
     "authors": [
       "Afshin Smith",
       "Kaushik Chakravarty",
@@ -30,6 +31,7 @@
   {
     "id": 2,
     "orderPaperReference": 2,
+    "PMCID": "PMC2692779",
     "authors": [
       "Jodn Forrier",
       "Andre Borm",
@@ -53,6 +55,7 @@
   {
     "id": 3,
     "orderPaperReference": 3,
+    "PMCID": "PMC5258701",
     "authors": [
       "Mortz",
       "Lucas Pagani",
@@ -76,6 +79,7 @@
   {
     "id": 4,
     "orderPaperReference": 4,
+    "PMCID": "PMC5018551",
     "authors": [
       "Matt Torres",
       "Matteo Bulfaro",
@@ -101,6 +105,7 @@
   {
     "id": 5,
     "orderPaperReference": 5,
+    "PMCID": "PMC5071845",
     "authors": [
       "Ross Praga",
       "Miles Cohen",

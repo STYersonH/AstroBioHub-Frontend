@@ -28,6 +28,7 @@ const SummaryAcademicPage = () => {
 
   const { breakpoints } = useBreakpointStore();
   const { showPaperSummary } = useSummaryPageStore();
+  const { searchQuery } = useAppStore();
 
   // Function to get or create a ref for a subsection
   const getSubsectionRef = (subsectionId) => {
@@ -37,6 +38,7 @@ const SummaryAcademicPage = () => {
     return subsectionRefs.current[subsectionId];
   };
 
+  const [searchQueryModified, setSearchQueryModified] = useState(searchQuery);
   const [sectionIds, setSectionIds] = useState([
     "overview",
     "relevant-results",
@@ -90,6 +92,11 @@ const SummaryAcademicPage = () => {
       setSectionIds([...sectionIds, ...subsectionIds]);
     }
   }, [data]);
+
+  useEffect(() => {
+    const queryModified = searchQuery.replace(/ /g, "+");
+    setSearchQueryModified(queryModified);
+  }, [searchQuery]);
 
   // update the subsections in the table of contents
   useEffect(() => {
@@ -162,7 +169,9 @@ const SummaryAcademicPage = () => {
               Topic Analysis
             </div>
             <a
-              href="https://pmc.ncbi.nlm.nih.gov/search/?term=Space+Biology+Research+Overview"
+              href={`https://pmc.ncbi.nlm.nih.gov/search/?term=${searchQueryModified}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-2xl mb-sm flex cursor-pointer items-center justify-center rounded-sm transition-all duration-300 hover:bg-gray-50"
             >
               Paper Search

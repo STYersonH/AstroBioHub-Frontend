@@ -34,6 +34,7 @@ const HighligthedText = ({ segment, listIntex }) => {
       setIsHighlighted(false);
       setNumberCitationHighlighted(null);
       setShowRelatedPapers(true);
+      setShowPaperSummary(false);
     } else {
       setIsHighlighted(true);
       setShowPaperSummary(true);

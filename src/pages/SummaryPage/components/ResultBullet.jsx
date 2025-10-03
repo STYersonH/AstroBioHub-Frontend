@@ -10,7 +10,7 @@ const ButtonComponent = ({ orderPaperReference }) => {
   const handleSeePaperPreview = () => {
     setShowPaperSummary(true);
     setSelectedPaperCitationNumber(orderPaperReference);
-    // setShowRelatedPapers(false);
+    setShowRelatedPapers(false);
   };
 
   return (
