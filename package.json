@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate-graph": "node src/utils/graphDataTransformer.js"
+    "generate-graph": "node scripts/generateGraphData.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",

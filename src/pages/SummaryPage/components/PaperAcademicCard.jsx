@@ -14,6 +14,7 @@ const PaperAcademicCard = ({
     setShowPaperSummary,
     setSelectedPaperCitationNumber,
     selectedPaperCitationNumber,
+    showPaperSummary,
   } = useSummaryPageStore();
 
   const handleMouseEnter = () => {
@@ -22,7 +23,9 @@ const PaperAcademicCard = ({
   };
   const handleMouseLeave = () => {
     onHoverEnd();
-    setSelectedPaperCitationNumber(null);
+    if (!showPaperSummary) {
+      setSelectedPaperCitationNumber(null);
+    }
   };
 
   return (

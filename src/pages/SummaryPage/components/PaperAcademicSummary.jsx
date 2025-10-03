@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import clsx from "clsx";
 import AuthorList from "../../../components/AuthorList";
 import { cn } from "../../../utils/cn";
+import dataPapersJSON from "../../../data/data_papers_backend.json";
 
 const PaperAcademicSummary = ({ className }) => {
   const {
@@ -16,13 +17,12 @@ const PaperAcademicSummary = ({ className }) => {
     setSelectedPaperCitationNumber,
     setShowRelatedPapers,
   } = useSummaryPageStore();
-  const { relatedPapers } = useAppStore();
 
   const [paperSummaryData, setPaperSummaryData] = useState(null);
 
   useEffect(() => {
     setPaperSummaryData(
-      relatedPapers.find(
+      dataPapersJSON.dataRelatedPapers.find(
         (paper) => paper.orderPaperReference === selectedPaperCitationNumber,
       ),
     );
@@ -36,10 +36,13 @@ const PaperAcademicSummary = ({ className }) => {
 
   return (
     <motion.div
-      className={cn("sticky top-0 h-[644px] w-[437px]", className)}
+      className={cn(
+        "3xl:w-[700px] sticky top-0 h-[644px] w-[550px]",
+        className,
+      )}
       animate={{
         opacity: showPaperSummary ? 1 : 0,
-        x: showPaperSummary ? 0 : 200,
+        x: showPaperSummary ? -265 : 200,
         scale: showPaperSummary ? 1 : 0.9,
       }}
       transition={{

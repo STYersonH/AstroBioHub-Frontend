@@ -14,10 +14,12 @@ import { cn } from "../../utils/cn";
 import PaperAcademicSummary from "../SummaryPage/components/PaperAcademicSummary";
 import useSummaryPageStore from "../../store/useSummaryPageStore";
 import { motion } from "framer-motion";
+import useAppStore from "../../store/useAppStore";
 
 const KnowledgeGraphPage = () => {
   const navigate = useNavigate();
   const { showPaperSummary } = useSummaryPageStore();
+  const { searchQuery } = useAppStore();
   const handleBackToSummary = () => {
     navigate("/summary/academic");
   };
@@ -42,7 +44,7 @@ const KnowledgeGraphPage = () => {
             </button>
             <div className="h-6 w-px bg-gray-300"></div>
             <h1 className="text-ui-lg-sb font-semibold text-gray-900">
-              Knowledge Graph
+              Knowledge Graph of {searchQuery}
             </h1>
           </div>
 
@@ -50,11 +52,13 @@ const KnowledgeGraphPage = () => {
           <div className="gap-2xl flex items-center">
             <div className="gap-md flex flex-row items-center">
               <ArrowStepInIcon className="text-green-500" />
-              <span className="text-ui-md-r text-gray-600">Referencias</span>
+              <span className="text-ui-md-r text-gray-600">
+                Es referenciado por
+              </span>
             </div>
             <div className="gap-md flex items-center">
               <ArrowStepOutIcon className="text-blue-500" />
-              <span className="text-ui-md-r text-gray-600">Citas</span>
+              <span className="text-ui-md-r text-gray-600">Cita a</span>
             </div>
           </div>
         </div>
