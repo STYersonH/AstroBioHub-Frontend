@@ -449,10 +449,13 @@ const SummaryAcademicPage = () => {
         </div>
 
         {/* related papers */}
-        <ListOfRelatedPapers relatedPapers={data.relatedPapers} />
+        <ListOfRelatedPapers
+          relatedPapers={data.relatedPapers}
+          className="pt-3xl"
+        />
 
         {/* paper summary */}
-        <PaperAcademicSummary />
+        <PaperAcademicSummary className="pt-3xl" />
       </motion.div>
     </div>
   );

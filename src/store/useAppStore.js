@@ -42,6 +42,7 @@ const useAppStore = create(
         selectedMode: state.selectedMode,
         searchActive: state.searchActive,
         searchQuery: state.searchQuery,
+        relatedPapers: state.relatedPapers,
       }),
       // Configuración adicional
       storage: {

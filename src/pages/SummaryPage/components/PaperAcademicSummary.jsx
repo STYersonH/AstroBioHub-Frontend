@@ -6,8 +6,9 @@ import { CloseIcon } from "../../../components/icons/Icons";
 import { motion } from "framer-motion";
 import clsx from "clsx";
 import AuthorList from "../../../components/AuthorList";
+import { cn } from "../../../utils/cn";
 
-const PaperAcademicSummary = () => {
+const PaperAcademicSummary = ({ className }) => {
   const {
     showPaperSummary,
     setShowPaperSummary,
@@ -25,7 +26,7 @@ const PaperAcademicSummary = () => {
         (paper) => paper.orderPaperReference === selectedPaperCitationNumber,
       ),
     );
-  });
+  }, [selectedPaperCitationNumber]);
 
   const handleClosePaperSummary = () => {
     setShowPaperSummary(false);
@@ -35,7 +36,7 @@ const PaperAcademicSummary = () => {
 
   return (
     <motion.div
-      className="pt-3xl sticky top-0"
+      className={cn("sticky top-0 h-[644px] w-[437px]", className)}
       animate={{
         opacity: showPaperSummary ? 1 : 0,
         x: showPaperSummary ? 0 : 200,
@@ -48,7 +49,7 @@ const PaperAcademicSummary = () => {
     >
       <div
         className={clsx(
-          "py-3xl p-2xl gap-2xl relative top-0 flex h-[644px] w-[437px] flex-col overflow-y-scroll rounded-xl border border-gray-200",
+          "py-3xl p-2xl gap-2xl relative top-0 flex h-full w-full flex-col overflow-y-scroll rounded-xl border border-gray-200",
           "ultra-minimal-scrollbar",
         )}
       >
