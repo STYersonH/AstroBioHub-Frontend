@@ -5,8 +5,12 @@ import useSummaryPageStore from "../../../store/useSummaryPageStore";
 
 const KnowledgeGraph = () => {
   const svgRef = useRef(null);
-  const { selectedPaperCitationNumber, setSelectedPaperCitationNumber } =
-    useSummaryPageStore();
+  const {
+    selectedPaperCitationNumber,
+    setSelectedPaperCitationNumber,
+    setShowPaperSummary,
+    showPaperSummary,
+  } = useSummaryPageStore();
 
   const getGraphElements = () => {
     const svg = d3.select(svgRef.current);
@@ -17,6 +21,7 @@ const KnowledgeGraph = () => {
       tooltipGroup: groups.nodes()[0] ? d3.select(groups.nodes()[0]) : null,
       linkGroup: groups.nodes()[1] ? d3.select(groups.nodes()[1]) : null,
       nodeGroup: groups.nodes()[2] ? d3.select(groups.nodes()[2]) : null,
+      labelGroup: groups.nodes()[3] ? d3.select(groups.nodes()[3]) : null,
     };
   };
 
@@ -48,15 +53,6 @@ const KnowledgeGraph = () => {
     });
   };
 
-  const updateTooltipPosition = (nodeElement, tooltipGroup) => {
-    if (!tooltipGroup || tooltipGroup.style("opacity") == 0) return;
-
-    const currentX = parseFloat(nodeElement.attr("cx"));
-    const currentY = parseFloat(nodeElement.attr("cy"));
-
-    tooltipGroup.attr("transform", `translate(${currentX}, ${currentY + 30})`);
-  };
-
   const getNodeAndLinkSelections = () => {
     const elements = getGraphElements();
     if (!elements)
@@ -64,6 +60,7 @@ const KnowledgeGraph = () => {
         node: d3.select(),
         link: d3.select(),
         tooltipText: d3.select(),
+        nodeLabels: d3.select(),
       };
 
     return {
@@ -77,6 +74,9 @@ const KnowledgeGraph = () => {
         ? elements.tooltipGroup.select("text")
         : d3.select(),
       tooltipGroup: elements.tooltipGroup,
+      nodeLabels: elements.labelGroup
+        ? elements.labelGroup.selectAll("text")
+        : d3.select(),
     };
   };
 
@@ -97,8 +97,7 @@ const KnowledgeGraph = () => {
   };
 
   const highlightNode = (nodeId) => {
-    const { node, link, tooltipGroup, tooltipText } =
-      getNodeAndLinkSelections();
+    const { node, link, nodeLabels } = getNodeAndLinkSelections();
     const nodeElement = node.filter((d) => d.id == nodeId);
     const nodeData = graphData.nodes.find((d) => d.id == nodeId);
 
@@ -109,7 +108,44 @@ const KnowledgeGraph = () => {
     node
       ?.transition()
       .duration(200)
-      .style("opacity", (n) => (connectedNodeIds.has(n.id) ? 1 : 0.3));
+      .style("opacity", (n) => (connectedNodeIds.has(n.id) ? 1 : 0.3))
+      .attr("fill", (n) => (n.id === nodeId ? "#155dfd" : "#5c5c5c"));
+
+    // Actualizar etiquetas: nombres para conectados, IDs para no conectados
+    nodeLabels
+      ?.transition()
+      .duration(200)
+      .style("opacity", (n) => (connectedNodeIds.has(n.id) ? 1 : 0.3))
+      .style("font-size", (n) => {
+        // Nodo hovered más grande (usar style para compatibilidad con zoom)
+        const scale = getCurrentZoomScale();
+        const baseSize = n.id === nodeId ? 14 : 12;
+        return `${baseSize / scale}px`;
+      })
+      .attr("font-weight", (n) => {
+        // Nodo hovered más bold
+        return n.id === nodeId ? "700" : "600";
+      })
+      .attr("fill", (n) => {
+        // Nodo hovered en azul
+        return n.id === nodeId ? "#155dfd" : "#374151";
+      })
+      .text((n) => {
+        if (connectedNodeIds.has(n.id)) {
+          if (n.id === nodeId) {
+            // Nodo hovered: mostrar nombre completo
+            return n.name;
+          } else {
+            // Nodos conectados: mostrar nombre truncado
+            return n.name.length > 25
+              ? n.name.substring(0, 25) + "..."
+              : n.name;
+          }
+        } else {
+          // Mostrar ID para nodos no conectados
+          return n.id;
+        }
+      });
 
     link
       ?.transition()
@@ -148,8 +184,6 @@ const KnowledgeGraph = () => {
       });
 
     nodeElement.attr("r", calculateNodeRadius(nodeData.citationCount));
-
-    showTooltip(nodeData, nodeElement, tooltipGroup, tooltipText);
   };
 
   const calculateNodeRadius = (citationCount) => {
@@ -169,8 +203,16 @@ const KnowledgeGraph = () => {
     return 5 + normalizedCitations * 10;
   };
 
+  // Helper function para obtener el scale actual del zoom
+  const getCurrentZoomScale = () => {
+    if (!svgRef.current) return 1;
+    const container = d3.select(svgRef.current).select("g");
+    const transform = container.node()?.transform?.baseVal?.consolidate();
+    return transform ? transform.matrix.a : 1;
+  };
+
   const resetNode = () => {
-    const { node, link, tooltipGroup } = getNodeAndLinkSelections();
+    const { node, link, nodeLabels } = getNodeAndLinkSelections();
 
     node
       ?.transition()
@@ -178,7 +220,22 @@ const KnowledgeGraph = () => {
       .style("opacity", 1)
       .attr("r", (d) => {
         return calculateNodeRadius(d.citationCount);
-      });
+      })
+      .attr("fill", "#5c5c5c");
+
+    // Restaurar opacidad, texto y estilos de las etiquetas (volver a mostrar IDs)
+    nodeLabels
+      ?.transition()
+      .duration(200)
+      .style("opacity", 1)
+      .style("font-size", (d) => {
+        // Restaurar tamaño base ajustado por zoom
+        const scale = getCurrentZoomScale();
+        return `${10 / scale}px`;
+      })
+      .attr("font-weight", "600")
+      .attr("fill", "#374151")
+      .text((d) => d.id);
 
     link
       ?.transition()
@@ -186,28 +243,44 @@ const KnowledgeGraph = () => {
       .style("opacity", 0.6)
       .attr("stroke", "#999")
       .attr("marker-end", "url(#arrowhead-gray)");
-    tooltipGroup?.transition().duration(200).style("opacity", 0);
-  };
-
-  const showTooltip = (nodeData, nodeElement, tooltipGroup, tooltipText) => {
-    const paperTitle =
-      nodeData.name.length > 25
-        ? nodeData.name.substring(0, 25) + "..."
-        : nodeData.name;
-
-    const currentX = parseFloat(nodeElement.attr("cx"));
-    const currentY = parseFloat(nodeElement.attr("cy"));
-
-    tooltipGroup
-      .attr("transform", `translate(${currentX}, ${currentY + 30})`)
-      ?.transition()
-      .duration(200)
-      .style("opacity", 1);
-
-    tooltipText.text(paperTitle);
   };
 
   useEffect(() => {
+    const getCurrentShowPaperSummary = () => {
+      return useSummaryPageStore.getState().showPaperSummary;
+    };
+
+    const resetGraphState = () => {
+      resetNode();
+      setSelectedPaperCitationNumber(null);
+    };
+
+    const handleNodeClick = (d) => {
+      const currentShowPaperSummary = getCurrentShowPaperSummary();
+      if (currentShowPaperSummary) {
+        setShowPaperSummary(false);
+        setSelectedPaperCitationNumber(null);
+      } else {
+        setShowPaperSummary(true);
+        setSelectedPaperCitationNumber(d.id);
+      }
+    };
+
+    const handleNodeMouseOver = (d) => {
+      const currentShowPaperSummary = getCurrentShowPaperSummary();
+      if (!currentShowPaperSummary) {
+        highlightNode(d.id);
+        setSelectedPaperCitationNumber(d.id);
+      }
+    };
+
+    const handleNodeMouseOut = (d) => {
+      const currentShowPaperSummary = getCurrentShowPaperSummary();
+      if (!currentShowPaperSummary) {
+        resetGraphState();
+      }
+    };
+
     if (!svgRef.current) return;
 
     // Clear any existing content
@@ -215,7 +288,7 @@ const KnowledgeGraph = () => {
 
     // Specify the dimensions of the chart.
     const width = 928;
-    const height = 680;
+    const height = 500;
 
     let isDragging = false;
 
@@ -258,7 +331,7 @@ const KnowledgeGraph = () => {
       .style("opacity", 0)
       .style("pointer-events", "none");
 
-    // Create tooltip text inside tooltip group
+    // Create tooltip text inside tooltip group (mantener por compatibilidad)
     const tooltipText = tooltipGroup
       .append("text")
       .attr("font-family", "system-ui, sans-serif")
@@ -289,16 +362,30 @@ const KnowledgeGraph = () => {
       .style("opacity", 1)
       .on("mouseover", function (event, d) {
         if (isDragging) return;
-        // Highlight connected nodes and links
-        highlightNode(d.id);
-        setSelectedPaperCitationNumber(d.id);
+        handleNodeMouseOver(d);
       })
       .on("mouseout", function (event, d) {
         if (isDragging) return;
-        // Reset all nodes and links
-        resetNode();
-        setSelectedPaperCitationNumber(null);
+        handleNodeMouseOut(d);
+      })
+      .on("click", function (event, d) {
+        if (isDragging) return;
+        handleNodeClick(d);
       });
+
+    // Agregar etiquetas de texto debajo de cada nodo
+    const nodeLabels = container
+      .append("g")
+      .selectAll("text")
+      .data(nodes)
+      .join("text")
+      .attr("text-anchor", "middle")
+      .attr("font-family", "system-ui, sans-serif")
+      .attr("font-size", "12px")
+      .attr("font-weight", "600")
+      .attr("fill", "#374151")
+      .attr("dy", "1.2em")
+      .text((d) => d.id); // Por defecto mostrar ID
 
     // Add zoom behavior
     const zoom = d3
@@ -308,23 +395,13 @@ const KnowledgeGraph = () => {
         // Apply zoom transform to the container
         container.attr("transform", event.transform);
 
-        // Update tooltip position if it's visible
-        if (tooltipGroup.style("opacity") > 0) {
-          const hoveredNode = node.filter(function (d) {
-            return (
-              d3.select(this).attr("r") == calculateNodeRadius(d.citationCount)
-            );
-          });
-
-          if (!hoveredNode.empty()) {
-            const currentX = parseFloat(hoveredNode.attr("cx"));
-            const currentY = parseFloat(hoveredNode.attr("cy"));
-            tooltipGroup.attr(
-              "transform",
-              `translate(${currentX}, ${currentY + 20})`,
-            );
-          }
-        }
+        // Ajustar el tamaño de las etiquetas para compensar el zoom
+        const scale = event.transform.k;
+        nodeLabels.style("font-size", (d) => {
+          // Tamaño base ajustado por el zoom
+          const baseSize = d.id === selectedPaperCitationNumber ? 14 : 12;
+          return `${baseSize / scale}px`;
+        });
       });
 
     svg.call(zoom);
@@ -351,23 +428,8 @@ const KnowledgeGraph = () => {
 
       node.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
 
-      // Update tooltip position if it's visible
-      if (tooltipGroup.style("opacity") > 0) {
-        const hoveredNode = node.filter(function (d) {
-          return (
-            d3.select(this).attr("r") == calculateNodeRadius(d.citationCount)
-          );
-        });
-
-        if (!hoveredNode.empty()) {
-          const currentX = parseFloat(hoveredNode.attr("cx"));
-          const currentY = parseFloat(hoveredNode.attr("cy"));
-          tooltipGroup.attr(
-            "transform",
-            `translate(${currentX}, ${currentY + 30})`,
-          );
-        }
-      }
+      // Actualizar posición de las etiquetas
+      nodeLabels.attr("x", (d) => d.x).attr("y", (d) => d.y + 15);
     });
 
     // Reheat the simulation when drag starts, and fix the subject position.
@@ -376,18 +438,12 @@ const KnowledgeGraph = () => {
       if (!event.active) simulation.alphaTarget(0.1).restart();
       event.subject.fx = event.subject.x;
       event.subject.fy = event.subject.y;
-
-      const draggedNode = d3.select(event.subject);
-      updateTooltipPosition(draggedNode, tooltipGroup);
     }
 
     // Update the subject (dragged node) position during drag.
     function dragged(event) {
       event.subject.fx = event.x;
       event.subject.fy = event.y;
-
-      const draggedNode = d3.select(event.subject);
-      updateTooltipPosition(draggedNode, tooltipGroup);
     }
 
     // Restore the target alpha so the simulation cools after dragging ends.
@@ -397,9 +453,6 @@ const KnowledgeGraph = () => {
       if (!event.active) simulation.alphaTarget(0);
       event.subject.fx = null;
       event.subject.fy = null;
-
-      const draggedNode = d3.select(event.subject);
-      updateTooltipPosition(draggedNode, tooltipGroup);
     }
 
     // Cleanup function

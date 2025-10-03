@@ -1,8 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import useSummaryPageStore from "../../../store/useSummaryPageStore";
 import PaperAcademicCard from "./PaperAcademicCard";
+import { cn } from "../../../utils/cn";
 
-const ListOfRelatedPapers = ({ relatedPapers }) => {
+const ListOfRelatedPapers = ({ relatedPapers, className }) => {
   // inside the papers container
   const papersContainerRef = useRef(null);
   const isHoveringRef = useRef(false);
@@ -48,11 +49,16 @@ const ListOfRelatedPapers = ({ relatedPapers }) => {
   };
 
   return (
-    <div className="pt-3xl 3xl:w-[382px] sticky top-0 h-[644px] w-[322px]">
+    <div
+      className={cn(
+        "3xl:w-[382px] sticky top-0 h-[644px] w-[322px]",
+        className,
+      )}
+    >
       {showRelatedPapers && (
         <div
           ref={papersContainerRef}
-          className="ultra-minimal-scrollbar gap-md flex h-full flex-col overflow-y-scroll"
+          className="ultra-minimal-scrollbar gap-md flex h-full w-full flex-col overflow-y-scroll"
         >
           {relatedPapers.map((paper) => (
             <PaperAcademicCard
