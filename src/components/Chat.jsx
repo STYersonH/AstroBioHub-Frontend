@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-import { ChatIcon, CloseIcon, SendIcon } from "../../../components/icons/Icons";
-import {
-  InterrogationIcon,
-  HighlightIcon,
-} from "../../../components/icons/ChatIcons";
-import { cn } from "../../../utils/cn";
+import { ChatIcon, CloseIcon, SendIcon } from "./icons/Icons";
+import { InterrogationIcon, HighlightIcon } from "./icons/ChatIcons";
+import { cn } from "../utils/cn";
 
 const HowToUse = () => {
   return (

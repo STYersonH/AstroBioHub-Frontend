@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import ModeSelector from "../../components/ModeSelector";
 import SearchBar from "../../components/SearchBar";
 import "../../styles/scrollbar.css";
@@ -6,8 +6,8 @@ import { Outlet } from "react-router";
 import useAppStore from "../../store/useAppStore";
 import { motion } from "framer-motion";
 import { cn } from "../../utils/cn";
-import Chat from "./components/Chat";
-import dataJSON from "../../data/academic_data_50_papers.json";
+import Chat from "../../components/Chat";
+import dataJSON from "../../data/space_biology_research.json";
 // const data = {
 //   discoverData: {
 //     title: "Bone density loss",
@@ -464,7 +464,12 @@ import dataJSON from "../../data/academic_data_50_papers.json";
 
 const SummaryPage = () => {
   const data = dataJSON;
-  console.log("data ->", data);
+
+  const { setRelatedPapers } = useAppStore();
+
+  useEffect(() => {
+    setRelatedPapers(data.academicData.relatedPapers);
+  }, []);
 
   const { selectedMode } = useAppStore();
 

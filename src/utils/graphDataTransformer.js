@@ -1,6 +1,4 @@
 import dataJSON from "../data/academic_data_50_papers.json";
-import fs from "fs";
-import path from "path";
 
 const graphData = {
   nodes: [],
@@ -52,10 +50,5 @@ graphData.nodes.forEach((node) => {
 //     });
 //   }
 // }
-
-// Generar el archivo JSON
-const outputPath = path.join(process.cwd(), "..", "data", "graph_papers.json");
-fs.writeFileSync(outputPath, JSON.stringify(graphData, null, 2));
-console.log("JSON generado exitosamente en:", outputPath);
 
 export default graphData;

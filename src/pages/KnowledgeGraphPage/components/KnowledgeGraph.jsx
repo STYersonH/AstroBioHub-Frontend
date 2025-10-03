@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import * as d3 from "d3";
-import graphData from "../../../data/graph_papers.json";
+import { transformDataToGraph } from "../../../utils/dynamicGraphTransformer";
 import useSummaryPageStore from "../../../store/useSummaryPageStore";
+import useAppStore from "../../../store/useAppStore";
 
 const KnowledgeGraph = () => {
   const svgRef = useRef(null);
@@ -11,6 +12,21 @@ const KnowledgeGraph = () => {
     setShowPaperSummary,
     showPaperSummary,
   } = useSummaryPageStore();
+  const { relatedPapers } = useAppStore();
+
+  // Transformar datos dinámicamente
+  const graphData = React.useMemo(() => {
+    if (!relatedPapers || relatedPapers.length === 0) {
+      return { nodes: [], links: [] };
+    }
+
+    // Usar los datos directamente del store
+    const data = {
+      relatedPapers: relatedPapers,
+    };
+
+    return transformDataToGraph(data);
+  }, [relatedPapers]);
 
   const getGraphElements = () => {
     const svg = d3.select(svgRef.current);
@@ -459,7 +475,7 @@ const KnowledgeGraph = () => {
     return () => {
       simulation.stop();
     };
-  }, []);
+  }, [graphData]);
 
   // Separate useEffect for handling hover state
   useEffect(() => {
