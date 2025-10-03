@@ -13,6 +13,7 @@ import { cn } from "../../utils/cn";
 import useAppStore from "../../store/useAppStore";
 import ListOfRelatedPapers from "./components/ListOfRelatedPapers";
 import { GraphIcon } from "../../components/icons/Icons";
+import useBreakpointStore from "../../store/useBreakpointStore";
 
 const SummaryAcademicPage = () => {
   const context = useOutletContext();
@@ -24,6 +25,9 @@ const SummaryAcademicPage = () => {
   const nextStepsRef = useRef(null);
   // Dynamic refs for subsections
   const subsectionRefs = useRef({});
+
+  const { breakpoints } = useBreakpointStore();
+  const { showPaperSummary } = useSummaryPageStore();
 
   // Function to get or create a ref for a subsection
   const getSubsectionRef = (subsectionId) => {
@@ -58,6 +62,18 @@ const SummaryAcademicPage = () => {
   ]);
 
   const [subSections, setSubSections] = useState([]);
+
+  const getAnimationValues = () => {
+    if (breakpoints.is3xl) {
+      return {
+        x: showPaperSummary ? 20 : 380,
+      };
+    } else {
+      return {
+        x: showPaperSummary ? -20 : 315,
+      };
+    }
+  };
 
   // effect to update subSections
   useEffect(() => {
@@ -104,9 +120,6 @@ const SummaryAcademicPage = () => {
   }, [subSections]);
 
   const activeSection = useScrollSpy(sectionIds);
-
-  const { showPaperSummary } = useSummaryPageStore();
-  const { setRelatedPapers } = useAppStore();
 
   const sectionRefs = {
     overview: overviewRef,
@@ -171,8 +184,7 @@ const SummaryAcademicPage = () => {
       <motion.div
         className="gap-xl 3xl:gap-4xl hide-horizontal-scrollbar relative z-10 flex items-start"
         animate={{
-          x: showPaperSummary ? -40 : 290,
-          // x: showPaperSummary ? -170 : "0%",
+          ...getAnimationValues(),
         }}
         transition={{
           duration: 0.4,

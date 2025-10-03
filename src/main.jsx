@@ -3,6 +3,10 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import { RouterProvider } from "react-router/dom";
 import routes from "./routes.js";
+import useBreakpointStore from "./store/useBreakpointStore";
+
+// Inicializar breakpoints globalmente
+useBreakpointStore.getState().initBreakpoints();
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

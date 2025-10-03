@@ -15,6 +15,7 @@ const PaperAcademicCard = ({
     setSelectedPaperCitationNumber,
     selectedPaperCitationNumber,
     showPaperSummary,
+    setShowRelatedPapers,
   } = useSummaryPageStore();
 
   const handleMouseEnter = () => {
@@ -40,6 +41,7 @@ const PaperAcademicCard = ({
       onClick={() => {
         setShowPaperSummary(true);
         setSelectedPaperCitationNumber(dataPaper.orderPaperReference);
+        setShowRelatedPapers(false);
       }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}

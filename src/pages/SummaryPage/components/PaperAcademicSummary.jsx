@@ -8,6 +8,7 @@ import clsx from "clsx";
 import AuthorList from "../../../components/AuthorList";
 import { cn } from "../../../utils/cn";
 import dataPapersJSON from "../../../data/data_papers_backend.json";
+import useBreakpointStore from "../../../store/useBreakpointStore";
 
 const PaperAcademicSummary = ({ className }) => {
   const {
@@ -17,6 +18,9 @@ const PaperAcademicSummary = ({ className }) => {
     setSelectedPaperCitationNumber,
     setShowRelatedPapers,
   } = useSummaryPageStore();
+
+  // Usar hook global para animaciones responsivas
+  const { breakpoints } = useBreakpointStore();
 
   const [paperSummaryData, setPaperSummaryData] = useState(null);
 
@@ -34,16 +38,29 @@ const PaperAcademicSummary = ({ className }) => {
     setShowRelatedPapers(true);
   };
 
+  const getAnimationValues = () => {
+    if (breakpoints.is3xl) {
+      return {
+        x: showPaperSummary ? -400 : 200,
+        scale: showPaperSummary ? 1 : 0.9,
+      };
+    } else {
+      return {
+        x: showPaperSummary ? -300 : 200,
+        scale: showPaperSummary ? 1 : 0.9,
+      };
+    }
+  };
+
   return (
     <motion.div
       className={cn(
-        "3xl:w-[700px] sticky top-0 h-[644px] w-[550px]",
+        "3xl:w-[700px] 3xl:h-[800px] sticky top-0 h-[644px] w-[600px]",
         className,
       )}
       animate={{
         opacity: showPaperSummary ? 1 : 0,
-        x: showPaperSummary ? -265 : 200,
-        scale: showPaperSummary ? 1 : 0.9,
+        ...getAnimationValues(),
       }}
       transition={{
         duration: 0.4,

@@ -465,13 +465,11 @@ import dataJSON from "../../data/space_biology_research.json";
 const SummaryPage = () => {
   const data = dataJSON;
 
-  const { setRelatedPapers } = useAppStore();
+  const { setRelatedPapers, selectedMode } = useAppStore();
 
   useEffect(() => {
     setRelatedPapers(data.academicData.relatedPapers);
   }, []);
-
-  const { selectedMode } = useAppStore();
 
   return (
     <div className="py-6xl gap-4xl relative flex w-full flex-col items-center justify-center overflow-x-clip">
