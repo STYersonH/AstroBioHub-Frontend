@@ -144,60 +144,70 @@
     "relatedPapers": [
       {
         "id": 1,
+        "orderPaperReference": 1,
         "mainResearcher": "Smith",
         "year": "2001",
         "title": "Foundations of bone remodeling in unloading environments"
       },
       {
         "id": 2,
+        "orderPaperReference": 2,
         "mainResearcher": "Garcia",
         "year": "2004",
         "title": "Animal hindlimb unloading models and translational insights"
       },
       {
         "id": 3,
+        "orderPaperReference": 3,
         "mainResearcher": "Khan",
         "year": "2008",
         "title": "Mechanotransduction and osteocyte signaling in microgravity"
       },
       {
         "id": 4,
+        "orderPaperReference": 4,
         "mainResearcher": "Lee",
         "year": "2010",
         "title": "Countermeasure development: exercise hardware and implementation"
       },
       {
         "id": 5,
+        "orderPaperReference": 5,
         "mainResearcher": "Nguyen",
         "year": "2012",
         "title": "Imaging advances for bone microarchitecture"
       },
       {
         "id": 6,
+        "orderPaperReference": 6,
         "mainResearcher": "Patel",
         "year": "2013",
         "title": "Bisphosphonates use in long-duration missions"
       },
       {
         "id": 7,
+        "orderPaperReference": 7,
         "mainResearcher": "Mortz",
         "year": "2015",
         "title": "Metabolic and endocrine changes in spaceflight"
       },
       {
         "id": 8,
+        "orderPaperReference": 8,
         "mainResearcher": "Chen",
         "year": "2016",
         "title": "Radiation and musculoskeletal health"
       },
       {
         "id": 9,
+        "orderPaperReference": 9,
         "mainResearcher": "Lopez",
         "year": "2016",
         "title": "Nutrition strategies for astronaut health"
       },
       {
         "id": 10,
+        "orderPaperReference": 10,
         "mainResearcher": "Rossi",
         "year": "2017",
         "title": "Human studies on bone recovery post-flight"

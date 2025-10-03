@@ -6,6 +6,7 @@ import PaperDiscoverCard from "./components/PaperDiscoverCard";
 import useSummaryPageStore from "../../store/useSummaryPageStore";
 import useScrollSpy from "../../hooks/useScrollSpy";
 import { useOutletContext } from "react-router";
+import useBreakpointStore from "../../store/useBreakpointStore";
 
 const SummaryDiscoverPage = () => {
   const data = useOutletContext().discoverData;
@@ -16,6 +17,7 @@ const SummaryDiscoverPage = () => {
 
   const sectionIds = ["overview", "why-matters", "related-papers"];
   const { showPaperSummary } = useSummaryPageStore();
+  const { breakpoints } = useBreakpointStore();
 
   const activeSection = useScrollSpy(sectionIds);
 
@@ -53,13 +55,25 @@ const SummaryDiscoverPage = () => {
     },
   ];
 
+  const getAnimationValues = () => {
+    if (breakpoints.is3xl) {
+      return {
+        x: showPaperSummary ? -30 : 300,
+      };
+    } else {
+      return {
+        x: showPaperSummary ? -200 : 120,
+      };
+    }
+  };
+
   return (
     <div className="w-full">
       {/* Content */}
       <motion.div
         className="gap-4xl hide-horizontal-scrollbar relative z-10 flex items-start"
         animate={{
-          x: showPaperSummary ? -100 : 120,
+          ...getAnimationValues(),
         }}
         transition={{
           duration: 0.4,
