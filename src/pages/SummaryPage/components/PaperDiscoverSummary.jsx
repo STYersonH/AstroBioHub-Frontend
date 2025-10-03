@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import useSummaryPageStore from "../../../store/useSummaryPageStore";
 import clsx from "clsx";
 import { motion } from "framer-motion";
 import "../../../styles/scrollbar.css";
 import { CloseIcon } from "../../../components/icons/Icons";
+import dataPapersJSON from "../../../data/discover_data_papers_backend.json";
 
 const paperSummaryData = {
   id: 1,
@@ -23,7 +24,23 @@ const paperSummaryData = {
 };
 
 const PaperDiscoverSummary = () => {
-  const { showPaperSummary, setShowPaperSummary } = useSummaryPageStore();
+  const { showPaperSummary, setShowPaperSummary, selectedPaperCitationNumber } =
+    useSummaryPageStore();
+  const [paperSummaryData, setPaperSummaryData] = useState(null);
+
+  useEffect(() => {
+    console.log("selectedPaperCitationNumber", selectedPaperCitationNumber);
+    setPaperSummaryData(
+      dataPapersJSON.find(
+        (paper) => paper.orderPaperReference === selectedPaperCitationNumber,
+      ),
+    );
+  }, [selectedPaperCitationNumber]);
+
+  useEffect(() => {
+    console.log("data papers json", dataPapersJSON);
+    console.log("paperSummaryData", paperSummaryData);
+  }, [paperSummaryData]);
 
   return (
     <motion.div
@@ -54,15 +71,15 @@ const PaperDiscoverSummary = () => {
 
         <div className="gap-sm flex w-full flex-col">
           <p className="text-ui-sm-m text-gray-500">
-            {paperSummaryData.author}, {paperSummaryData.year}
+            {paperSummaryData?.author}, {paperSummaryData?.year}
           </p>
           <p className="font-poppins text-[22px] leading-[150%] font-[600] text-gray-700">
-            {paperSummaryData.title}
+            {paperSummaryData?.title}
           </p>
         </div>
         {/* tags */}
         <div className="gap-md flex flex-wrap">
-          {paperSummaryData.tags.map((tag) => (
+          {paperSummaryData?.tags.map((tag) => (
             <p
               key={tag}
               className="text-ui-sm-m py-sm px-xl rounded-full border border-gray-200 text-gray-500"
@@ -74,7 +91,7 @@ const PaperDiscoverSummary = () => {
         {/* summary */}
         <div>
           <p className="text-c-body-lg-r text-gray-900">
-            {paperSummaryData.summary}
+            {paperSummaryData?.summary}
           </p>
         </div>
       </div>

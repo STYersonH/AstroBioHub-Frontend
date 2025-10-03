@@ -16,3 +16,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+::selection {
+  background-color: #3b82f6;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.text-selection-highlight {
+  background-color: rgba(59, 130, 246, 0.2);
+  border-radius: 2px;
+  padding: 1px 2px;
+}

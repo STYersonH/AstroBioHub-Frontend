@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { ChatIcon, CloseIcon, SendIcon } from "./icons/Icons";
 import { InterrogationIcon, HighlightIcon } from "./icons/ChatIcons";
 import { cn } from "../utils/cn";
+import useChatStore from "../store/useChatStore";
+import TextSelectionMenu from "./TextSelectionMenu";
+import { useTextSelection } from "../hooks/useTextSelection";
 
 const HowToUse = () => {
   return (
@@ -75,7 +78,17 @@ const Chat = () => {
   const [chatLoading, setChatLoading] = useState(false);
   const [isCrafting, setIsCrafting] = useState(false);
 
-  // Array de respuestas simuladas del backend
+  const { selectedText, menuPosition, showMenu, clearSelection } =
+    useTextSelection();
+
+  const { addPromptFromSelection, openChat } = useChatStore();
+
+  const handleExplainText = (text) => {
+    addPromptFromSelection(text);
+    setChatOpened(true);
+    setChatInput(`Explicar: "${text}"`);
+  };
+
   const simulatedResponses = [
     "Based on the research data, this topic shows significant implications for space medicine and bone density studies in microgravity environments.",
     "The findings suggest that long-term space exposure affects cellular mechanisms in ways that require further investigation.",
@@ -180,6 +193,15 @@ const Chat = () => {
           <ChatIcon />
         </div>
       )}
+
+      {/* Menú de selección de texto */}
+      <TextSelectionMenu
+        position={menuPosition}
+        isVisible={showMenu}
+        onExplain={handleExplainText}
+        onClose={clearSelection}
+        selectedText={selectedText}
+      />
     </div>
   );
 };

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import clsx from "clsx";
 import AuthorList from "../../../components/AuthorList";
 import { cn } from "../../../utils/cn";
-import dataPapersJSON from "../../../data/data_papers_backend.json";
+import dataPapersJSON from "../../../data/academic_data_papers_backend.json";
 import useBreakpointStore from "../../../store/useBreakpointStore";
 
 const PaperAcademicSummary = ({ className }) => {
@@ -26,7 +26,7 @@ const PaperAcademicSummary = ({ className }) => {
 
   useEffect(() => {
     setPaperSummaryData(
-      dataPapersJSON.dataRelatedPapers.find(
+      dataPapersJSON.find(
         (paper) => paper.orderPaperReference === selectedPaperCitationNumber,
       ),
     );
