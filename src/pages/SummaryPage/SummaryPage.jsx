@@ -465,11 +465,11 @@ import dataJSON from "../../data/space_biology_research.json";
 const SummaryPage = () => {
   const data = dataJSON;
 
-  const { setRelatedPapers, selectedMode } = useAppStore();
+  const { setRelatedPapers, selectedMode, setSearchActive } = useAppStore();
 
   useEffect(() => {
-    setRelatedPapers(data.academicData.relatedPapers);
-  }, []);
+    setRelatedPapers(data?.academicData?.relatedPapers);
+  }, [data]);
 
   return (
     <div className="py-6xl gap-4xl relative flex w-full flex-col items-center justify-center overflow-x-clip">
@@ -487,7 +487,7 @@ const SummaryPage = () => {
 
       {/* header search */}
       <div className="gap-xl relative z-10 flex w-[628px] flex-col">
-        <ModeSelector />
+        <ModeSelector changeToPage={true} />
         <SearchBar />
       </div>
 

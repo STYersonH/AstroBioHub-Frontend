@@ -86,7 +86,9 @@ const Chat = () => {
   const handleExplainText = (text) => {
     addPromptFromSelection(text);
     setChatOpened(true);
-    setChatInput(`Explicar: "${text}"`);
+    const promptText = `Explicar: "${text}"`;
+    setChatInput(promptText);
+    handleSendPromt(promptText);
   };
 
   const simulatedResponses = [
@@ -99,12 +101,13 @@ const Chat = () => {
     "Understanding these mechanisms is crucial for developing effective treatments for astronauts on long-duration missions.",
   ];
 
-  const handleSendPromt = async () => {
-    if (chatInput.trim() === "") return;
+  const handleSendPromt = async (messageText = null) => {
+    const textToSend = messageText || chatInput;
+    if (textToSend.trim() === "") return;
 
     const userMessage = {
       id: Date.now(),
-      message: chatInput,
+      message: textToSend,
       role: "user",
     };
 
@@ -156,24 +159,40 @@ const Chat = () => {
           </div>
           {/* ask something input */}
           <div className="p-md gap-lg flex w-full rounded-lg border border-gray-200">
-            <input
-              type="text"
-              className="w-full focus:outline-none"
+            <textarea
+              className="w-full resize-none overflow-y-auto focus:outline-none"
               placeholder="Ask anything"
               value={chatInput}
-              onChange={(e) => setChatInput(e.target.value)}
+              onChange={(e) => {
+                setChatInput(e.target.value);
+                // Auto-resize
+                e.target.style.height = "auto";
+                e.target.style.height =
+                  Math.min(e.target.scrollHeight, 120) + "px";
+              }}
               onKeyPress={(e) => {
-                if (e.key === "Enter" && !isCrafting && chatInput.trim()) {
+                if (
+                  e.key === "Enter" &&
+                  !e.shiftKey &&
+                  !isCrafting &&
+                  chatInput.trim()
+                ) {
+                  e.preventDefault();
                   handleSendPromt();
                 }
               }}
               disabled={isCrafting}
+              style={{
+                minHeight: "24px",
+                maxHeight: "120px",
+                height: "24px",
+              }}
             />
             <button
               onClick={() => handleSendPromt()}
               disabled={isCrafting || chatInput.trim() === ""}
               className={cn(
-                "cursor-pointer rounded-full p-[4px] transition-colors",
+                "h-[30px] w-[30px] cursor-pointer rounded-full p-[4px] transition-colors",
                 isCrafting
                   ? "cursor-not-allowed bg-gray-300"
                   : chatInput.length > 0

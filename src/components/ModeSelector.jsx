@@ -3,7 +3,7 @@ import { cn } from "../utils/cn";
 import useAppStore from "../store/useAppStore";
 import { useNavigate } from "react-router";
 
-function ModeSelector() {
+function ModeSelector({ changeToPage = false }) {
   const { selectedMode, setMode, searchActive } = useAppStore();
 
   const navigate = useNavigate();
@@ -21,7 +21,7 @@ function ModeSelector() {
           selectedMode === "discover" && "text-ui-lg-sb bg-green-100",
         )}
         onClick={() => {
-          if (searchActive && selectedMode !== "discover") {
+          if (searchActive && selectedMode !== "discover" && changeToPage) {
             navigate("/summary/discover");
           }
           setMode("discover");
@@ -35,7 +35,7 @@ function ModeSelector() {
           selectedMode === "academic" && "text-ui-lg-sb bg-blue-100",
         )}
         onClick={() => {
-          if (searchActive && selectedMode !== "academic") {
+          if (searchActive && selectedMode !== "academic" && changeToPage) {
             navigate("/summary/academic");
           }
           setMode("academic");

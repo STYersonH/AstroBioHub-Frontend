@@ -78,7 +78,7 @@ const PaperAcademicSummary = ({ className }) => {
           <button
             onClick={() =>
               window.open(
-                "https://pmc.ncbi.nlm.nih.gov/articles/PMC4136787/",
+                `https://pmc.ncbi.nlm.nih.gov/articles/${paperSummaryData?.PMCID}/`,
                 "_blank",
               )
             }
