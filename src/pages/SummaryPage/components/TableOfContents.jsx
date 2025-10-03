@@ -62,7 +62,9 @@ const TableOfContents = ({ onSectionClick, activeSection, sections }) => {
       <div
         className={cn(
           "py-sm px-lg flex h-auto flex-col items-center justify-center rounded-md border border-gray-100",
-          selectedMode === "discover" ? "w-[278px]" : "w-[322px]",
+          selectedMode === "discover"
+            ? "3xl:w-[300px] w-[278px]"
+            : "3xl:w-[382px] w-[322px]",
         )}
       >
         {sections.map((item) => (
