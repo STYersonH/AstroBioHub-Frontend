@@ -5,11 +5,10 @@ import PaperDiscoverSummary from "./components/PaperDiscoverSummary";
 import PaperDiscoverCard from "./components/PaperDiscoverCard";
 import useSummaryPageStore from "../../store/useSummaryPageStore";
 import useScrollSpy from "../../hooks/useScrollSpy";
-import { useOutletContext } from "react-router";
 import useBreakpointStore from "../../store/useBreakpointStore";
 
 const SummaryDiscoverPage = () => {
-  const data = useOutletContext().discoverData;
+  const { dataDiscover } = useSummaryPageStore();
 
   const overviewRef = useRef(null);
   const whyMattersRef = useRef(null);
@@ -93,14 +92,14 @@ const SummaryDiscoverPage = () => {
             className="gap-4xl py-3xl flex flex-col items-center"
           >
             {/* title */}
-            <h2 className="text-c-heading-xl-sb">{data.title}</h2>
+            <h2 className="text-c-heading-xl-sb">{dataDiscover?.title}</h2>
 
             {/* hero image */}
-            {data.heroImage && (
+            {dataDiscover?.heroImage && (
               <div className="w-full">
                 <img
-                  src={data.heroImage.src}
-                  alt={data.heroImage.alt}
+                  src={dataDiscover?.heroImage.src}
+                  alt={dataDiscover?.heroImage.alt}
                   className="h-auto w-full rounded-lg object-cover"
                 />
               </div>
@@ -108,7 +107,7 @@ const SummaryDiscoverPage = () => {
 
             {/* summary content */}
             <div className="gap-xl flex flex-col">
-              {data.sections.map((section) => (
+              {dataDiscover?.sections.map((section) => (
                 <div key={section.title} className="gap-lg flex flex-col">
                   <h3 className="text-c-heading-md-sb">{section.title}</h3>
                   {section.contentBlocks.map((contentBlock, index) => (
@@ -143,7 +142,7 @@ const SummaryDiscoverPage = () => {
             className="p-2xl gap-xl flex flex-col rounded-xl bg-gray-50"
           >
             <h3 className="text-c-heading-md-sb">Why this matters</h3>
-            {data.importance.map((importance) => (
+            {dataDiscover?.importance.map((importance) => (
               <p key={importance} className="text-c-body-lg-r">
                 {importance}
               </p>
@@ -160,7 +159,7 @@ const SummaryDiscoverPage = () => {
               Most relevant investigations
             </h3>
             <div className="gap-lg flex flex-col">
-              {data.relatedPapers.map((paper) => (
+              {dataDiscover?.relatedPapers.map((paper) => (
                 <PaperDiscoverCard key={paper.id} paper={paper} />
               ))}
             </div>

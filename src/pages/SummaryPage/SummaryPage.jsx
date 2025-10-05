@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import ModeSelector from "../../components/ModeSelector";
 import SearchBar from "../../components/SearchBar";
 import "../../styles/scrollbar.css";
@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import { cn } from "../../utils/cn";
 import Chat from "../../components/Chat";
 import dataJSON from "../../data/space_biology_research.json";
+import axios from "axios";
 // const data = {
 //   discoverData: {
 //     title: "Bone density loss",
@@ -463,13 +464,25 @@ import dataJSON from "../../data/space_biology_research.json";
 // };
 
 const SummaryPage = () => {
-  const data = dataJSON;
+  // const data = dataJSON;
 
   const { setRelatedPapers, selectedMode, setSearchActive } = useAppStore();
+  const { searchQuery } = useAppStore();
 
-  useEffect(() => {
-    setRelatedPapers(data?.academicData?.relatedPapers);
-  }, [data]);
+  // useEffect(() => {
+  //   axios
+  //     .get("https://jsonplaceholder.typicode.com/users") // URL de ejemplo
+  //     .then((response) => {
+  //       setRelatedPapers(response.data);
+  //     })
+  //     .catch((error) => {
+  //       console.error("Error al obtener los datos:", error);
+  //     });
+  // }, []);
+
+  // useEffect(() => {
+  //   setRelatedPapers(data?.academicData?.relatedPapers);
+  // }, [data]);
 
   return (
     <div className="py-6xl gap-4xl relative flex w-full flex-col items-center justify-center overflow-x-clip">
@@ -491,7 +504,7 @@ const SummaryPage = () => {
         <SearchBar />
       </div>
 
-      <Outlet context={data} />
+      <Outlet />
 
       {/* chat button */}
       <Chat />

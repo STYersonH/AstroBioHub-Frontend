@@ -5,6 +5,7 @@ import { cn } from "../utils/cn";
 import useChatStore from "../store/useChatStore";
 import TextSelectionMenu from "./TextSelectionMenu";
 import { useTextSelection } from "../hooks/useTextSelection";
+import axios from "axios";
 
 const HowToUse = () => {
   return (
@@ -91,17 +92,27 @@ const Chat = () => {
     handleSendPromt(promptText);
   };
 
-  const simulatedResponses = [
-    "Based on the research data, this topic shows significant implications for space medicine and bone density studies in microgravity environments.",
-    "The findings suggest that long-term space exposure affects cellular mechanisms in ways that require further investigation.",
-    "This research demonstrates the importance of ground-based experiments before conducting space flight studies.",
-    "The data indicates that bone mineral density changes occur within the first year after returning to Earth.",
-    "These results highlight the need for improved countermeasures to prevent bone loss during space missions.",
-    "The study provides valuable insights into the effects of radiation exposure on biological systems in space.",
-    "Understanding these mechanisms is crucial for developing effective treatments for astronauts on long-duration missions.",
-  ];
+  const endpointChatCall = async (messageText) => {
+    const response = await axios.post("http://localhost:3000/chat", {
+      message: messageText,
+      context: {
+        currentTopic: "Bone density in space",
+        paperData: [1, 2, 3],
+        mode: "academic",
+      },
+    });
 
-  const handleSendPromt = async (messageText = null) => {
+    const assistantMessage = {
+      id: Date.now() + 1,
+      message: response.data.message,
+      role: "assistant",
+    };
+
+    setChatMessages((prev) => [...prev, assistantMessage]);
+    setIsCrafting(false);
+  };
+
+  const handleSendPromt = (messageText = null) => {
     const textToSend = messageText || chatInput;
     if (textToSend.trim() === "") return;
 
@@ -114,22 +125,7 @@ const Chat = () => {
     setChatMessages((prev) => [...prev, userMessage]);
     setChatInput("");
     setIsCrafting(true);
-
-    // Simular delay del backend (3 segundos)
-    setTimeout(() => {
-      const randomResponse =
-        simulatedResponses[
-          Math.floor(Math.random() * simulatedResponses.length)
-        ];
-      const assistantMessage = {
-        id: Date.now() + 1,
-        message: randomResponse,
-        role: "assistant",
-      };
-
-      setChatMessages((prev) => [...prev, assistantMessage]);
-      setIsCrafting(false);
-    }, 4000);
+    endpointChatCall(textToSend);
   };
 
   return (

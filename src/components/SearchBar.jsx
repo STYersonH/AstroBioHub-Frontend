@@ -3,6 +3,8 @@ import { cn } from "../utils/cn";
 import { useNavigate } from "react-router";
 import useAppStore from "../store/useAppStore";
 import { SearchIcon, SendIcon } from "./icons/Icons";
+import useSummaryPageStore from "../store/useSummaryPageStore";
+import axios from "axios";
 
 const SearchBar = () => {
   const { selectedMode } = useAppStore();
@@ -10,21 +12,44 @@ const SearchBar = () => {
     useAppStore();
   const navigate = useNavigate();
   const [searchValue, setSearchValue] = useState(searchQuery);
+  const { setDataAcademic, setDataDiscover } = useSummaryPageStore();
 
   const handleSearch = () => {
     setSearchActive(true);
+    setSearchQuery(searchValue);
+    handleSearchDiscover();
+    handleSearchAcademic();
+
     if (selectedMode === "discover") {
-      setSearchQuery(searchValue);
       navigate("/summary/discover");
     } else {
-      setSearchQuery(searchValue);
       navigate("/summary/academic");
     }
   };
 
-  useEffect(() => {
-    console.log("searchQuery ->", searchValue);
-  }, [searchValue]);
+  const handleSearchAcademic = async () => {
+    try {
+      const res = await axios.get("http://localhost:3000/summaryAcademic", {
+        params: { searchTerm: searchQuery },
+      });
+      console.log("res.data academic", res.data);
+      setDataAcademic(res.data);
+    } catch (error) {
+      console.error("Error en academic:", error);
+    }
+  };
+
+  const handleSearchDiscover = async () => {
+    try {
+      const res = await axios.get("http://localhost:3000/summaryDiscover", {
+        params: { searchTerm: searchQuery },
+      });
+      console.log("res.data discover", res.data);
+      setDataDiscover(res.data);
+    } catch (error) {
+      console.error("Error en discover:", error);
+    }
+  };
 
   return (
     <div

@@ -60,9 +60,9 @@ const ListOfRelatedPapers = ({ relatedPapers, className }) => {
           ref={papersContainerRef}
           className="ultra-minimal-scrollbar gap-md flex h-full w-full flex-col overflow-y-scroll"
         >
-          {relatedPapers.map((paper) => (
+          {relatedPapers?.map((paper) => (
             <PaperAcademicCard
-              key={paper.id}
+              key={paper?.id}
               onHoverStart={handleHoverStart}
               onHoverEnd={handleHoverEnd}
               dataPaper={paper}

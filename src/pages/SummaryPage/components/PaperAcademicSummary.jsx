@@ -9,6 +9,7 @@ import AuthorList from "../../../components/AuthorList";
 import { cn } from "../../../utils/cn";
 import dataPapersJSON from "../../../data/academic_data_papers_backend.json";
 import useBreakpointStore from "../../../store/useBreakpointStore";
+import axios from "axios";
 
 const PaperAcademicSummary = ({ className }) => {
   const {
@@ -24,12 +25,22 @@ const PaperAcademicSummary = ({ className }) => {
 
   const [paperSummaryData, setPaperSummaryData] = useState(null);
 
+  const getPaperSummaryData = async () => {
+    try {
+      const res = await axios.get(
+        "http://localhost:3000/paperAcademicSummary",
+        {
+          params: { id: selectedPaperCitationNumber },
+        },
+      );
+      setPaperSummaryData(res.data);
+    } catch (error) {
+      console.error("Error en paperAcademicSummary:", error);
+    }
+  };
+
   useEffect(() => {
-    setPaperSummaryData(
-      dataPapersJSON.find(
-        (paper) => paper.orderPaperReference === selectedPaperCitationNumber,
-      ),
-    );
+    getPaperSummaryData();
   }, [selectedPaperCitationNumber]);
 
   const handleClosePaperSummary = () => {

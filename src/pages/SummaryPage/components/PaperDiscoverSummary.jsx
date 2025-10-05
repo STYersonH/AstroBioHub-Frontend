@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import "../../../styles/scrollbar.css";
 import { CloseIcon } from "../../../components/icons/Icons";
 import dataPapersJSON from "../../../data/discover_data_papers_backend.json";
+import axios from "axios";
 
 const paperSummaryData = {
   id: 1,
@@ -28,13 +29,22 @@ const PaperDiscoverSummary = () => {
     useSummaryPageStore();
   const [paperSummaryData, setPaperSummaryData] = useState(null);
 
+  const getPaperSummaryData = async () => {
+    try {
+      const res = await axios.get(
+        "http://localhost:3000/paperDiscoverSummary",
+        {
+          params: { id: selectedPaperCitationNumber },
+        },
+      );
+      setPaperSummaryData(res.data);
+    } catch (error) {
+      console.error("Error en paperDiscoverSummary:", error);
+    }
+  };
+
   useEffect(() => {
-    console.log("selectedPaperCitationNumber", selectedPaperCitationNumber);
-    setPaperSummaryData(
-      dataPapersJSON.find(
-        (paper) => paper.orderPaperReference === selectedPaperCitationNumber,
-      ),
-    );
+    getPaperSummaryData();
   }, [selectedPaperCitationNumber]);
 
   useEffect(() => {
@@ -79,7 +89,7 @@ const PaperDiscoverSummary = () => {
         </div>
         {/* tags */}
         <div className="gap-md flex flex-wrap">
-          {paperSummaryData?.tags.map((tag) => (
+          {paperSummaryData?.tags?.map((tag) => (
             <p
               key={tag}
               className="text-ui-sm-m py-sm px-xl rounded-full border border-gray-200 text-gray-500"

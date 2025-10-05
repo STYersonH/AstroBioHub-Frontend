@@ -16,8 +16,6 @@ import { GraphIcon } from "../../components/icons/Icons";
 import useBreakpointStore from "../../store/useBreakpointStore";
 
 const SummaryAcademicPage = () => {
-  const context = useOutletContext();
-  const data = context?.academicData;
   const navigate = useNavigate();
   // in the academic page
   const overviewRef = useRef(null);
@@ -27,7 +25,7 @@ const SummaryAcademicPage = () => {
   const subsectionRefs = useRef({});
 
   const { breakpoints } = useBreakpointStore();
-  const { showPaperSummary } = useSummaryPageStore();
+  const { showPaperSummary, dataAcademic } = useSummaryPageStore();
   const { searchQuery } = useAppStore();
 
   // Function to get or create a ref for a subsection
@@ -79,10 +77,11 @@ const SummaryAcademicPage = () => {
 
   // effect to update subSections
   useEffect(() => {
-    if (data?.sections) {
+    console.log("dataAcademic cambio", dataAcademic);
+    if (dataAcademic?.sections) {
       const subsections = [];
       const subsectionIds = [];
-      data.sections.forEach((section) => {
+      dataAcademic?.sections?.forEach((section) => {
         if (section?.title) {
           subsections.push(section?.title);
           subsectionIds?.push(section?.title.toLowerCase());
@@ -91,7 +90,7 @@ const SummaryAcademicPage = () => {
       setSubSections(subsections);
       setSectionIds([...sectionIds, ...subsectionIds]);
     }
-  }, [data]);
+  }, [dataAcademic]);
 
   useEffect(() => {
     const queryModified = searchQuery.replace(/ /g, "+");
@@ -158,7 +157,7 @@ const SummaryAcademicPage = () => {
   return (
     <div className="flex w-full flex-col items-center justify-center">
       {/* title */}
-      <h2 className="text-s-heading-xl-b">{data.title}</h2>
+      <h2 className="text-s-heading-xl-b">{dataAcademic?.title}</h2>
 
       {/* buttons and line */}
       <div className="pt-2xl 3xl:w-[1570px] flex w-[1370px] flex-col justify-center">
@@ -219,15 +218,15 @@ const SummaryAcademicPage = () => {
           >
             {/* summary content */}
             <div className="gap-xl flex flex-col" ref={overviewRef}>
-              {data.sections?.map((section, idSection) => (
+              {dataAcademic?.sections?.map((section, idSection) => (
                 <div key={idSection} className="gap-xl flex flex-col">
                   {section?.title && (
                     <h3
                       className="text-s-heading-sm-b"
-                      id={section.title.toLowerCase()}
-                      ref={getSubsectionRef(section.title.toLowerCase())}
+                      id={section?.title.toLowerCase()}
+                      ref={getSubsectionRef(section?.title.toLowerCase())}
                     >
-                      {section.title}
+                      {section?.title}
                     </h3>
                   )}
                   {section?.contentBlocks?.map(
@@ -293,11 +292,11 @@ const SummaryAcademicPage = () => {
             </h3>
 
             <div className="gap-xs flex flex-col">
-              {data.relevantResults.map((relevantResult) => (
+              {dataAcademic?.relevantResults?.map((relevantResult) => (
                 <ResultBullet
-                  title={relevantResult.title}
-                  orderPaperReference={relevantResult.orderPaperReference}
-                  segments={relevantResult.segments}
+                  title={relevantResult?.title}
+                  orderPaperReference={relevantResult?.orderPaperReference}
+                  segments={relevantResult?.segments}
                 />
               ))}
             </div>
@@ -309,12 +308,12 @@ const SummaryAcademicPage = () => {
               Research Gaps & Future Directions
             </h3>
             <div className="flex flex-col">
-              {data.researchGaps.map((nextStep) => (
+              {dataAcademic?.researchGaps?.map((nextStep) => (
                 <GapBullet
-                  key={nextStep.orderPaperReference}
-                  orderPaperReference={nextStep.orderPaperReference}
-                  title={nextStep.title}
-                  nextSteps={nextStep.nextSteps}
+                  key={nextStep?.orderPaperReference}
+                  orderPaperReference={nextStep?.orderPaperReference}
+                  title={nextStep?.title}
+                  nextSteps={nextStep?.nextSteps}
                 />
               ))}
             </div>
@@ -323,7 +322,7 @@ const SummaryAcademicPage = () => {
 
         {/* related papers */}
         <ListOfRelatedPapers
-          relatedPapers={data.relatedPapers}
+          relatedPapers={dataAcademic?.relatedPapers}
           className="pt-3xl"
         />
 
