@@ -16,7 +16,9 @@ function App() {
           background:
             selectedMode === "discover"
               ? "linear-gradient(180deg, #66FF9E 0%, #FFF 100%)"
-              : "linear-gradient(180deg, #60A5FA 0%, #FFF 100%)",
+              : selectedMode === "academic"
+                ? "linear-gradient(180deg, #60A5FA 0%, #FFF 100%)"
+                : "linear-gradient(180deg, #FFA500 0%, #FFF 100%)",
         }}
         transition={{ duration: 0.4, ease: "easeInOut" }}
       >
@@ -24,17 +26,17 @@ function App() {
           <h1 className="font-merriweather text-8xl font-[500] text-black">
             AstroBioHub
           </h1>
-          <div className="gap-4xl flex flex-col items-center justify-center">
-            <div className="gap-lg flex flex-col">
+          <div className="gap-4xl flex w-[665px] flex-col items-center justify-center">
+            <div className="gap-lg flex w-full flex-col">
               <ModeSelector />
               {selectedMode === "discover" ? (
-                <p className="text-ui-md-r w-[565px] text-center text-gray-600">
+                <p className="text-ui-md-r w-full text-center text-gray-600">
                   Explora los hallazgos de la ciencia espacial en un lenguaje
                   claro. Obtén resúmenes accesibles y conexiones fáciles de
                   entender.
                 </p>
               ) : (
-                <p className="text-ui-md-r w-[565px] text-center text-gray-600">
+                <p className="text-ui-md-r w-full text-center text-gray-600">
                   Accede a resúmenes científicos detallados, gráficos, papers
                   completos y mapas de conocimiento para un análisis riguroso.
                 </p>
