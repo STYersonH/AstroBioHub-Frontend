@@ -17,20 +17,22 @@ function ModeSelector({ changeToPage = false }) {
         selectedMode === "interactive" && "bg-orange-50",
       )}
     >
-      <button
-        className={cn(
-          "text-ui-lg-r flex h-full flex-1 cursor-pointer items-center justify-center rounded-md p-[10px]",
-          selectedMode === "interactive" && "text-ui-lg-sb bg-orange-100",
-        )}
-        onClick={() => {
-          if (searchActive && selectedMode !== "discover" && changeToPage) {
-            navigate("/summary/discover");
-          }
-          setMode("interactive");
-        }}
-      >
-        Interactive mode
-      </button>
+      {!changeToPage && (
+        <button
+          className={cn(
+            "text-ui-lg-r flex h-full flex-1 cursor-pointer items-center justify-center rounded-md p-[10px]",
+            selectedMode === "interactive" && "text-ui-lg-sb bg-orange-100",
+          )}
+          onClick={() => {
+            if (searchActive && selectedMode !== "discover" && changeToPage) {
+              navigate("/summary/discover");
+            }
+            setMode("interactive");
+          }}
+        >
+          Interactive mode
+        </button>
+      )}
       <button
         className={cn(
           "text-ui-lg-r flex h-full flex-1 cursor-pointer items-center justify-center rounded-md p-[10px]",
