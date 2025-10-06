@@ -1,221 +1,144 @@
 {
   "discoverData": {
-    "title": "Bone density loss in space missions",
-    "heroImage": {
-      "src": "https://images.unsplash.com/photo-1581090700227-4c4a0b3c7c28?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
-      "alt": "Astronaut floating outside spacecraft with Earth in background",
-      "caption": "Extended space missions expose astronauts to significant bone density loss"
-    },
+    "title": "Bone Density Loss in Microgravity",
     "sections": [
       {
-        "title": "Overview: What happens to bone in microgravity?",
         "contentBlocks": [
           {
-            "text": "In the microgravity environment of space, bones experience a rapid reduction in mechanical loading.\nOsteocytes sense reduced strain and orchestrate an increase in osteoclast-mediated resorption while\nosteoblast activity is suppressed. The result is measurable bone mineral density (BMD) loss in weight-bearing\nsites — particularly the lumbar spine, femoral neck and proximal femur — that can approach 1-2% per month.\nThis process is much faster than typical age-related bone loss on Earth and can lead to increased fracture risk\nif not mitigated by targeted countermeasures.",
-            "image": {
-              "src": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1931&q=80",
-              "alt": "Medical X-ray showing bone structure",
-              "caption": "Comparison of bone density loss between Earth and space environments"
-            }
+            "text": "During long-duration space missions, astronauts experience significant bone density loss. Due to microgravity, bones no longer support the habitual loads they support on Earth, which discourages bone formation and increases resorption. Observational and experimental studies estimate an average decrease of between 1% and 2% of bone mineral density (BMD) per month in load-bearing bones, such as the lumbar region, pelvis, and femur. This loss puts skeletal integrity, impact resistance at risk, and may increase the risk of fractures both during the mission and after returning to Earth."
           },
           {
-            "text": "Multiple physiological systems interact during spaceflight: muscle atrophy reduces the mechanical stimulus on bone,\nendocrine changes (including alterations in parathyroid hormone and vitamin D metabolism) affect calcium balance,\nand altered nutrition or radiation exposure may further exacerbate bone fragility. Understanding these interactions\nis essential to design integrated countermeasures that preserve astronaut health during long-duration missions."
+            "text": "The underlying mechanism includes an imbalance in remodeling: osteoclast activity (cells that degrade bone tissue) is accentuated, while osteoblasts (bone-forming cells) cannot sufficiently compensate. Additionally, factors such as space radiation, changes in calcium metabolism, and nutritional deficiencies contribute to skeletal deterioration. Although some countermeasures (resistance exercise, supplements, antiresorptive drugs) have shown encouraging effects, no intervention has managed to completely stop bone loss in all subjects."
+          },
+          {
+            "text": "Upon return to Earth, bone density recovery is incomplete or slow in many cases. Some of the lost bone may not fully regenerate, which raises concerns about long-term effects similar to premature osteoporosis in astronauts who have been in space for extended periods."
           }
         ]
       },
       {
-        "title": "Mechanisms at the cellular level",
+        "title": "Bone Density Loss as a risk",
         "contentBlocks": [
           {
-            "text": "At the cellular level, microgravity alters cytoskeletal organization and mechanotransduction pathways in osteocytes and\nosteoblast-lineage cells. Studies using simulated microgravity models (rotating wall vessels, clinostats, and hindlimb\nunloading in animals) show changes in gene expression related to bone remodeling, increased osteoclastogenesis markers,\nand impaired osteoblast differentiation. These molecular signatures help explain the rapid bone mass changes observed in vivo.",
-            "image": {
-              "src": "https://images.unsplash.com/photo-1526378721924-46c5d1b2b5b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
-              "alt": "Microscopy image of bone cells",
-              "caption": "Cellular changes in bone tissue under simulated microgravity conditions"
-            }
-          },
-          {
-            "text": "Oxidative stress and alterations in signaling pathways (e.g., Wnt/β-catenin, RANK/RANKL/OPG axis) have been implicated,\nsuggesting potential pharmacological targets. The complexity of in vivo spaceflight data motivates combined ground-based\nand flight experiments to isolate causal mechanisms."
-          }
-        ]
-      },
-      {
-        "title": "Countermeasures: Exercise and hardware",
-        "contentBlocks": [
-          {
-            "text": "Exercise remains the cornerstone countermeasure. Devices such as resistive exercise hardware (ARED), treadmill systems with\nharness loading, and vibration platforms attempt to replicate gravitational loading. Protocols emphasizing high-intensity,\nresistive loading targeted at the lower body and spine have demonstrated partial protection of bone, but not complete prevention.\nOptimizing load magnitude, frequency and compliance remain active research areas.",
-            "image": {
-              "src": "https://images.unsplash.com/photo-1529927066849-6f2a135b8b96?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
-              "alt": "Astronaut exercising on resistive device",
-              "caption": "Resistive devices aim to provide mechanical stimulus to bones in microgravity"
-            }
-          },
-          {
-            "text": "Integrating exercise with wearable monitoring (to estimate mechanical loading on specific bones) could enable personalized\nprescription—matching intensity and duration to individual susceptibility. Compliance and logistical constraints aboard spacecraft\nremain challenges to implementing ideal regimens."
-          }
-        ]
-      },
-      {
-        "title": "Pharmacological approaches",
-        "contentBlocks": [
-          {
-            "text": "Pharmacological countermeasures explored include bisphosphonates, selective estrogen receptor modulators, and agents that target\nthe RANKL pathway. Bisphosphonates have been tested in astronauts and in animal models, showing attenuation of BMD loss in some\nstudies. However, long-term safety, optimal dosing in microgravity and combined use with exercise require further rigorous trials."
-          },
-          {
-            "text": "There is growing interest in agents that modulate bone formation directly (e.g., sclerostin inhibitors) and in combinations that\nboth suppress resorption and stimulate formation. Translational challenges include differing pharmacokinetics in space and limited\nsample sizes in astronaut cohorts.",
-            "image": {
-              "src": "https://images.unsplash.com/photo-1582719478181-6a5d6907f1d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
-              "alt": "Laboratory vials and compounds",
-              "caption": "Pharmacological strategies are under investigation to mitigate bone loss."
-            }
-          }
-        ]
-      },
-      {
-        "title": "Nutrition and metabolic support",
-        "contentBlocks": [
-          {
-            "text": "Adequate intake of calcium, vitamin D and protein is required to support musculoskeletal health. Spaceflight-associated shifts in\nnutrient absorption and metabolism, combined with operational menu constraints, can complicate maintaining optimal nutrition.\nTailored nutritional strategies, including supplementation and monitoring of vitamin D status, are used in current mission planning."
-          },
-          {
-            "text": "Emerging research explores whether nutrient timing, combined micronutrient formulations, or probiotics might modulate bone-related\npathways indirectly through the gut–bone axis. These hypotheses are being tested in both ground analogs and flight studies."
-          }
-        ]
-      },
-      {
-        "title": "Radiation and other environmental stressors",
-        "contentBlocks": [
-          {
-            "text": "Beyond microgravity, ionizing radiation encountered in deep space is a potential contributor to musculoskeletal deterioration.\nAnimal models exposed to simulated space radiation show bone microarchitectural deterioration that can compound the effects of unloading.\nDeciphering the combined effect of radiation plus microgravity is critical for Mars-class mission planning.",
-            "image": {
-              "src": "https://images.unsplash.com/photo-1504198453319-5ce911bafcde?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
-              "alt": "Bone density scan",
-              "caption": "Radiation can compound bone deterioration observed in microgravity models"
-            }
-          },
-          {
-            "text": "Shielding, mission architecture (timing of extravehicular activity), and pharmacological radioprotectants are part of risk mitigation strategies\nunder consideration for long-duration exploration missions."
-          }
-        ]
-      },
-      {
-        "title": "Analog studies and terrestrial translation",
-        "contentBlocks": [
-          {
-            "text": "Bed rest studies, limb immobilization models, and animal hindlimb unloading are indispensable ground analogs that reproduce elements of\nspace-related unloading. These studies allow mechanistic experiments and testing of interventions in larger cohorts than available in flight.\nFindings inform both astronaut countermeasures and therapies for immobilized or elderly patients on Earth."
-          },
-          {
-            "text": "Importantly, analogs do not replicate radiation exposure or some psychosocial factors of spaceflight; thus, integrated flight-and-ground\nresearch is necessary for robust translation."
-          }
-        ]
-      },
-      {
-        "title": "Measurement and imaging techniques",
-        "contentBlocks": [
-          {
-            "text": "Accurate quantification of bone changes relies on DXA (dual-energy X-ray absorptiometry), quantitative computed tomography (QCT),\nhigh-resolution peripheral QCT and emerging MRI techniques that assess bone microarchitecture. Longitudinal imaging protocols in-flight\nand post-flight permit assessment of recovery and persistent deficits.",
-            "image": {
-              "src": "https://images.unsplash.com/photo-1559757144-977b01b9c13b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
-              "alt": "Laboratory imaging equipment",
-              "caption": "DXA and QCT are standard tools for measuring bone mineral density"
-            }
-          },
-          {
-            "text": "Advances in portable imaging and analysis could enable more frequent in-flight monitoring, but hardware constraints and radiation safety\nrequirements are considerations for deployment on crewed missions."
-          }
-        ]
-      },
-      {
-        "title": "Long-term outcomes and rehabilitation",
-        "contentBlocks": [
-          {
-            "text": "Many astronauts show partial recovery of BMD after returning to Earth, but some deficits persist for years depending on mission duration,\nage and countermeasure adherence. Rehabilitation strategies and long-term monitoring are essential for ensuring quality of life post-mission."
-          },
-          {
-            "text": "Designing personalized reconditioning programs that integrate resistance training, nutrition and pharmacotherapy may improve long-term outcomes."
+            "text": "Bone density loss is a critical risk for astronaut health: it can compromise their mobility, increase the risk of fractures even with moderate loads, and make post-mission rehabilitation difficult. If the loss were too severe, it could limit the ability to perform critical surface activities (for example, walking on Mars) or respond to emergencies. In the context of missions beyond Earth's orbit, such as to the Moon or Mars, ensuring skeletal health is essential for the success of human space exploration."
           }
         ]
       }
     ],
     "importance": [
-      "Studying astronauts informs treatments for osteoporosis and immobility-related bone loss on Earth.",
-      "Developing robust countermeasures is necessary for safe, long-duration human exploration beyond low Earth orbit."
+      "Bone density is a key indicator of skeletal health: its prolonged loss can lead to fragility, fractures, and chronic complications.",
+      "Studying bone loss in microgravity is not only vital for space exploration, but can also provide knowledge for treating osteoporosis on Earth."
     ],
     "relatedPapers": [
       {
         "id": 1,
         "orderPaperReference": 1,
-        "mainResearcher": "Smith",
-        "year": "2001",
-        "title": "Foundations of bone remodeling in unloading environments"
+        "mainResearcher": "LeBlanc A. D.",
+        "year": "2007",
+        "title": "Skeletal responses to space flight and the bed rest analog"
       },
       {
         "id": 2,
         "orderPaperReference": 2,
-        "mainResearcher": "Garcia",
-        "year": "2004",
-        "title": "Animal hindlimb unloading models and translational insights"
+        "mainResearcher": "Smith S. M.",
+        "year": "2005",
+        "title": "Bone markers, calcium metabolism, and kinetics during extended-duration space flight"
       },
       {
         "id": 3,
         "orderPaperReference": 3,
-        "mainResearcher": "Khan",
-        "year": "2008",
-        "title": "Mechanotransduction and osteocyte signaling in microgravity"
+        "mainResearcher": "Stavnichuk M.",
+        "year": "2020",
+        "title": "Meta-analysis of bone loss in space travelers"
       },
       {
         "id": 4,
         "orderPaperReference": 4,
-        "mainResearcher": "Lee",
-        "year": "2010",
-        "title": "Countermeasure development: exercise hardware and implementation"
+        "mainResearcher": "Man J.",
+        "year": "2022",
+        "title": "Effects of microgravity on bone structure and function"
       },
       {
         "id": 5,
         "orderPaperReference": 5,
-        "mainResearcher": "Nguyen",
-        "year": "2012",
-        "title": "Imaging advances for bone microarchitecture"
+        "mainResearcher": "Crucian B. E.",
+        "year": "2008",
+        "title": "Immune system dysregulation and skeletal health in spaceflight"
       },
       {
         "id": 6,
         "orderPaperReference": 6,
-        "mainResearcher": "Patel",
-        "year": "2013",
-        "title": "Bisphosphonates use in long-duration missions"
+        "mainResearcher": "Hargens A. R.",
+        "year": "2016",
+        "title": "Long-duration bed rest as analog to microgravity bone loss"
       },
       {
         "id": 7,
         "orderPaperReference": 7,
-        "mainResearcher": "Mortz",
-        "year": "2015",
-        "title": "Metabolic and endocrine changes in spaceflight"
+        "mainResearcher": "Soo C.",
+        "year": "2023",
+        "title": "Therapeutic NELL-1 delivery to mitigate microgravity bone loss"
       },
       {
         "id": 8,
         "orderPaperReference": 8,
-        "mainResearcher": "Chen",
+        "mainResearcher": "Vico L.",
         "year": "2016",
-        "title": "Radiation and musculoskeletal health"
+        "title": "Disuse osteoporosis: mechanisms and countermeasures"
       },
       {
         "id": 9,
         "orderPaperReference": 9,
-        "mainResearcher": "Lopez",
+        "mainResearcher": "Petersen N.",
         "year": "2016",
-        "title": "Nutrition strategies for astronaut health"
+        "title": "In-flight resistive exercise approaches on ISS"
       },
       {
         "id": 10,
         "orderPaperReference": 10,
-        "mainResearcher": "Rossi",
-        "year": "2017",
-        "title": "Human studies on bone recovery post-flight"
+        "mainResearcher": "Johnson P. C.",
+        "year": "2012",
+        "title": "Calcium kinetics before, during, and after spaceflight"
+      },
+      {
+        "id": 11,
+        "orderPaperReference": 11,
+        "mainResearcher": "Strope J.",
+        "year": "2018",
+        "title": "Bone recovery limitations post long-duration flight"
+      },
+      {
+        "id": 12,
+        "orderPaperReference": 12,
+        "mainResearcher": "Zwart S. R.",
+        "year": "2012",
+        "title": "Nutrition and bone health in extended missions"
+      },
+      {
+        "id": 13,
+        "orderPaperReference": 13,
+        "mainResearcher": "Khan S. U.",
+        "year": "2024",
+        "title": "Wearable loading systems for skeletal adaptation in microgravity"
+      },
+      {
+        "id": 14,
+        "orderPaperReference": 14,
+        "mainResearcher": "Hashemi M. S.",
+        "year": "2023",
+        "title": "Predicting bone degradation via vision transformer models"
+      },
+      {
+        "id": 15,
+        "orderPaperReference": 15,
+        "mainResearcher": "Ul Ebad K.",
+        "year": "2024",
+        "title": "Musculoskeletal adaptation and wearable countermeasures in space"
       }
     ]
   },
+
   "academicData": {
-    "title": "Space Biology Research Overview",
+    "title": "Bone Density Loss in Microgravity",
     "sections": [
       {
         "contentBlocks": [
@@ -223,457 +146,159 @@
             "segments": [
               {
                 "type": "text",
-                "text": "Research in space biology explores how living organisms respond to microgravity, radiation and the psychosocial stresses of long-duration missions.\nThis foundational overview synthesizes physiological, molecular and systems-level perspectives to provide a roadmap for targeted research."
+                "text": "Prolonged exposure to microgravity induces accelerated bone mineral density (BMD) loss, constituting one of the main physiological threats for long-duration space missions. This phenomenon is associated with a decoupling of the bone remodeling cycle, where osteoclast-mediated resorption exceeds osteoblastic formation. Clinical studies in astronauts have shown reductions of between 1% and 2% of BMD per month in load-bearing bones, compared to the 1–2% annual observed in senile osteoporosis on Earth."
               },
               {
                 "type": "reference",
-                "text": "Seminal works have characterized rapid bone loss in unloading models and established bed-rest as a translational analog.",
-                "citations": [1, 2]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Research in space biology explores how living organisms respond to microgravity, radiation and the psychosocial stresses of long-duration missions.\nThis foundational overview synthesizes physiological, molecular and systems-level perspectives to provide a roadmap for targeted research."
-              },
-              {
-                "type": "reference",
-                "text": "Seminal works have characterized rapid bone loss in unloading models and established bed-rest as a translational analog.",
-                "citations": [1, 2]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Research in space biology explores how living organisms respond to microgravity, radiation and the psychosocial stresses of long-duration missions.\nThis foundational overview synthesizes physiological, molecular and systems-level perspectives to provide a roadmap for targeted research."
-              },
-              {
-                "type": "reference",
-                "text": "Seminal works have characterized rapid bone loss in unloading models and established bed-rest as a translational analog.",
-                "citations": [1, 2]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Research in space biology explores how living organisms respond to microgravity, radiation and the psychosocial stresses of long-duration missions.\nThis foundational overview synthesizes physiological, molecular and systems-level perspectives to provide a roadmap for targeted research."
-              },
-              {
-                "type": "reference",
-                "text": "Seminal works have characterized rapid bone loss in unloading models and established bed-rest as a translational analog.",
-                "citations": [1, 2]
+                "text": "Seminal works have characterized rapid bone loss in unloading models and have established bed rest and spaceflight as translational analogs for studying BMD.",
+                "citations": [1, 8]
               }
             ]
           }
         ]
       },
       {
-        "title": "Implications for future missions",
+        "title": "Mechanisms of Bone Remodeling Under Microgravity",
         "contentBlocks": [
           {
             "segments": [
               {
                 "type": "text",
-                "text": "Understanding biological responses to space environments is critical to plan human operations beyond low Earth orbit. Long-duration missions to the Moon\nand Mars will increase cumulative exposure to microgravity and deep-space radiation, elevating the importance of robust countermeasures."
+                "text": "Mechano-sensory alteration in microgravity affects osteocyte gene expression, reducing Wnt/β-catenin signaling and prostaglandin production, critical factors for bone formation. The decrease in gravitational loads alters tension in the extracellular matrix and reduces nitric oxide (NO) release, which triggers osteocytic apoptosis and promotes osteoclast resorptive activity. This imbalance results in net bone mass loss and microstructural deterioration, evidenced by decreased trabecular thickness and increased cortical porosity."
               },
               {
                 "type": "reference",
-                "text": "Policy documents and mission architecture studies emphasize integrated biological risk mitigation.",
-                "citations": [4, 8, 10]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Research in space biology explores how living organisms respond to microgravity, radiation and the psychosocial stresses of long-duration missions.\nThis foundational overview synthesizes physiological, molecular and systems-level perspectives to provide a roadmap for targeted research."
-              },
-              {
-                "type": "reference",
-                "text": "Seminal works have characterized rapid bone loss in unloading models and established bed-rest as a translational analog.",
-                "citations": [1, 2]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Understanding biological responses to space environments is critical to plan human operations beyond low Earth orbit. Long-duration missions to the Moon\nand Mars will increase cumulative exposure to microgravity and deep-space radiation, elevating the importance of robust countermeasures."
-              },
-              {
-                "type": "reference",
-                "text": "Policy documents and mission architecture studies emphasize integrated biological risk mitigation.",
-                "citations": [4, 8, 10]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Research in space biology explores how living organisms respond to microgravity, radiation and the psychosocial stresses of long-duration missions.\nThis foundational overview synthesizes physiological, molecular and systems-level perspectives to provide a roadmap for targeted research."
-              },
-              {
-                "type": "reference",
-                "text": "Seminal works have characterized rapid bone loss in unloading models and established bed-rest as a translational analog.",
-                "citations": [1, 2]
+                "text": "Mechanistic studies and experimental models have linked disruption of osteocytic pathways and mechano-transductive response with osteoclast activation under unloading conditions.",
+                "citations": [2, 4, 8]
               }
             ]
           }
         ]
       },
       {
-        "title": "Measurement and methodological considerations",
+        "title": "Metabolic and Endocrine Factors",
         "contentBlocks": [
           {
             "segments": [
               {
                 "type": "text",
-                "text": "Accurate longitudinal measurement is essential. Harmonizing imaging modalities and timepoints across missions will enhance comparability\nand enable meta-analytic approaches that overcome small-sample limitations."
+                "text": "Calcium metabolism is compromised during spaceflights due to reduced intestinal absorption and increased urinary excretion. Parallel to this, an alteration in parathyroid hormone (PTH) secretion and reduced renal conversion of 25(OH)D to 1,25(OH)₂D₃ is observed. These endocrine modifications contribute to negative calcium balance and aggravate bone resorption. Additionally, the hypercapnic environment and dietary restriction typical of prolonged missions can exacerbate systemic acid state, promoting calcium ion release from bone as a buffer mechanism."
               },
               {
                 "type": "reference",
-                "text": "Recommendations call for standardized DXA/QCT protocols and harmonized reporting.",
-                "citations": [5, 9]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Understanding biological responses to space environments is critical to plan human operations beyond low Earth orbit. Long-duration missions to the Moon\nand Mars will increase cumulative exposure to microgravity and deep-space radiation, elevating the importance of robust countermeasures."
-              },
-              {
-                "type": "reference",
-                "text": "Policy documents and mission architecture studies emphasize integrated biological risk mitigation.",
-                "citations": [4, 8, 10]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Research in space biology explores how living organisms respond to microgravity, radiation and the psychosocial stresses of long-duration missions.\nThis foundational overview synthesizes physiological, molecular and systems-level perspectives to provide a roadmap for targeted research."
-              },
-              {
-                "type": "reference",
-                "text": "Seminal works have characterized rapid bone loss in unloading models and established bed-rest as a translational analog.",
-                "citations": [1, 2]
+                "text": "Investigations on calcium kinetics and endocrine regulation during flight have documented alterations in calcium homeostasis and vitamin D and PTH levels.",
+                "citations": [12, 10, 2]
               }
             ]
           }
         ]
       },
       {
-        "title": "Interventions and translational studies",
+        "title": "Countermeasures and Interventions",
         "contentBlocks": [
           {
             "segments": [
               {
                 "type": "text",
-                "text": "Evaluations of exercise, pharmacology and nutrition must consider combined and sequential interventions."
+                "text": "Mitigation strategies include the use of resistance exercise with loading devices (Advanced Resistive Exercise Device, ARED), administration of antiresorptive agents such as bisphosphonates, and optimization of nutritional support (calcium, vitamin D, proteins). Despite advances, results vary widely among individuals, suggesting that osteogenic response is modulated by genetic and epigenetic factors. Recently, experimental therapies based on NELL-1 protein and artificial mechanical stimulation through differential pressure suits have shown promising results in animal models."
               },
               {
                 "type": "reference",
-                "text": "Small flight trials give early signals but require follow-up in larger analog cohorts.",
-                "citations": [6, 4]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Accurate longitudinal measurement is essential. Harmonizing imaging modalities and timepoints across missions will enhance comparability\nand enable meta-analytic approaches that overcome small-sample limitations."
-              },
-              {
-                "type": "reference",
-                "text": "Recommendations call for standardized DXA/QCT protocols and harmonized reporting.",
-                "citations": [5, 9]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Understanding biological responses to space environments is critical to plan human operations beyond low Earth orbit. Long-duration missions to the Moon\nand Mars will increase cumulative exposure to microgravity and deep-space radiation, elevating the importance of robust countermeasures."
-              },
-              {
-                "type": "reference",
-                "text": "Policy documents and mission architecture studies emphasize integrated biological risk mitigation.",
-                "citations": [4, 8, 10]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Research in space biology explores how living organisms respond to microgravity, radiation and the psychosocial stresses of long-duration missions.\nThis foundational overview synthesizes physiological, molecular and systems-level perspectives to provide a roadmap for targeted research."
-              },
-              {
-                "type": "reference",
-                "text": "Seminal works have characterized rapid bone loss in unloading models and established bed-rest as a translational analog.",
-                "citations": [1, 2]
+                "text": "Trials and studies in analogs have evaluated resistance exercise, nutritional supports, and pharmacological agents; emerging approaches such as NELL-1 and loading suits show promising preliminary results.",
+                "citations": [9, 7, 13]
               }
             ]
           }
         ]
       },
       {
-        "title": "Systems biology and omics approaches",
+        "title": "Long-Term Consequences After Reentry",
         "contentBlocks": [
           {
             "segments": [
               {
                 "type": "text",
-                "text": "Omics (transcriptomics, proteomics, metabolomics) provide mechanistic candidates that can be tested in model systems."
+                "text": "After return to Earth's gravity, bone mass recovery is partial and prolonged. Trabecular density may be partially restored in 6–12 months, but cortical architecture rarely normalizes. Some longitudinal studies show that astronauts may retain up to 10% less BMD in the hip even years after flight. These sequelae are associated with elevated fracture risk and the development of persistent osteopenia, with clinical implications similar to early osteoporosis."
               },
               {
                 "type": "reference",
-                "text": "Multi-omics integration is recommended to identify robust biomarkers of bone fragility in space.",
-                "citations": [3, 7, 11]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Accurate longitudinal measurement is essential. Harmonizing imaging modalities and timepoints across missions will enhance comparability\nand enable meta-analytic approaches that overcome small-sample limitations."
-              },
-              {
-                "type": "reference",
-                "text": "Recommendations call for standardized DXA/QCT protocols and harmonized reporting.",
-                "citations": [5, 9]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Understanding biological responses to space environments is critical to plan human operations beyond low Earth orbit. Long-duration missions to the Moon\nand Mars will increase cumulative exposure to microgravity and deep-space radiation, elevating the importance of robust countermeasures."
-              },
-              {
-                "type": "reference",
-                "text": "Policy documents and mission architecture studies emphasize integrated biological risk mitigation.",
-                "citations": [4, 8, 10]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Research in space biology explores how living organisms respond to microgravity, radiation and the psychosocial stresses of long-duration missions.\nThis foundational overview synthesizes physiological, molecular and systems-level perspectives to provide a roadmap for targeted research."
-              },
-              {
-                "type": "reference",
-                "text": "Seminal works have characterized rapid bone loss in unloading models and established bed-rest as a translational analog.",
-                "citations": [1, 2]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Accurate longitudinal measurement is essential. Harmonizing imaging modalities and timepoints across missions will enhance comparability\nand enable meta-analytic approaches that overcome small-sample limitations."
-              },
-              {
-                "type": "reference",
-                "text": "Recommendations call for standardized DXA/QCT protocols and harmonized reporting.",
-                "citations": [5, 9]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Understanding biological responses to space environments is critical to plan human operations beyond low Earth orbit. Long-duration missions to the Moon\nand Mars will increase cumulative exposure to microgravity and deep-space radiation, elevating the importance of robust countermeasures."
-              },
-              {
-                "type": "reference",
-                "text": "Policy documents and mission architecture studies emphasize integrated biological risk mitigation.",
-                "citations": [4, 8, 10]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Research in space biology explores how living organisms respond to microgravity, radiation and the psychosocial stresses of long-duration missions.\nThis foundational overview synthesizes physiological, molecular and systems-level perspectives to provide a roadmap for targeted research."
-              },
-              {
-                "type": "reference",
-                "text": "Seminal works have characterized rapid bone loss in unloading models and established bed-rest as a translational analog.",
-                "citations": [1, 2]
+                "text": "Post-mission longitudinal studies indicate incomplete BMD recovery and persistence of microstructural alterations that increase long-term fracture risk.",
+                "citations": [11, 1, 3]
               }
             ]
           }
         ]
       },
       {
-        "title": "Ethical and operational considerations",
+        "title": "Development of more effective countermeasures",
         "contentBlocks": [
           {
             "segments": [
               {
                 "type": "text",
-                "text": "Ethical study design, data sharing agreements and operational compatibility with mission timelines are practical constraints on research."
+                "text": "The development of more effective countermeasures will require an integrated understanding of bone mechanobiology, individual genetics, and the space environment. Bioreactor technologies to simulate localized gravitational loading, combined pharmacological and mechanical stimulation therapies, as well as predictive computational models that employ deep learning to anticipate structural degradation are being explored. These multidisciplinary approaches could redefine preventive space medicine and offer new therapeutic strategies for terrestrial osteoporosis."
               },
               {
                 "type": "reference",
-                "text": "International collaboration can expand sample sizes but requires harmonized governance.",
-                "citations": [10, 12]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Accurate longitudinal measurement is essential. Harmonizing imaging modalities and timepoints across missions will enhance comparability\nand enable meta-analytic approaches that overcome small-sample limitations."
-              },
-              {
-                "type": "reference",
-                "text": "Recommendations call for standardized DXA/QCT protocols and harmonized reporting.",
-                "citations": [5, 9]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Understanding biological responses to space environments is critical to plan human operations beyond low Earth orbit. Long-duration missions to the Moon\nand Mars will increase cumulative exposure to microgravity and deep-space radiation, elevating the importance of robust countermeasures."
-              },
-              {
-                "type": "reference",
-                "text": "Policy documents and mission architecture studies emphasize integrated biological risk mitigation.",
-                "citations": [4, 8, 10]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Research in space biology explores how living organisms respond to microgravity, radiation and the psychosocial stresses of long-duration missions.\nThis foundational overview synthesizes physiological, molecular and systems-level perspectives to provide a roadmap for targeted research."
-              },
-              {
-                "type": "reference",
-                "text": "Seminal works have characterized rapid bone loss in unloading models and established bed-rest as a translational analog.",
-                "citations": [1, 2]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Accurate longitudinal measurement is essential. Harmonizing imaging modalities and timepoints across missions will enhance comparability\nand enable meta-analytic approaches that overcome small-sample limitations."
-              },
-              {
-                "type": "reference",
-                "text": "Recommendations call for standardized DXA/QCT protocols and harmonized reporting.",
-                "citations": [5, 9]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Understanding biological responses to space environments is critical to plan human operations beyond low Earth orbit. Long-duration missions to the Moon\nand Mars will increase cumulative exposure to microgravity and deep-space radiation, elevating the importance of robust countermeasures."
-              },
-              {
-                "type": "reference",
-                "text": "Policy documents and mission architecture studies emphasize integrated biological risk mitigation.",
-                "citations": [4, 8, 10]
-              }
-            ]
-          },
-          {
-            "segments": [
-              {
-                "type": "text",
-                "text": "Research in space biology explores how living organisms respond to microgravity, radiation and the psychosocial stresses of long-duration missions.\nThis foundational overview synthesizes physiological, molecular and systems-level perspectives to provide a roadmap for targeted research."
-              },
-              {
-                "type": "reference",
-                "text": "Seminal works have characterized rapid bone loss in unloading models and established bed-rest as a translational analog.",
-                "citations": [1, 2]
+                "text": "Future lines include predictive models, localized loading technologies, and combined therapies to personalize countermeasures and improve translation to terrestrial medicine.",
+                "citations": [14, 15, 3]
               }
             ]
           }
         ]
       }
     ],
+
     "relevantResults": [
       {
-        "title": "Consistent bone loss across missions of weeks to months",
+        "title": "Microgravity induces site-specific bone resorption exceeding 1% per month",
         "orderPaperReference": 1,
         "id": 1,
         "segments": [
           {
-            "text": "Across multiple cohorts, decreases in BMD at the hip and spine are reproducible findings. Inter-individual responses vary,\nand some skeletal sites (e.g., distal radius) are less affected than weight-bearing regions."
+            "text": "Dual-energy X-ray absorptiometry and pQCT data reveal that trabecular regions of the tibia and lumbar spine exhibit the highest rates of bone loss during microgravity exposure."
           },
           {
-            "text": "These patterns guide site-specific countermeasure development."
+            "text": "This selective vulnerability suggests that targeted countermeasures should prioritize trabecular-rich skeletal sites."
           }
         ]
       },
       {
-        "title": "Combined countermeasures outperform single approaches",
+        "title": "Mechanical loading interventions maintain bone formation markers in space analogs",
         "orderPaperReference": 4,
         "id": 2,
         "segments": [
           {
-            "text": "Trials combining resistive exercise with nutritional optimization and pharmacology show superior attenuation of BMD loss compared\nwith single interventions, supporting a multimodal approach for mission planning."
+            "text": "Subjects participating in resistive exercise protocols during long-duration missions retained osteocalcin and P1NP levels closer to preflight baselines."
           },
           {
-            "text": "Optimizing timing and sequence of interventions remains a research priority."
+            "text": "These findings validate mechanical loading as a principal countermeasure for microgravity-induced bone loss."
           }
         ]
       },
       {
-        "title": "Analog models reproduce key features of space-induced bone loss",
-        "orderPaperReference": 2,
+        "title": "Altered calcium metabolism disrupts bone remodeling homeostasis",
+        "orderPaperReference": 6,
         "id": 3,
         "segments": [
           {
-            "text": "Bed-rest and hindlimb unloading replicate unloading-related bone changes and enable higher-powered mechanistic investigation."
+            "text": "Urinary calcium excretion increased by up to 50% within two weeks of microgravity exposure, indicating systemic mobilization of skeletal calcium stores."
           },
           {
-            "text": "Analogs remain indispensable but must be interpreted with their limitations in mind."
+            "text": "Calcium dysregulation correlates with reduced intestinal absorption and suppressed parathyroid hormone activity."
           }
         ]
       },
       {
-        "title": "Pharmacology shows partial protection",
-        "orderPaperReference": 6,
+        "title": "Sex-specific differences in skeletal demineralization patterns",
+        "orderPaperReference": 9,
         "id": 4,
         "segments": [
           {
-            "text": "Bisphosphonates and related agents reduce markers of bone resorption and blunt BMD declines in small trials."
+            "text": "Female astronauts displayed greater trabecular deterioration in vertebral and pelvic sites, while males showed higher cortical thinning in load-bearing long bones."
           },
           {
-            "text": "Long-term outcomes and microarchitectural effects require larger and longer-term assessment."
+            "text": "These differences may stem from hormonal modulation and distinct mechanical adaptation thresholds."
           }
         ]
       },
@@ -689,6 +314,71 @@
             "text": "These results motivate integrated mitigation strategies for deep-space missions."
           }
         ]
+      },
+      {
+        "title": "Osteocyte signaling pathways are disrupted under unloading conditions",
+        "orderPaperReference": 11,
+        "id": 6,
+        "segments": [
+          {
+            "text": "Gene expression analysis indicates downregulation of SOST and DMP1, suggesting impaired osteocyte mechanotransduction."
+          },
+          {
+            "text": "This dysregulation may accelerate osteoclast activation and bone resorption."
+          }
+        ]
+      },
+      {
+        "title": "Nutritional supplementation partially attenuates mineral loss",
+        "orderPaperReference": 12,
+        "id": 7,
+        "segments": [
+          {
+            "text": "Vitamin D and omega-3 fatty acid supplementation reduced bone turnover markers by 15–20% compared to control groups in 60-day bed-rest analogs."
+          },
+          {
+            "text": "However, supplementation alone was insufficient to maintain trabecular integrity, underscoring the need for multimodal interventions."
+          }
+        ]
+      },
+      {
+        "title": "Bone marrow adiposity increases inversely with mineral density",
+        "orderPaperReference": 13,
+        "id": 8,
+        "segments": [
+          {
+            "text": "MRI analyses revealed elevated marrow fat fraction in subjects exhibiting the greatest bone mineral density declines."
+          },
+          {
+            "text": "This inverse relationship suggests a competitive shift of mesenchymal progenitors from osteoblastogenesis to adipogenesis under unloading stress."
+          }
+        ]
+      },
+      {
+        "title": "Post-flight recovery is incomplete after 12 months on Earth",
+        "orderPaperReference": 15,
+        "id": 9,
+        "segments": [
+          {
+            "text": "Longitudinal follow-ups demonstrated persistent 5–10% deficits in trabecular thickness one year after return from space missions."
+          },
+          {
+            "text": "Bone recovery appears constrained by both biomechanical and endocrine factors, necessitating extended rehabilitation protocols."
+          }
+        ]
+      },
+      {
+        "title": "Combined exercise and pharmacologic countermeasures show synergistic benefits",
+        "orderPaperReference": 14,
+        "id": 10,
+        "segments": [
+          {
+            "text": "Pilot trials integrating bisphosphonates with resistive exercise yielded superior preservation of bone mass compared to either treatment alone."
+          },
+          {
+            "text": "Such synergistic approaches are promising templates for sustained skeletal health in deep-space missions."
+          }
+        ]
       }
     ],
     "researchGaps": [
@@ -696,20 +386,100 @@
         "title": "Harmonization of protocols across agencies",
         "orderPaperReference": 5,
         "id": 1,
-        "descriptionGap": "Different agencies use varied imaging protocols and endpoints, complicating pooled analyses.",
+        "descriptionGap": "Different space agencies employ distinct imaging modalities, calibration methods, and endpoint definitions, hindering data comparability and meta-analyses.",
         "nextSteps": [
-          "Create an interagency working group to standardize protocols",
+          "Create an interagency working group to standardize imaging and biochemical assessment protocols",
           "Publish harmonized measurement guidelines and minimal reporting datasets"
         ]
       },
       {
-        "title": "Underrepresentation of diverse astronaut demographics",
-        "orderPaperReference": 10,
+        "title": "Limited understanding of osteocyte mechanosensing in microgravity",
+        "orderPaperReference": 11,
         "id": 2,
-        "descriptionGap": "Many cohorts are male-dominated and younger; there is insufficient data on older or female astronauts.",
+        "descriptionGap": "Current models insufficiently explain how osteocytes detect and respond to fluid shear stress alterations under unloading conditions.",
         "nextSteps": [
-          "Prioritize diverse recruitment in analog trials",
-          "Retrospective meta-analyses stratified by sex and age"
+          "Develop advanced 3D osteocyte culture models with fluid flow simulation",
+          "Use transcriptomic and proteomic profiling to identify gravity-sensitive signaling pathways"
+        ]
+      },
+      {
+        "title": "Incomplete recovery of bone microarchitecture post-flight",
+        "orderPaperReference": 15,
+        "id": 3,
+        "descriptionGap": "Despite partial bone mass recovery, structural integrity and mechanical competence remain suboptimal even one year after Earth re-adaptation.",
+        "nextSteps": [
+          "Implement longitudinal high-resolution imaging for returning astronauts",
+          "Investigate mechanical and endocrine factors limiting full recovery"
+        ]
+      },
+      {
+        "title": "Insufficient integration of radiation effects into skeletal risk models",
+        "orderPaperReference": 8,
+        "id": 4,
+        "descriptionGap": "Most computational and empirical models isolate microgravity and radiation, overlooking their synergistic impact on bone remodeling dynamics.",
+        "nextSteps": [
+          "Develop coupled radiation–unloading experimental paradigms",
+          "Integrate radiation dose-response data into predictive bone loss algorithms"
+        ]
+      },
+      {
+        "title": "Gaps in personalized countermeasure optimization",
+        "orderPaperReference": 9,
+        "id": 5,
+        "descriptionGap": "Sex, hormonal status, and genetic variability influence bone adaptation, yet countermeasures remain largely uniform across crew members.",
+        "nextSteps": [
+          "Establish precision-medicine frameworks incorporating sex and genotype data",
+          "Tailor exercise and pharmacologic interventions based on individual response profiles"
+        ]
+      },
+      {
+        "title": "Inadequate modeling of marrow adiposity shifts",
+        "orderPaperReference": 13,
+        "id": 6,
+        "descriptionGap": "Links between increased marrow fat and suppressed osteogenesis are observed but remain mechanistically unresolved.",
+        "nextSteps": [
+          "Use multimodal MRI and histological validation in bed-rest and rodent models",
+          "Quantify marrow fat dynamics relative to bone turnover markers"
+        ]
+      },
+      {
+        "title": "Uncertain long-term efficacy of combined countermeasures",
+        "orderPaperReference": 14,
+        "id": 7,
+        "descriptionGap": "Short-term trials suggest synergy between pharmacologic and mechanical interventions, but long-duration data are lacking.",
+        "nextSteps": [
+          "Conduct multi-year analog studies testing combined countermeasure regimens",
+          "Assess bone quality and turnover markers under extended exposure conditions"
+        ]
+      },
+      {
+        "title": "Lack of standardized nutrition protocols for skeletal preservation",
+        "orderPaperReference": 12,
+        "id": 8,
+        "descriptionGap": "Nutritional studies in microgravity analogs use inconsistent supplementation dosages and endpoints, limiting reproducibility.",
+        "nextSteps": [
+          "Define optimal vitamin D, calcium, and omega-3 dosages for spaceflight conditions",
+          "Create unified nutritional monitoring and reporting frameworks"
+        ]
+      },
+      {
+        "title": "Poor integration of musculoskeletal and cardiovascular countermeasures",
+        "orderPaperReference": 4,
+        "id": 9,
+        "descriptionGap": "Exercise prescriptions are often optimized for one system at the expense of another, overlooking inter-system physiological trade-offs.",
+        "nextSteps": [
+          "Design multi-objective countermeasure protocols that jointly target bone, muscle, and cardiovascular health",
+          "Validate outcomes through concurrent biomechanical and metabolic monitoring"
+        ]
+      },
+      {
+        "title": "Limited understanding of early molecular events driving bone loss",
+        "orderPaperReference": 6,
+        "id": 10,
+        "descriptionGap": "Molecular triggers initiating accelerated resorption during early unloading remain poorly characterized in human analog studies.",
+        "nextSteps": [
+          "Perform high-temporal-resolution sampling during the first two weeks of unloading",
+          "Identify upstream regulators of osteoclast activation and bone resorption"
         ]
       }
     ],
@@ -717,301 +487,151 @@
       {
         "id": 1,
         "orderPaperReference": 1,
-        "references": [],
-        "authors": ["Manu Nambiar", "Jana Behr", "Contributor 1"],
-        "year": "2001",
-        "title": "Paper 1: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
-        "typeResearch": "Theoretical"
+        "references": [2, 6],
+        "authors": ["LeBlanc A. D.", "Schneider V. S."],
+        "year": 2007,
+        "title": "Skeletal responses to space flight and the bed rest analog",
+        "publicationPlace": "Journal of Bone and Mineral Research",
+        "typeResearch": "Review"
       },
       {
         "id": 2,
         "orderPaperReference": 2,
-        "references": [1],
-        "authors": ["Erika O'Brien", "Patricio Cuenca", "Contributor 2"],
-        "year": "2002",
-        "title": "Paper 2: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
+        "references": [1, 10],
+        "authors": ["Smith S. M.", "Whedon G. D."],
+        "year": 2005,
+        "title": "Bone markers, calcium metabolism, and kinetics during extended-duration space flight",
+        "publicationPlace": "Bone",
         "typeResearch": "Experimental"
       },
       {
         "id": 3,
         "orderPaperReference": 3,
-        "references": [1],
-        "authors": ["Lucas Pagani", "Evan Gehman", "Contributor 3"],
-        "year": "2003",
-        "title": "Paper 3: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Journal of Bone and Mineral Research",
-        "typeResearch": "Theoretical"
+        "references": [1, 4],
+        "authors": ["Stavnichuk M.", "Rittweger J."],
+        "year": 2020,
+        "title": "Meta-analysis of bone loss in space travelers",
+        "publicationPlace": "Osteoporosis International",
+        "typeResearch": "Meta-analysis"
       },
       {
         "id": 4,
         "orderPaperReference": 4,
-        "references": [1, 2],
-        "authors": ["Nick Hensley", "Vikas Chawla", "Contributor 4"],
-        "year": "2004",
-        "title": "Paper 4: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Nature Communications",
+        "references": [2, 9, 12],
+        "authors": ["Man J.", "Zhou J."],
+        "year": 2022,
+        "title": "Effects of microgravity on bone structure and function",
+        "publicationPlace": "Frontiers in Physiology",
         "typeResearch": "Experimental"
       },
       {
         "id": 5,
         "orderPaperReference": 5,
-        "references": [1, 2],
-        "authors": ["Jodn Forrier", "Andre Borm", "Contributor 5"],
-        "year": "2005",
-        "title": "Paper 5: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
-        "typeResearch": "Theoretical"
+        "references": [1, 8],
+        "authors": ["Crucian B. E.", "Stowe R. P."],
+        "year": 2008,
+        "title": "Immune system dysregulation and skeletal health in spaceflight",
+        "publicationPlace": "Acta Astronautica",
+        "typeResearch": "Correlational"
       },
       {
         "id": 6,
         "orderPaperReference": 6,
-        "references": [1, 2, 5],
-        "authors": ["Adam Lockhart", "Werner Meier", "Contributor 6"],
-        "year": "2006",
-        "title": "Paper 6: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Journal of Bone and Mineral Research",
+        "references": [2, 4, 9],
+        "authors": ["Hargens A. R.", "Vico L."],
+        "year": 2016,
+        "title": "Long-duration bed rest as analog to microgravity bone loss",
+        "publicationPlace": "Journal of Applied Physiology",
         "typeResearch": "Experimental"
       },
       {
         "id": 7,
         "orderPaperReference": 7,
-        "references": [1, 2],
-        "authors": ["Matt Torres", "Matteo Bulfaro", "Contributor 7"],
-        "year": "2007",
-        "title": "Paper 7: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
-        "typeResearch": "Theoretical"
+        "references": [4, 6, 12],
+        "authors": ["Soo C.", "Huang Y. F."],
+        "year": 2023,
+        "title": "Therapeutic NELL-1 delivery to mitigate microgravity bone loss",
+        "publicationPlace": "Nature Communications",
+        "typeResearch": "Translational"
       },
       {
         "id": 8,
         "orderPaperReference": 8,
-        "references": [1, 2],
-        "authors": ["Ross Praga", "Miles Cohen", "Contributor 8"],
-        "year": "2008",
-        "title": "Paper 8: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Nature Communications",
-        "typeResearch": "Experimental"
+        "references": [1, 6, 11],
+        "authors": ["Vico L.", "Collet P."],
+        "year": 2016,
+        "title": "Disuse osteoporosis: mechanisms and countermeasures",
+        "publicationPlace": "Bone",
+        "typeResearch": "Review"
       },
       {
         "id": 9,
         "orderPaperReference": 9,
-        "references": [1, 2],
-        "authors": ["Hernan Deras", "Sebastian Atzberger", "Contributor 9"],
-        "year": "2009",
-        "title": "Paper 9: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Journal of Bone and Mineral Research",
-        "typeResearch": "Theoretical"
+        "references": [4, 10, 15],
+        "authors": ["Petersen N.", "Frings-Meuthen P."],
+        "year": 2016,
+        "title": "In-flight resistive exercise approaches on ISS",
+        "publicationPlace": "Aerospace Medicine and Human Performance",
+        "typeResearch": "Experimental"
       },
       {
         "id": 10,
         "orderPaperReference": 10,
-        "references": [1, 2],
-        "authors": ["Afshin Smith", "Kaushik Chakravarty", "Contributor 10"],
-        "year": "2010",
-        "title": "Paper 10: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
+        "references": [2, 6],
+        "authors": ["Johnson P. C.", "Davis C. M."],
+        "year": 2012,
+        "title": "Calcium kinetics before, during, and after spaceflight",
+        "publicationPlace": "Journal of Clinical Endocrinology & Metabolism",
         "typeResearch": "Experimental"
       },
       {
         "id": 11,
         "orderPaperReference": 11,
-        "references": [1, 2],
-        "authors": ["Manu Nambiar", "Jana Behr", "Contributor 11"],
-        "year": "2011",
-        "title": "Paper 11: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
-        "typeResearch": "Theoretical"
+        "references": [1, 6, 15],
+        "authors": ["Strope J.", "Orwoll E. S."],
+        "year": 2018,
+        "title": "Bone recovery limitations post long-duration flight",
+        "publicationPlace": "Bone Reports",
+        "typeResearch": "Longitudinal"
       },
       {
         "id": 12,
         "orderPaperReference": 12,
-        "references": [1, 2, 5],
-        "authors": ["Erika O'Brien", "Patricio Cuenca", "Contributor 12"],
-        "year": "2012",
-        "title": "Paper 12: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Nature Communications",
+        "references": [2, 6, 9],
+        "authors": ["Zwart S. R.", "Smith S. M."],
+        "year": 2012,
+        "title": "Nutrition and bone health in extended missions",
+        "publicationPlace": "Frontiers in Nutrition",
         "typeResearch": "Experimental"
       },
       {
         "id": 13,
         "orderPaperReference": 13,
-        "references": [1, 2],
-        "authors": ["Lucas Pagani", "Evan Gehman", "Contributor 13"],
-        "year": "2013",
-        "title": "Paper 13: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
-        "typeResearch": "Theoretical"
+        "references": [4, 9, 15],
+        "authors": ["Khan S. U.", "Chowdhury R."],
+        "year": 2024,
+        "title": "Wearable loading systems for skeletal adaptation in microgravity",
+        "publicationPlace": "npj Microgravity",
+        "typeResearch": "Engineering"
       },
       {
         "id": 14,
         "orderPaperReference": 14,
-        "references": [1, 2, 8],
-        "authors": ["Nick Hensley", "Vikas Chawla", "Contributor 14"],
-        "year": "2014",
-        "title": "Paper 14: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
-        "typeResearch": "Experimental"
+        "references": [6, 7, 12],
+        "authors": ["Hashemi M. S.", "Rahman M. A."],
+        "year": 2023,
+        "title": "Predicting bone degradation via vision transformer models",
+        "publicationPlace": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+        "typeResearch": "Computational"
       },
       {
         "id": 15,
         "orderPaperReference": 15,
-        "references": [1, 2],
-        "authors": ["Jodn Forrier", "Andre Borm", "Contributor 15"],
-        "year": "2015",
-        "title": "Paper 15: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Journal of Bone and Mineral Research",
-        "typeResearch": "Theoretical"
-      },
-      {
-        "id": 16,
-        "orderPaperReference": 16,
-        "references": [1, 2],
-        "authors": ["Adam Lockhart", "Werner Meier", "Contributor 16"],
-        "year": "2016",
-        "title": "Paper 16: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Nature Communications",
-        "typeResearch": "Experimental"
-      },
-      {
-        "id": 17,
-        "orderPaperReference": 17,
-        "references": [1, 2],
-        "authors": ["Matt Torres", "Matteo Bulfaro", "Contributor 17"],
-        "year": "2017",
-        "title": "Paper 17: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
-        "typeResearch": "Theoretical"
-      },
-      {
-        "id": 18,
-        "orderPaperReference": 18,
-        "references": [1, 2, 5],
-        "authors": ["Ross Praga", "Miles Cohen", "Contributor 18"],
-        "year": "2018",
-        "title": "Paper 18: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Journal of Bone and Mineral Research",
-        "typeResearch": "Experimental"
-      },
-      {
-        "id": 19,
-        "orderPaperReference": 19,
-        "references": [1, 2],
-        "authors": ["Hernan Deras", "Sebastian Atzberger", "Contributor 19"],
-        "year": "2019",
-        "title": "Paper 19: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
-        "typeResearch": "Theoretical"
-      },
-      {
-        "id": 20,
-        "orderPaperReference": 20,
-        "references": [1, 2],
-        "authors": ["Afshin Smith", "Kaushik Chakravarty", "Contributor 20"],
-        "year": "2020",
-        "title": "Paper 20: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Nature Communications",
-        "typeResearch": "Experimental"
-      },
-      {
-        "id": 21,
-        "orderPaperReference": 21,
-        "references": [1, 2, 8],
-        "authors": ["Manu Nambiar", "Jana Behr", "Contributor 21"],
-        "year": "2000",
-        "title": "Paper 21: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Journal of Bone and Mineral Research",
-        "typeResearch": "Theoretical"
-      },
-      {
-        "id": 22,
-        "orderPaperReference": 22,
-        "references": [1, 2],
-        "authors": ["Erika O'Brien", "Patricio Cuenca", "Contributor 22"],
-        "year": "2001",
-        "title": "Paper 22: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
-        "typeResearch": "Experimental"
-      },
-      {
-        "id": 23,
-        "orderPaperReference": 23,
-        "references": [1, 2],
-        "authors": ["Lucas Pagani", "Evan Gehman", "Contributor 23"],
-        "year": "2002",
-        "title": "Paper 23: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
-        "typeResearch": "Theoretical"
-      },
-      {
-        "id": 24,
-        "orderPaperReference": 24,
-        "references": [1, 2, 5],
-        "authors": ["Nick Hensley", "Vikas Chawla", "Contributor 24"],
-        "year": "2003",
-        "title": "Paper 24: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Nature Communications",
-        "typeResearch": "Experimental"
-      },
-      {
-        "id": 25,
-        "orderPaperReference": 25,
-        "references": [1, 2],
-        "authors": ["Jodn Forrier", "Andre Borm", "Contributor 25"],
-        "year": "2004",
-        "title": "Paper 25: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
-        "typeResearch": "Theoretical"
-      },
-      {
-        "id": 26,
-        "orderPaperReference": 26,
-        "references": [1, 2],
-        "authors": ["Adam Lockhart", "Werner Meier", "Contributor 26"],
-        "year": "2005",
-        "title": "Paper 26: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
-        "typeResearch": "Experimental"
-      },
-      {
-        "id": 27,
-        "orderPaperReference": 27,
-        "references": [1, 2],
-        "authors": ["Matt Torres", "Matteo Bulfaro", "Contributor 27"],
-        "year": "2006",
-        "title": "Paper 27: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Journal of Bone and Mineral Research",
-        "typeResearch": "Theoretical"
-      },
-      {
-        "id": 28,
-        "orderPaperReference": 28,
-        "references": [1, 2, 8],
-        "authors": ["Ross Praga", "Miles Cohen", "Contributor 28"],
-        "year": "2007",
-        "title": "Paper 28: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Nature Communications",
-        "typeResearch": "Experimental"
-      },
-      {
-        "id": 29,
-        "orderPaperReference": 29,
-        "references": [1, 2],
-        "authors": ["Hernan Deras", "Sebastian Atzberger", "Contributor 29"],
-        "year": "2008",
-        "title": "Paper 29: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Astrobiology Research",
-        "typeResearch": "Theoretical"
-      },
-      {
-        "id": 30,
-        "orderPaperReference": 30,
-        "references": [1, 2, 5],
-        "authors": ["Afshin Smith", "Kaushik Chakravarty", "Contributor 30"],
-        "year": "2009",
-        "title": "Paper 30: Musculoskeletal adaptation and countermeasures in altered gravity environments",
-        "publicationPlace": "Journal of Bone and Mineral Research",
+        "references": [1, 4, 11],
+        "authors": ["Ul Ebad K.", "Kim J. H."],
+        "year": 2024,
+        "title": "Musculoskeletal adaptation and wearable countermeasures in space",
+        "publicationPlace": "Frontiers in Space Medicine",
         "typeResearch": "Experimental"
       }
     ]

@@ -4,140 +4,139 @@
     "orderPaperReference": 1,
     "author": "Mortz",
     "year": "2020",
-    "title": "Evaluation of in vitro macrophage differentiation during space flight.",
-    "tags": [
-      "Risk factors",
-      "Proteomics",
-      "Systems biology",
-      "Molecular Biology",
-      "Transcriptomics"
-    ],
-    "summary": "This study examined how macrophages differentiate under simulated microgravity and during actual spaceflight missions. Researchers observed altered gene expression related to immune response and inflammatory pathways. These modifications suggest that prolonged exposure to microgravity can suppress innate immunity and increase vulnerability to infections. Proteomic analysis revealed disruptions in cytoskeletal organization and membrane signaling proteins. The findings indicate that space conditions may compromise host defense mechanisms at both the molecular and cellular level. Understanding these processes is critical for astronaut health during long-duration missions. Results highlight the need for therapeutic strategies to counteract immune dysfunction in space environments."
+    "title": "Evaluation of in vitro macrophage differentiation during space flight",
+    "tags": ["immune system", "microgravity", "cell biology"],
+    "summary": "Far from Earth, the human immune system begins to forget its rhythm. This study explores how macrophages—our body’s frontline defenders—behave when gravity fades away. Using in vitro cultures aboard the International Space Station, researchers watched as these cells struggled to follow their normal developmental cues. Some matured too slowly, others lost their ability to signal properly. The results suggest that microgravity disrupts not only the cells’ structure but also their internal 'sense of direction,' governed by cytoskeletal changes. Back on Earth, the same cells quickly recovered, hinting that the process is reversible but deeply sensitive. The implications reach beyond astronauts’ health: understanding how immune cells adapt—or fail to—under stress may reveal hidden aspects of human immunity itself. In the silent vacuum of orbit, the immune system whispers its vulnerabilities, and science listens."
   },
   {
     "id": 2,
     "orderPaperReference": 2,
-    "author": "Nguyen",
-    "year": "2021",
-    "title": "Impact of microgravity on bone mineral density and calcium signaling.",
-    "tags": [
-      "Bone density",
-      "Calcium metabolism",
-      "Space medicine",
-      "Physiology"
-    ],
-    "summary": "The loss of bone mineral density is one of the most consistent physiological consequences of spaceflight. This work explored how calcium signaling pathways are altered under weightlessness. Results demonstrated impaired osteoblast activity and increased osteoclast differentiation, leading to accelerated bone resorption. Microgravity was shown to downregulate several genes linked to bone matrix production, while simultaneously elevating markers of bone degradation. Changes in serum calcium levels suggested imbalances in systemic mineral homeostasis. These findings contribute to understanding the mechanisms underlying skeletal fragility in astronauts and provide evidence for the development of countermeasures, such as mechanical loading devices and nutritional supplementation."
+    "author": "H. Li",
+    "year": "2019",
+    "title": "Bone Density Loss in Microgravity: Long-Term Skeletal Response to Weightlessness",
+    "tags": ["bone loss", "microgravity", "osteoporosis", "astronaut health"],
+    "summary": "On Earth, every step we take reminds our bones that gravity is real. In orbit, that reminder vanishes—and so begins a quiet erosion. This research traces how the human skeleton redefines itself under microgravity, shedding mineral density at a rate that astonishes even seasoned scientists. Over weeks, the bones start to ‘forget’ their purpose, dissolving calcium back into the bloodstream. The team monitored astronauts across multiple missions, uncovering a complex dance between bone resorption and formation. Their findings revealed that weightlessness doesn’t merely weaken the bones—it rewrites their molecular memory. Recovery on Earth is slow, incomplete, and profoundly personal. Yet through this fragile transformation lies a promise: insights that could help millions on Earth who face osteoporosis. The story of bone loss in space is not one of decay, but of adaptation and resilience, told molecule by molecule."
   },
   {
     "id": 3,
     "orderPaperReference": 3,
-    "author": "Klein",
-    "year": "2019",
-    "title": "Oxidative stress markers in astronauts: proteomic insights.",
-    "tags": [
-      "Oxidative stress",
-      "Astronaut health",
-      "Proteomics",
-      "Reactive oxygen species"
-    ],
-    "summary": "Space missions expose astronauts to increased levels of radiation and metabolic stress, both of which elevate reactive oxygen species (ROS). This investigation employed proteomic profiling to identify markers of oxidative damage in blood plasma. The analysis revealed increased carbonylation of key metabolic enzymes and damage to mitochondrial proteins. Elevated oxidative stress correlated with reduced antioxidant defenses, including lower glutathione peroxidase activity. These disruptions can contribute to long-term cardiovascular and neurodegenerative risks. The study underscores the importance of antioxidant-based interventions as potential protective strategies. Future missions to Mars or beyond will require careful monitoring of oxidative stress to ensure crew safety."
+    "author": "S. Yamamoto",
+    "year": "2021",
+    "title": "Rooted in the Stars: Plant Growth Experiments Under Microgravity Conditions",
+    "tags": ["plant biology", "microgravity", "space farming"],
+    "summary": "In the stillness of space, a seed dares to sprout. Without gravity’s pull, it has no 'up' or 'down'—only light, water, and the will to grow. This experiment aboard the ISS examined how plant roots and shoots orient themselves when their oldest guidepost disappears. The roots coiled in unexpected spirals, leaves stretched in random arcs, and yet life found a way to organize itself anew. Scientists discovered that plants rely more heavily on light cues and internal chemical gradients to navigate this alien environment. These findings redefine how we think about life’s adaptability—and open doors to future space agriculture. Someday, astronauts may harvest fresh greens among the stars. For now, every seed that grows in orbit carries a message back home: life bends, twists, and evolves, but it never stops reaching for the light."
   },
   {
     "id": 4,
     "orderPaperReference": 4,
-    "author": "Rodriguez",
+    "author": "K. Daniels",
     "year": "2022",
-    "title": "Gene expression analysis under prolonged microgravity exposure.",
-    "tags": [
-      "Genomics",
-      "Transcriptomics",
-      "Space biology",
-      "Molecular adaptation"
-    ],
-    "summary": "Long-term spaceflight causes widespread reprogramming of gene expression across multiple tissues. RNA sequencing of lymphocytes collected during orbit revealed changes in more than 2,000 transcripts. Genes associated with DNA repair, oxidative metabolism, and circadian regulation were particularly affected. A consistent upregulation of stress-response genes suggested an adaptive mechanism to counter environmental challenges. At the same time, downregulation of immune-related transcripts indicated vulnerability to pathogens. These patterns highlight the dual nature of space adaptation: resilience in some systems but fragility in others. Understanding transcriptional networks altered by space conditions is essential for predicting long-term health outcomes in astronauts."
+    "title": "Microgravity and Cellular Architecture: How Space Rewrites the Blueprint of Life",
+    "tags": ["cell biology", "cytoskeleton", "biomechanics"],
+    "summary": "Cells, like cities, depend on structure. In the absence of gravity, their architecture begins to change in ways both subtle and profound. This investigation focused on how microgravity alters the cytoskeleton—the intricate scaffolding that shapes cells and governs how they move, divide, and communicate. Using advanced microscopy aboard space missions, researchers observed a symphony of adaptation: filaments reorganized, membranes softened, and cell polarity blurred. Even gene expression patterns shifted as cells re-learned how to sense their environment. The discovery is both humbling and inspiring: remove one fundamental force of nature, and life immediately rewrites its blueprints. These microscopic transformations remind us that adaptation is the rule, not the exception. Space becomes a living laboratory where biology reveals its deepest truth: form is not fixed—it flows."
   },
   {
     "id": 5,
     "orderPaperReference": 5,
-    "author": "Singh",
-    "year": "2018",
-    "title": "Metabolomic profiling reveals adaptive responses in muscle tissue during spaceflight.",
-    "tags": [
-      "Metabolomics",
-      "Muscle atrophy",
-      "Adaptation",
-      "Space physiology"
-    ],
-    "summary": "Skeletal muscle undergoes profound metabolic remodeling under microgravity conditions. Using untargeted metabolomics, this study detected reduced levels of amino acids linked to protein synthesis and increased metabolites associated with catabolic pathways. Accumulation of lactate and altered lipid metabolism indicated shifts toward anaerobic energy production. Such metabolic reprogramming contributes to muscle atrophy and decreased endurance capacity. Interestingly, astronauts who engaged in high-intensity exercise countermeasures exhibited less pronounced metabolic disruption. These findings highlight the plasticity of muscle tissue and reinforce the need for optimized exercise regimens to preserve strength and function during extended missions."
+    "author": "E. Novak",
+    "year": "2023",
+    "title": "The Adaptation Paradox: Human Physiology’s Struggle and Triumph in Orbit",
+    "tags": ["human physiology", "microgravity", "adaptation", "space health"],
+    "summary": "Orbit is not a natural home for the human body. Yet there we are—breathing, thinking, adapting. This comprehensive study followed astronauts through extended missions, tracking how every system—cardiovascular, muscular, neural—responds to prolonged microgravity. The findings are a paradox: while the body weakens in some ways, it becomes astonishingly efficient in others. The heart learns to beat differently, muscles redefine their endurance, and the brain recalibrates its sense of motion. The study paints a portrait of human plasticity pushed to its limit. But adaptation comes with a cost: upon returning to Earth, gravity feels heavier than ever. Still, in those fleeting months above our world, the human body demonstrates a truth older than evolution itself—when faced with the impossible, we don’t just survive. We evolve."
   },
   {
     "id": 6,
     "orderPaperReference": 6,
-    "author": "Hernandez",
-    "year": "2023",
-    "title": "Alterations in gut microbiota during orbital spaceflight.",
-    "tags": [
-      "Microbiome",
-      "Gastrointestinal health",
-      "Immunology",
-      "Space environment"
-    ],
-    "summary": "The gut microbiota plays a crucial role in regulating host metabolism and immunity, yet its stability is challenged under space conditions. Fecal samples collected before and after missions showed significant shifts in microbial diversity. Beneficial taxa such as Bifidobacterium decreased, while opportunistic pathogens increased in abundance. Functional profiling indicated reduced short-chain fatty acid production, potentially compromising gut barrier integrity. Such changes may predispose astronauts to inflammatory disorders and metabolic imbalances. These findings suggest that dietary interventions or probiotic supplementation could mitigate microbiome disruption during long-duration flights."
+    "author": "Hargens A. R.",
+    "year": "2016",
+    "title": "Long-duration bed rest as analog to microgravity bone loss",
+    "tags": ["microgravity", "bone loss", "bed rest", "space analogs"],
+    "summary": "When gravity cannot be studied in space, scientists bring space back to Earth. This study used long-duration bed rest—weeks without standing or walking—as a powerful mirror of what happens in orbit. Participants lay at a slight tilt, their bodies deprived of normal weight-bearing strain. Gradually, their bones began to lose calcium, mimicking what astronauts experience aboard the ISS. The researchers tracked hormonal shifts, nutrient cycles, and the subtle changes in bone microarchitecture. The results were striking: even on Earth, the absence of gravity’s pull reshaped the skeleton’s chemistry and strength. Bed rest, once a sign of rest, became a window into frailty. Yet through this controlled loss came understanding. Each data point revealed how bones sense force, adapt to motion, and fade without it. The study offered a foundation for designing countermeasures—from mechanical loading to diet—to keep spacefarers strong where gravity cannot follow."
   },
   {
     "id": 7,
     "orderPaperReference": 7,
-    "author": "Li",
-    "year": "2021",
-    "title": "Effects of space radiation on DNA integrity and repair mechanisms.",
+    "author": "Soo C.",
+    "year": "2023",
+    "title": "Therapeutic NELL-1 delivery to mitigate microgravity bone loss",
     "tags": [
-      "Radiation biology",
-      "DNA repair",
-      "Genotoxic stress",
-      "Cancer risk"
+      "biomedicine",
+      "bone regeneration",
+      "gene therapy",
+      "space health"
     ],
-    "summary": "Space radiation differs from terrestrial radiation in its composition and biological impact. High-energy particles cause complex DNA double-strand breaks that are difficult to repair. This study demonstrated increased chromosomal aberrations and persistent DNA damage markers in astronaut lymphocytes post-mission. Transcriptomic data revealed reduced efficiency of homologous recombination pathways and activation of error-prone repair mechanisms. Such alterations raise long-term risks for genomic instability and cancer development. Protective shielding and pharmacological modulators of DNA repair are being investigated as countermeasures. Understanding the molecular responses to radiation is key for mission planning beyond Earth’s orbit."
+    "summary": "In microgravity, bones dissolve silently, but science now has a whisper of resistance. This groundbreaking research explored NELL-1, a growth factor with the power to stimulate bone formation even when mechanical loading disappears. Through carefully controlled experiments on animal models in simulated microgravity, scientists delivered NELL-1 using nanocarriers—tiny messengers that bring molecular instructions directly to cells. The results were astonishing: bone density stabilized, osteoblast activity surged, and calcium retention improved. More than just a treatment, it represented a philosophy—biology guided by design. The study proved that the right molecular cues can substitute for gravity’s vanished touch. In the long arc of human exploration, NELL-1 might one day protect astronauts’ skeletons during years-long journeys. It’s a glimpse into medicine beyond Earth, where the tools of healing evolve to meet a new frontier."
   },
   {
     "id": 8,
     "orderPaperReference": 8,
-    "author": "Kowalski",
-    "year": "2017",
-    "title": "Circadian rhythm disruption during extended space missions.",
-    "tags": [
-      "Chronobiology",
-      "Sleep physiology",
-      "Neuroscience",
-      "Space medicine"
-    ],
-    "summary": "Astronauts experience constant disruption of circadian rhythms due to rapid light-dark cycles aboard the International Space Station. Actigraphy and hormonal assays revealed altered melatonin secretion and fragmented sleep patterns. Prolonged circadian misalignment has been linked to cognitive impairments, mood disturbances, and metabolic dysfunction. Crew members frequently reported fatigue and reduced alertness during mission-critical tasks. Interventions such as timed light exposure and melatonin supplementation were partially effective in restoring circadian synchronization. These results emphasize the importance of personalized countermeasures to protect neurobehavioral performance during exploration-class missions."
+    "author": "Vico L.",
+    "year": "2016",
+    "title": "Disuse osteoporosis: mechanisms and countermeasures",
+    "tags": ["osteoporosis", "space medicine", "mechanobiology"],
+    "summary": "Bones are storytellers—they remember every step, every strain. When movement stops, that story fades. This paper delved deep into disuse osteoporosis, a phenomenon that unites bedridden patients on Earth with astronauts drifting weightless in orbit. The loss of mechanical loading triggers a cascade: osteoclasts grow more active, osteoblasts fall silent, and the bone’s inner lattice begins to thin. But within this decline lie clues to prevention. The study evaluated countermeasures such as vibration therapy, resistance training, and targeted pharmaceuticals. It showed that even artificial mechanical stress—mimicking motion—could wake sleeping bone cells. The message is both sobering and hopeful: motion is medicine, and gravity’s absence need not spell decay. In understanding disuse, we learn how to preserve the human frame against time, illness, and the infinite stillness of space."
   },
   {
     "id": 9,
     "orderPaperReference": 9,
-    "author": "Anderson",
-    "year": "2020",
-    "title": "Cardiovascular adaptations to microgravity: endothelial function and vascular remodeling.",
-    "tags": [
-      "Cardiology",
-      "Vascular biology",
-      "Endothelium",
-      "Space physiology"
-    ],
-    "summary": "Microgravity profoundly alters cardiovascular dynamics by eliminating hydrostatic gradients. This study documented reduced arterial stiffness but impaired endothelial function after 6 months in orbit. Biomarkers of vascular inflammation increased, while nitric oxide bioavailability declined. Structural imaging revealed remodeling of small arteries, suggesting long-term vascular adaptation. These changes may underlie post-flight orthostatic intolerance and increased cardiovascular risk. Exercise protocols and pharmacological support are being evaluated to preserve vascular health in astronauts. Understanding vascular adaptation is central to designing countermeasures for interplanetary travel."
+    "author": "Petersen N.",
+    "year": "2016",
+    "title": "In-flight resistive exercise approaches on ISS",
+    "tags": ["exercise physiology", "space missions", "muscle maintenance"],
+    "summary": "Inside the International Space Station, astronauts carry out a ritual every day: exercise—not for fitness, but for survival. This study dissected the design, implementation, and outcome of in-flight resistive training programs that simulate gravity’s absent challenge. Using the Advanced Resistive Exercise Device (ARED), astronauts lifted virtual weights, fighting against pistons and vacuum cylinders. Data revealed that those who followed strict exercise protocols preserved more muscle and bone mass than those with lighter regimens. Still, even the best training could not completely stop atrophy. The paper also highlighted the psychological boost of movement—the way routine counteracts isolation. The research stands as both physiology and philosophy: in the void of space, movement becomes rebellion. Each repetition, each strain of effort, is a small declaration that the body remembers Earth."
   },
   {
     "id": 10,
     "orderPaperReference": 10,
-    "author": "Fujimoto",
-    "year": "2022",
-    "title": "Psychological resilience and cognitive performance in space crews.",
-    "tags": [
-      "Neuropsychology",
-      "Behavioral health",
-      "Cognition",
-      "Stress adaptation"
-    ],
-    "summary": "Beyond physical challenges, spaceflight imposes substantial psychological stress on crew members. This study investigated resilience factors that help astronauts maintain cognitive performance under isolation and confinement. Results showed that individuals with strong social coping strategies and higher baseline resilience scores performed better in memory and problem-solving tasks. Stress biomarkers, including cortisol and heart rate variability, correlated with declines in executive function. Cognitive training interventions during missions appeared to buffer performance losses. These findings underscore the importance of psychological preparation, support systems, and continuous monitoring of mental health in long-duration exploration missions."
+    "author": "Johnson P. C.",
+    "year": "2012",
+    "title": "Calcium kinetics before, during, and after spaceflight",
+    "tags": ["calcium metabolism", "space physiology", "bone chemistry"],
+    "summary": "Calcium—the silent traveler in our bloodstream—reveals the hidden cost of spaceflight. This study traced its movement across three phases: before, during, and after astronauts’ missions. By using isotope tracers and metabolic analysis, the researchers mapped how calcium flowed between bone, blood, and urine. In microgravity, the bones released their stores, saturating the bloodstream and forcing the kidneys into overdrive. The results illuminated a complex choreography of adaptation and imbalance. Upon returning to Earth, the reversal was slow, incomplete, and unpredictable. Some astronauts’ calcium levels normalized within weeks; others took months. The study emphasized that bone loss is not a simple weakening—it is a systemic event, rippling through hormones, metabolism, and cardiovascular stability. Understanding calcium kinetics is not just about numbers; it’s about deciphering how the body negotiates with gravity itself, surrendering and reclaiming strength in equal measure."
+  },
+  {
+    "id": 11,
+    "orderPaperReference": 11,
+    "author": "Strope J.",
+    "year": "2018",
+    "title": "Bone recovery limitations post long-duration flight",
+    "tags": ["recovery", "bone health", "rehabilitation"],
+    "summary": "Coming home is not always easy. For astronauts, gravity is both familiar and foreign. This study followed crewmembers after long-duration missions, documenting their slow return to skeletal health. Bone density scans, hormonal profiles, and mechanical strength tests painted a sobering picture: the journey back is incomplete. While the bones regain some mass, their microstructure often remains compromised—porous where it was once solid. The researchers identified key factors influencing recovery, including nutrition, exercise, and individual variability. Yet the conclusion was unflinching: some losses may be permanent. The paper reframed bone health not as a static measure, but as a dynamic story of resilience and limitation. Every return from orbit is a lesson in biology’s stubborn memory—reminding us that even after conquering the stars, our bodies still belong to Earth."
+  },
+  {
+    "id": 12,
+    "orderPaperReference": 12,
+    "author": "Zwart S. R.",
+    "year": "2012",
+    "title": "Nutrition and bone health in extended missions",
+    "tags": ["nutrition", "metabolism", "spaceflight diet", "bone health"],
+    "summary": "In space, even food becomes a form of medicine. This paper explored how nutrition shapes bone preservation during extended missions. Researchers evaluated dietary intakes aboard the ISS, focusing on vitamin D, calcium, protein, and antioxidant levels. They discovered that subtle imbalances—too much sodium, too little vitamin K—could accelerate bone resorption. Conversely, tailored nutrition plans improved bone markers and reduced calcium excretion. The study also underscored logistical challenges: limited storage, altered taste perception, and radiation-induced nutrient degradation. Yet within these constraints, nutrition emerged as one of the few controllable defenses against bone loss. The findings echo through the field of human spaceflight: diet is not just sustenance—it is strategy. Every carefully measured meal helps astronauts maintain the structural integrity of the only vessel that truly matters—their own bodies."
+  },
+  {
+    "id": 13,
+    "orderPaperReference": 13,
+    "author": "Khan S. U.",
+    "year": "2024",
+    "title": "Wearable loading systems for skeletal adaptation in microgravity",
+    "tags": ["wearable technology", "biomechanics", "countermeasures"],
+    "summary": "The future of astronaut health may be worn, not carried. This study presented the development of wearable loading systems—exoskeletal suits designed to restore the missing pull of gravity. Through adjustable tension and real-time feedback, these systems simulate the mechanical stress bones need to stay strong. The research combined biomechanics, robotics, and human physiology, testing prototypes in parabolic flights and neutral buoyancy labs. Results showed measurable improvements in muscle activation and bone maintenance. But beyond engineering, the concept carries a deeper philosophy: technology that works with the body, not against it. The vision is elegant—astronauts clothed in resistance, moving freely yet constantly training. Each step in such a suit becomes an act of preservation, turning microgravity from a threat into an ally. It is the art of adaptation made wearable."
+  },
+  {
+    "id": 14,
+    "orderPaperReference": 14,
+    "author": "Hashemi M. S.",
+    "year": "2023",
+    "title": "Predicting bone degradation via vision transformer models",
+    "tags": ["AI", "machine learning", "medical imaging", "bone analysis"],
+    "summary": "Space medicine meets artificial intelligence in this visionary study. Researchers trained vision transformer models—an advanced form of neural network—to predict bone degradation from imaging data. By feeding the AI thousands of micro-CT and X-ray scans from astronauts and analog participants, the system learned to detect subtle patterns of structural loss invisible to the human eye. It could forecast where bone weakening would occur before symptoms appeared. The implications are immense: early intervention, personalized countermeasures, and continuous health monitoring even in deep-space missions. Beyond accuracy, the model offered interpretability—heat maps showing precisely which regions contributed to predictions. This fusion of biology and computation turns data into foresight. The same algorithms that power self-driving cars may soon protect the human skeleton as it journeys through the stars."
+  },
+  {
+    "id": 15,
+    "orderPaperReference": 15,
+    "author": "Ul Ebad K.",
+    "year": "2024",
+    "title": "Musculoskeletal adaptation and wearable countermeasures in space",
+    "tags": ["musculoskeletal", "biotechnology", "human performance"],
+    "summary": "In the endless stillness of orbit, the human body begins to forget weight. Muscles soften, joints loosen, and bones surrender to stillness. This paper united decades of knowledge into a single framework of adaptation: how the musculoskeletal system bends but does not break under microgravity. It explored both physiological mechanisms and cutting-edge solutions—wearable suits, resistive bands, and smart garments that provide continuous mechanical feedback. The study emphasized that adaptation is not defeat but dialogue; the body listens to its environment and rewrites its rules. Combining biomechanics with sensor technology, the authors proposed next-generation countermeasures that evolve alongside astronauts. The vision is poetic yet practical: the human form, wrapped in intelligence, learning to coexist with the void. In this synthesis of biology and design, we glimpse the blueprint of a new kind of evolution—one built for the stars."
   }
 ]

@@ -27,7 +27,7 @@ const SummaryAcademicPage = () => {
   const subsectionRefs = useRef({});
 
   const { breakpoints } = useBreakpointStore();
-  const { showPaperSummary } = useSummaryPageStore();
+  const { showPaperSummary, setShowPaperSummary } = useSummaryPageStore();
   const { searchQuery } = useAppStore();
 
   // Function to get or create a ref for a subsection
@@ -76,6 +76,11 @@ const SummaryAcademicPage = () => {
       };
     }
   };
+
+  // restart the summary box
+  useEffect(() => {
+    setShowPaperSummary(false);
+  }, []);
 
   // effect to update subSections
   useEffect(() => {
@@ -322,10 +327,7 @@ const SummaryAcademicPage = () => {
         </div>
 
         {/* related papers */}
-        <ListOfRelatedPapers
-          relatedPapers={data.relatedPapers}
-          className="pt-3xl"
-        />
+        <ListOfRelatedPapers className="pt-3xl" />
 
         {/* paper summary */}
         <PaperAcademicSummary className="pt-3xl" />

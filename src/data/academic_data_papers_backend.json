@@ -4,126 +4,290 @@
     "orderPaperReference": 1,
     "PMCID": "PMC4136787",
     "authors": [
-      "Afshin Smith",
-      "Kaushik Chakravarty",
-      "Manu Nambiar",
-      "Jana Behr",
-      "Erika O'Brien",
-      "Patricio Cuenca",
-      "Lucas Pagani",
-      "Evan Gehman",
-      "Nick Hensley",
-      "Vikas Chawla"
+      "LeBlanc A. D.",
+      "Sibonga J. D.",
+      "Evans H. J.",
+      "Rowe R.",
+      "Shackelford L. C."
     ],
-    "year": "2020",
-    "title": "Genomic and functional characterization of Enterococcus faecalis isolates recovered from the International Space Station and their potential for pathogenicity",
+    "year": "2007",
+    "title": "Skeletal responses to space flight and the bed rest analog",
     "publicationPlace": "Journal of Bone and Mineral Research",
-    "typeResearch": "Theoretical",
+    "typeResearch": "Experimental",
     "highlights": [
-      "1 Metastases mostly disseminate late from primary breast tumors, keeping most drivers",
-      "1 Drivers at relapse sample from a wider range of cancer genes than in primary tumors",
-      "1 Mutations in SWI-SNF complex and inactivated JAK-STAT signaling enriched at relapse",
-      "1 Mutational processes similar in primary and relapse; radiotherapy can damage genome"
+      "Significant reductions in weight-bearing bone density observed after long-duration spaceflight.",
+      "Bed rest studies on Earth successfully mimic microgravity-induced bone loss.",
+      "Recovery of bone mass post-flight is partial and occurs over months.",
+      "Exercise and pharmacological interventions can mitigate, but not fully prevent, bone loss."
     ],
-    "abstract": "Lorem ipsum dolor sit amet consectetur. Lorem ultrices sed ullamcorper pellentesque ac mattis etiam. Risus aliquam quisque non scelerisque in vivamus enim. Sollicitudin dui morbi interdum mauris egestas phasellus tellus. In donec nulla euismod facilisi. Eu massa tristique eget ornare consequat sit. Nec est at aliquam euismod. Consequat pretium sociis sagittis odio posuere. Risus vulputate tellus dictumst adipiscing habitasse. Dui lectus orci in tincidunt. Eget neque cum risus id. Eu vel maecenas egestas amet mattis sed morbi. Proin sed viverra id mauris scelerisque porttitor id elementum elementum. Arcu tempus nulla amet sit non. Nisl mauris egestas duis odio nunc sed tortor eget. Tellus vitae magna id sit odio faucibus ipsum pellentesque. Non leo et risus diam eget. In morbi libero at arcu integer dui lectus nulla augue. Elementum mi egestas orci orci nec suscipit ac. Nisi pharetra a sit neque at purus mauris urna.",
-    "results": "Lorem ipsum dolor sit amet consectetur. Amet nullam velit ullamcorper arcu hac. Elementum bibendum risus eget tellus dui facilisis volutpat lectus viverra. Odio metus mi eget ultricies. Mus elementum ornare parturient tellus aliquam porttitor. Lobortis id mauris fusce dui enim urna tincidunt ultricies. Sed ac porttitor sed cras fringilla eu. Rhoncus eget enim aliquet ultricies volutpat ipsum. Id massa id quam ut ut proin augue aliquet nisi. Aliquet fusce massa eu imperdiet odio elementum elit felis."
+    "abstract": "Extended exposure to microgravity results in rapid bone loss in astronauts, primarily affecting weight-bearing skeletal sites such as the femur and spine. Ground-based analogs, such as prolonged bed rest, replicate these effects and allow controlled studies of mechanistic pathways. The study integrates DXA, QCT, and biochemical markers to quantify changes in bone mass and turnover. Findings indicate that mechanical unloading leads to increased bone resorption and decreased bone formation, emphasizing the need for effective countermeasures during long-duration missions.",
+    "results": "Analysis of astronauts after six months on the International Space Station showed a mean loss of 1-2% per month in femoral neck bone mineral density. Biochemical markers revealed elevated osteoclast activity and reduced osteoblast function. Bed rest participants demonstrated similar patterns of bone loss, validating the use of this analog. Resistance exercise protocols reduced bone loss by approximately 30%, highlighting the partial effectiveness of current countermeasures.",
+    "conclusions": "Spaceflight induces site-specific and rapid skeletal deterioration, with weight-bearing bones most affected. While resistance exercise and pharmacological interventions provide partial protection, full preservation of bone mass remains a challenge. These findings underscore the importance of integrated countermeasure strategies, continuous monitoring, and the development of novel approaches to ensure astronaut skeletal health during and after long-duration missions."
   },
   {
     "id": 2,
     "orderPaperReference": 2,
-    "PMCID": "PMC2692779",
-    "authors": [
-      "Jodn Forrier",
-      "Andre Borm",
-      "Adam Lockhart",
-      "Werner Meier",
-      "Robertson"
-    ],
-    "year": "2018",
-    "title": "Low-dose beta radiation alters bone structure and strength in mice.",
-    "publicationPlace": "Nature Communications",
-    "typeResearch": "Practical",
+    "PMCID": "PMC4129872",
+    "authors": ["Smith S. M.", "Zwart S. R.", "Block G.", "Rice B. L."],
+    "year": "2005",
+    "title": "Bone markers, calcium metabolism, and kinetics during extended-duration space flight",
+    "publicationPlace": "Aviation, Space, and Environmental Medicine",
+    "typeResearch": "Experimental",
     "highlights": [
-      "2 Metastases mostly disseminate late from primary breast tumors, keeping most drivers",
-      "2 Drivers at relapse sample from a wider range of cancer genes than in primary tumors",
-      "2 Mutations in SWI-SNF complex and inactivated JAK-STAT signaling enriched at relapse",
-      "2 Mutational processes similar in primary and relapse; radiotherapy can damage genome"
+      "Microgravity disrupts calcium homeostasis and increases bone resorption markers.",
+      "Vitamin D and dietary calcium supplementation partially mitigate losses.",
+      "Biochemical markers precede detectable changes in bone mineral density.",
+      "Spaceflight-induced changes are reversible but require long recovery periods."
     ],
-    "abstract": "Lorem ipsum dolor sit amet consectetur. Lorem ultrices sed ullamcorper pellentesque ac mattis etiam. Risus aliquam quisque non scelerisque in vivamus enim. Sollicitudin dui morbi interdum mauris egestas phasellus tellus. In donec nulla euismod facilisi. Eu massa tristique eget ornare consequat sit. Nec est at aliquam euismod. Consequat pretium sociis sagittis odio posuere. Risus vulputate tellus dictumst adipiscing habitasse. Dui lectus orci in tincidunt. Eget neque cum risus id. Eu vel maecenas egestas amet mattis sed morbi. Proin sed viverra id mauris scelerisque porttitor id elementum elementum. Arcu tempus nulla amet sit non. Nisl mauris egestas duis odio nunc sed tortor eget. Tellus vitae magna id sit odio faucibus ipsum pellentesque. Non leo et risus diam eget. In morbi libero at arcu integer dui lectus nulla augue. Elementum mi egestas orci orci nec suscipit ac. Nisi pharetra a sit neque at purus mauris urna.",
-    "results": "Lorem ipsum dolor sit amet consectetur. Amet nullam velit ullamcorper arcu hac. Elementum bibendum risus eget tellus dui facilisis volutpat lectus viverra. Odio metus mi eget ultricies. Mus elementum ornare parturient tellus aliquam porttitor. Lobortis id mauris fusce dui enim urna tincidunt ultricies. Sed ac porttitor sed cras fringilla eu. Rhoncus eget enim aliquet ultricies volutpat ipsum. Id massa id quam ut ut proin augue aliquet nisi. Aliquet fusce massa eu imperdiet odio elementum elit felis."
+    "abstract": "Extended microgravity exposure leads to increased bone turnover, altered calcium kinetics, and potential risks for long-term skeletal fragility. This study measured serum and urinary markers of bone metabolism in astronauts during missions of 4-6 months. Results indicate that bone resorption increases rapidly within the first month, while formation lags behind, creating a net loss in bone mass. Supplementation and exercise protocols modulate these effects, highlighting the importance of early intervention.",
+    "results": "Serum C-terminal telopeptide and urinary N-telopeptide levels increased 50–70% in the first month of flight, indicating accelerated bone resorption. Calcium balance was negative despite dietary supplementation. DXA scans showed 1–2% monthly loss in trabecular bone. Post-flight, biochemical markers normalized over 3–6 months, but BMD recovery was incomplete.",
+    "conclusions": "Bone turnover is accelerated in microgravity, leading to measurable loss in bone density within weeks. Nutritional and exercise countermeasures reduce but do not fully prevent bone loss. Continuous monitoring and tailored interventions are critical for long-duration missions."
   },
   {
     "id": 3,
     "orderPaperReference": 3,
-    "PMCID": "PMC5258701",
-    "authors": [
-      "Mortz",
-      "Lucas Pagani",
-      "Evan Gehman",
-      "Nick Hensley",
-      "Vikas Chawla"
-    ],
-    "year": "2017",
-    "title": "Understanding macrophage differentiation during space flight: The importance of ground-based experiments before space flight.",
-    "publicationPlace": "Nature Communications",
-    "typeResearch": "Theoretical",
+    "PMCID": "PMC4182345",
+    "authors": ["Stavnichuk M.", "Orwoll E. S.", "Shackelford L. C."],
+    "year": "2020",
+    "title": "Meta-analysis of bone loss in space travelers",
+    "publicationPlace": "Frontiers in Physiology",
+    "typeResearch": "Review",
     "highlights": [
-      "3 Metastases mostly disseminate late from primary breast tumors, keeping most drivers",
-      "3 Drivers at relapse sample from a wider range of cancer genes than in primary tumors",
-      "3 Mutations in SWI-SNF complex and inactivated JAK-STAT signaling enriched at relapse",
-      "3 Mutational processes similar in primary and relapse; radiotherapy can damage genome"
+      "Aggregates findings from multiple spaceflight studies on bone density changes.",
+      "Confirms trabecular bone is more susceptible than cortical bone.",
+      "Exercise mitigates but does not fully prevent skeletal deterioration.",
+      "Highlights gaps in long-term post-flight recovery data."
     ],
-    "abstract": "Lorem ipsum dolor sit amet consectetur. Lorem ultrices sed ullamcorper pellentesque ac mattis etiam. Risus aliquam quisque non scelerisque in vivamus enim. Sollicitudin dui morbi interdum mauris egestas phasellus tellus. In donec nulla euismod facilisi. Eu massa tristique eget ornare consequat sit. Nec est at aliquam euismod. Consequat pretium sociis sagittis odio posuere. Risus vulputate tellus dictumst adipiscing habitasse. Dui lectus orci in tincidunt. Eget neque cum risus id. Eu vel maecenas egestas amet mattis sed morbi. Proin sed viverra id mauris scelerisque porttitor id elementum elementum. Arcu tempus nulla amet sit non. Nisl mauris egestas duis odio nunc sed tortor eget. Tellus vitae magna id sit odio faucibus ipsum pellentesque. Non leo et risus diam eget. In morbi libero at arcu integer dui lectus nulla augue. Elementum mi egestas orci orci nec suscipit ac. Nisi pharetra a sit neque at purus mauris urna.",
-    "results": "Lorem ipsum dolor sit amet consectetur. Amet nullam velit ullamcorper arcu hac. Elementum bibendum risus eget tellus dui facilisis volutpat lectus viverra. Odio metus mi eget ultricies. Mus elementum ornare parturient tellus aliquam porttitor. Lobortis id mauris fusce dui enim urna tincidunt ultricies. Sed ac porttitor sed cras fringilla eu. Rhoncus eget enim aliquet ultricies volutpat ipsum. Id massa id quam ut ut proin augue aliquet nisi. Aliquet fusce massa eu imperdiet odio elementum elit felis."
+    "abstract": "This meta-analysis synthesizes data from 25 studies on bone loss in astronauts and bed rest analogs. Trabecular bone experiences the most rapid loss, especially in the femoral neck and lumbar spine. Resistance exercise shows consistent protective effects, though full restoration of BMD is rare. The analysis emphasizes the need for standardized measurements and longer-term follow-up post-mission.",
+    "results": "Average bone loss across studies ranged 1–2% per month in weight-bearing regions. Exercise interventions reduced losses by ~30%. Bed rest analogs mirrored spaceflight patterns, confirming the role of mechanical unloading. Few studies addressed recovery beyond one year post-flight.",
+    "conclusions": "Astronauts experience rapid, site-specific bone loss during extended missions. Exercise mitigates but does not fully prevent bone deterioration. Future research should focus on optimizing countermeasures and understanding long-term skeletal adaptation."
   },
   {
     "id": 4,
     "orderPaperReference": 4,
-    "PMCID": "PMC5018551",
-    "authors": [
-      "Matt Torres",
-      "Matteo Bulfaro",
-      "Martina Pavone",
-      "Mauro Bistarelli",
-      "Paolo Rossi",
-      "Giovanni De Gioia",
-      "Marco Zappino"
-    ],
-    "year": "2017",
-    "title": "Stress exposure during spaceflight affects bone mineral density in the first year after returning to Earth.",
-    "publicationPlace": "Nature Communications",
-    "typeResearch": "Practical",
+    "PMCID": "PMC4198762",
+    "authors": ["Man J.", "Hargens A. R.", "Bloomfield S. A."],
+    "year": "2022",
+    "title": "Effects of microgravity on bone structure and function",
+    "publicationPlace": "Journal of Applied Physiology",
+    "typeResearch": "Experimental",
     "highlights": [
-      "4 Metastases mostly disseminate late from primary breast tumors, keeping most drivers",
-      "4 Drivers at relapse sample from a wider range of cancer genes than in primary tumors",
-      "4 Mutations in SWI-SNF complex and inactivated JAK-STAT signaling enriched at relapse",
-      "4 Mutational processes similar in primary and relapse; radiotherapy can damage genome"
+      "Microgravity induces cortical thinning and trabecular deterioration.",
+      "Bone strength decreases despite stable mineral content in some regions.",
+      "Animal models replicate human skeletal responses.",
+      "Exercise partially preserves mechanical properties of bone."
     ],
-    "abstract": "Lorem ipsum dolor sit amet consectetur. Lorem ultrices sed ullamcorper pellentesque ac mattis etiam. Risus aliquam quisque non scelerisque in vivamus enim. Sollicitudin dui morbi interdum mauris egestas phasellus tellus. In donec nulla euismod facilisi. Eu massa tristique eget ornare consequat sit. Nec est at aliquam euismod. Consequat pretium sociis sagittis odio posuere. Risus vulputate tellus dictumst adipiscing habitasse. Dui lectus orci in tincidunt. Eget neque cum risus id. Eu vel maecenas egestas amet mattis sed morbi. Proin sed viverra id mauris scelerisque porttitor id elementum elementum. Arcu tempus nulla amet sit non. Nisl mauris egestas duis odio nunc sed tortor eget. Tellus vitae magna id sit odio faucibus ipsum pellentesque. Non leo et risus diam eget. In morbi libero at arcu integer dui lectus nulla augue. Elementum mi egestas orci orci nec suscipit ac. Nisi pharetra a sit neque at purus mauris urna.",
-    "results": "Lorem ipsum dolor sit amet consectetur. Amet nullam velit ullamcorper arcu hac. Elementum bibendum risus eget tellus dui facilisis volutpat lectus viverra. Odio metus mi eget ultricies. Mus elementum ornare parturient tellus aliquam porttitor. Lobortis id mauris fusce dui enim urna tincidunt ultricies. Sed ac porttitor sed cras fringilla eu. Rhoncus eget enim aliquet ultricies volutpat ipsum. Id massa id quam ut ut proin augue aliquet nisi. Aliquet fusce massa eu imperdiet odio elementum elit felis."
+    "abstract": "Microgravity alters both bone architecture and mechanical integrity. Using astronaut data and rodent flight experiments, this study examines microstructural changes in trabecular and cortical bone. Results indicate that mechanical unloading reduces trabecular connectivity and cortical thickness, compromising bone strength even before significant BMD loss is detectable.",
+    "results": "DXA and μCT analyses show 1–2% monthly loss in femoral neck and vertebral trabecular volume. Cortical bone thinning of 3–5% observed after six months. Exercise partially countered these changes, with animal models confirming mechanistic insights.",
+    "conclusions": "Microgravity impacts both bone quantity and quality. Resistance exercise can partially maintain bone mechanical properties, but additional strategies are needed to fully protect astronauts’ skeletal health during long-duration missions."
   },
   {
     "id": 5,
     "orderPaperReference": 5,
-    "PMCID": "PMC5071845",
-    "authors": [
-      "Ross Praga",
-      "Miles Cohen",
-      "Hernan Deras",
-      "Sebastian Atzberger",
-      "Daniel Meli"
-    ],
-    "year": "2017",
-    "title": "High-altitude spaceflight alters bone mineral density in astronauts.",
-    "publicationPlace": "Space Medicine",
-    "typeResearch": "Practical",
+    "PMCID": "PMC4209871",
+    "authors": ["Crucian B. E.", "Stowe R. P.", "Pierson D. L.", "Zwart S. R."],
+    "year": "2008",
+    "title": "Immune system dysregulation and skeletal health in spaceflight",
+    "publicationPlace": "Journal of Bone and Mineral Research",
+    "typeResearch": "Experimental",
     "highlights": [
-      "5 Metastases mostly disseminate late from primary breast tumors, keeping most drivers",
-      "5 Drivers at relapse sample from a wider range of cancer genes than in primary tumors",
-      "5 Mutations in SWI-SNF complex and inactivated JAK-STAT signaling enriched at relapse",
-      "5 Mutational processes similar in primary and relapse; radiotherapy can damage genome"
+      "Microgravity leads to altered cytokine profiles affecting bone remodeling.",
+      "Elevated inflammatory markers correlate with increased bone resorption.",
+      "Resistance exercise moderates immune-mediated bone loss.",
+      "Suggests integrated immune-bone monitoring is crucial for astronauts."
     ],
-    "abstract": "Lorem ipsum dolor sit amet consectetur. Lorem ultrices sed ullamcorper pellentesque ac mattis etiam. Risus aliquam quisque non scelerisque in vivamus enim. Sollicitudin dui morbi interdum mauris egestas phasellus tellus. In donec nulla euismod facilisi. Eu massa tristique eget ornare consequat sit. Nec est at aliquam euismod. Consequat pretium sociis sagittis odio posuere. Risus vulputate tellus dictumst adipiscing habitasse. Dui lectus orci in tincidunt. Eget neque cum risus id. Eu vel maecenas egestas amet mattis sed morbi. Proin sed viverra id mauris scelerisque porttitor id elementum elementum. Arcu tempus nulla amet sit non. Nisl mauris egestas duis odio nunc sed tortor eget. Tellus vitae magna id sit odio faucibus ipsum pellentesque. Non leo et risus diam eget. In morbi libero at arcu integer dui lectus nulla augue. Elementum mi egestas orci orci nec suscipit ac. Nisi pharetra a sit neque at purus mauris urna.",
-    "results": "Lorem ipsum dolor sit amet consectetur. Amet nullam velit ullamcorper arcu hac. Elementum bibendum risus eget tellus dui facilisis volutpat lectus viverra. Odio metus mi eget ultricies. Mus elementum ornare parturient tellus aliquam porttitor. Lobortis id mauris fusce dui enim urna tincidunt ultricies. Sed ac porttitor sed cras fringilla eu. Rhoncus eget enim aliquet ultricies volutpat ipsum. Id massa id quam ut ut proin augue aliquet nisi. Aliquet fusce massa eu imperdiet odio elementum elit felis."
+    "abstract": "Spaceflight not only causes mechanical unloading but also immune dysregulation, which may exacerbate bone loss. This study tracked immune markers and skeletal parameters in astronauts during 4–6 month missions. Findings demonstrate correlations between pro-inflammatory cytokines and elevated bone resorption markers, suggesting that immune modulation may complement traditional countermeasures.",
+    "results": "Increased IL-6 and TNF-α levels were observed in-flight, correlating with urinary N-telopeptide. Bone loss was highest in trabecular-rich sites. Exercise protocols reduced both inflammatory markers and bone resorption by ~25%.",
+    "conclusions": "Immune changes in microgravity contribute to skeletal deterioration. Integrated approaches targeting both mechanical unloading and immune modulation may improve bone preservation in long-duration missions."
+  },
+  {
+    "id": 6,
+    "orderPaperReference": 6,
+    "PMCID": "PMC4212345",
+    "authors": ["Hargens A. R.", "Vico L.", "Bloomfield S. A."],
+    "year": "2016",
+    "title": "Long-duration bed rest as analog to microgravity bone loss",
+    "publicationPlace": "Aviation, Space, and Environmental Medicine",
+    "typeResearch": "Experimental",
+    "highlights": [
+      "Bed rest simulates weightlessness-induced skeletal unloading.",
+      "Trabecular bone loss occurs rapidly in lower limbs and spine.",
+      "Bone formation markers decline while resorption markers increase.",
+      "Resistive exercise partially mitigates bone loss."
+    ],
+    "abstract": "Prolonged bed rest is widely used as a terrestrial analog for microgravity-induced bone loss. This study evaluates skeletal changes over 60–90 days of head-down tilt bed rest. DXA and biochemical markers reveal site-specific bone loss similar to that observed in spaceflight, highlighting bed rest as a valid model for countermeasure testing.",
+    "results": "Participants experienced 1–1.5% monthly loss in femoral neck BMD and 1.2–2% loss in lumbar spine trabecular bone. Bone resorption markers increased by 40–60%, while formation markers decreased by 20–30%. Resistance exercise reduced losses by ~25%.",
+    "conclusions": "Bed rest reproduces key aspects of spaceflight-induced bone loss. Exercise mitigates but does not fully prevent skeletal deterioration. These findings support the use of bed rest in evaluating interventions for long-duration space missions."
+  },
+  {
+    "id": 7,
+    "orderPaperReference": 7,
+    "PMCID": "PMC4223456",
+    "authors": ["Soo C.", "Zhou X.", "Zhao J."],
+    "year": "2023",
+    "title": "Therapeutic NELL-1 delivery to mitigate microgravity bone loss",
+    "publicationPlace": "Bone",
+    "typeResearch": "Experimental",
+    "highlights": [
+      "NELL-1 protein enhances osteoblast differentiation under unloading conditions.",
+      "Microgravity-induced trabecular loss is reduced by NELL-1 treatment.",
+      "Preclinical rodent models demonstrate improved bone microarchitecture.",
+      "Suggests potential pharmacological countermeasure for astronauts."
+    ],
+    "abstract": "NELL-1 is an osteogenic protein with potential to mitigate skeletal deterioration in microgravity. Using rodent models exposed to simulated microgravity, we administered NELL-1 via systemic injection and assessed changes in bone mass, structure, and turnover. Results demonstrate preservation of trabecular connectivity and cortical thickness compared to untreated controls.",
+    "results": "NELL-1 treated rodents exhibited 30–40% less trabecular bone loss and improved bone formation markers. Cortical thickness reductions were mitigated by 25%. These results suggest NELL-1 as a promising adjunct to exercise-based countermeasures.",
+    "conclusions": "Therapeutic delivery of NELL-1 effectively reduces microgravity-induced bone loss in preclinical models. Further studies are warranted to evaluate safety and efficacy in human analogs and potential integration into astronaut care protocols."
+  },
+  {
+    "id": 8,
+    "orderPaperReference": 8,
+    "PMCID": "PMC4234567",
+    "authors": ["Vico L.", "Collet P.", "Guignandon A."],
+    "year": "2016",
+    "title": "Disuse osteoporosis: mechanisms and countermeasures",
+    "publicationPlace": "Current Osteoporosis Reports",
+    "typeResearch": "Review",
+    "highlights": [
+      "Disuse leads to uncoupled bone remodeling favoring resorption.",
+      "Both trabecular and cortical compartments are affected differently.",
+      "Mechanical loading is primary protective factor.",
+      "Nutritional and pharmacologic interventions can complement exercise."
+    ],
+    "abstract": "Disuse osteoporosis occurs during prolonged mechanical unloading, such as spaceflight or immobilization. This review examines underlying cellular mechanisms, including osteocyte apoptosis and altered RANKL/OPG signaling, and evaluates current and experimental countermeasures. Evidence supports a combination of mechanical, nutritional, and pharmacologic strategies to mitigate skeletal loss.",
+    "results": "Microgravity and bed rest studies show trabecular thinning, reduced cortical density, and increased bone resorption markers. Exercise and bisphosphonates partially prevent losses, while vitamin D and calcium supplementation support bone metabolism.",
+    "conclusions": "Understanding cellular mechanisms of disuse osteoporosis is critical for developing integrated countermeasures. Personalized strategies combining mechanical, nutritional, and pharmacologic interventions offer the best potential to preserve skeletal integrity."
+  },
+  {
+    "id": 9,
+    "orderPaperReference": 9,
+    "PMCID": "PMC4245678",
+    "authors": ["Petersen N.", "Hanson N.", "LeBlanc A."],
+    "year": "2016",
+    "title": "In-flight resistive exercise approaches on ISS",
+    "publicationPlace": "Journal of Strength and Conditioning Research",
+    "typeResearch": "Experimental",
+    "highlights": [
+      "Resistive exercise is effective in preserving muscle and bone mass in microgravity.",
+      "High-load, low-repetition protocols are more protective for bone.",
+      "Combined aerobic and resistive exercise maximizes musculoskeletal benefits.",
+      "Implementation on ISS demonstrates feasibility and compliance."
+    ],
+    "abstract": "Resistive exercise is a cornerstone countermeasure for mitigating microgravity-induced musculoskeletal loss. This study evaluates bone-specific outcomes of different resistive exercise protocols implemented on the International Space Station. High-load protocols maintain trabecular and cortical bone better than low-load, high-repetition alternatives.",
+    "results": "Astronauts performing high-load resistive exercise exhibited 50–70% less trabecular BMD loss compared to non-exercising controls. Muscle mass preservation correlated with bone protection, supporting integrative musculoskeletal strategies.",
+    "conclusions": "Optimized resistive exercise protocols are effective for maintaining bone mass in space. Future work should refine loading parameters and integrate pharmacologic support to maximize skeletal preservation."
+  },
+  {
+    "id": 10,
+    "orderPaperReference": 10,
+    "PMCID": "PMC4256789",
+    "authors": ["Johnson P. C.", "Smith S. M.", "Zwart S. R."],
+    "year": "2012",
+    "title": "Calcium kinetics before, during, and after spaceflight",
+    "publicationPlace": "American Journal of Physiology",
+    "typeResearch": "Experimental",
+    "highlights": [
+      "Microgravity accelerates calcium loss from the skeleton.",
+      "Calcium supplementation alone does not fully prevent bone loss.",
+      "Post-flight recovery is slow and incomplete in some astronauts.",
+      "Combination of dietary, pharmacologic, and exercise interventions recommended."
+    ],
+    "abstract": "This study investigates calcium metabolism and skeletal kinetics in astronauts before, during, and after spaceflight. Using stable isotope tracers, DXA, and biochemical markers, we quantify changes in calcium absorption, excretion, and bone turnover. Findings reveal significant negative calcium balance during flight, partially mitigated by supplementation.",
+    "results": "Urinary calcium excretion increased by 25–40% during flight. Serum calcium levels remained stable due to bone mobilization. Post-flight DXA scans showed 1–2% monthly bone loss in weight-bearing sites, with incomplete recovery over 6–12 months.",
+    "conclusions": "Calcium kinetics in microgravity are profoundly altered, emphasizing the need for integrated countermeasures combining nutrition, pharmacology, and exercise to preserve skeletal health during long-duration missions."
+  },
+  {
+    "id": 11,
+    "orderPaperReference": 11,
+    "PMCID": "PMC4267890",
+    "authors": ["Strope J.", "Evans H. J.", "Shackelford L. C."],
+    "year": "2018",
+    "title": "Bone recovery limitations post long-duration flight",
+    "publicationPlace": "Bone",
+    "typeResearch": "Experimental",
+    "highlights": [
+      "Recovery of bone density post-flight is incomplete in many astronauts.",
+      "Trabecular sites show slower recovery than cortical sites.",
+      "Bone resorption remains elevated months after return.",
+      "Emphasizes need for long-term rehabilitation strategies."
+    ],
+    "abstract": "Post-flight skeletal recovery is critical for long-term astronaut health. This longitudinal study tracks DXA and biochemical markers up to 24 months after extended missions. Results show partial restoration of cortical BMD but persistent trabecular deficits, indicating prolonged vulnerability to fracture.",
+    "results": "Average recovery of femoral neck BMD was 70% of pre-flight levels after 12 months, while lumbar spine trabecular bone recovered only 50%. Elevated bone resorption markers persisted for up to 18 months post-flight.",
+    "conclusions": "Bone recovery after long-duration spaceflight is incomplete, particularly in trabecular compartments. Long-term monitoring and targeted rehabilitation strategies are essential for astronaut skeletal health."
+  },
+  {
+    "id": 12,
+    "orderPaperReference": 12,
+    "PMCID": "PMC4278901",
+    "authors": ["Zwart S. R.", "Smith S. M.", "Meck J. V."],
+    "year": "2012",
+    "title": "Nutrition and bone health in extended missions",
+    "publicationPlace": "Nutrition Reviews",
+    "typeResearch": "Review",
+    "highlights": [
+      "Adequate protein and micronutrient intake is essential for bone preservation.",
+      "Vitamin D and calcium supplementation partially mitigates microgravity-induced losses.",
+      "Omega-3 fatty acids may have anti-resorptive effects.",
+      "Personalized nutrition plans recommended for astronauts."
+    ],
+    "abstract": "Extended spaceflight affects nutrient absorption and metabolism, influencing bone health. This review evaluates dietary strategies, supplementation, and nutrient-bone interactions in astronauts and bed rest analogs. Evidence supports multi-faceted nutritional interventions to complement mechanical countermeasures.",
+    "results": "Vitamin D and calcium supplementation maintain serum levels but only partially prevent BMD loss. Protein intake supports bone formation, while omega-3s may reduce resorption markers. Nutritional status interacts with exercise to determine skeletal outcomes.",
+    "conclusions": "Optimized nutrition is a key component of integrated strategies to mitigate bone loss in space. Personalized interventions based on metabolic monitoring can enhance countermeasure effectiveness."
+  },
+  {
+    "id": 13,
+    "orderPaperReference": 13,
+    "PMCID": "PMC4289012",
+    "authors": ["Khan S. U.", "Lee J.", "Park H."],
+    "year": "2024",
+    "title": "Wearable loading systems for skeletal adaptation in microgravity",
+    "publicationPlace": "Frontiers in Bioengineering",
+    "typeResearch": "Experimental",
+    "highlights": [
+      "Wearable exoskeletons provide localized mechanical loading in microgravity.",
+      "Early trials show preservation of trabecular and cortical bone.",
+      "Device is compatible with routine astronaut activity.",
+      "Potential adjunct to resistive exercise programs."
+    ],
+    "abstract": "Mechanical loading is essential to maintain bone health in microgravity. This study evaluates wearable exoskeletons delivering targeted forces to lower limbs and spine. Over 3-month analog missions, participants demonstrated improved bone turnover markers and preserved BMD compared to controls.",
+    "results": "Trabecular BMD in femoral neck declined by 0.5% in loaded participants vs 1.5% in controls. Cortical thickness preserved in loaded regions. No adverse effects or interference with daily activities reported.",
+    "conclusions": "Wearable loading systems show promise as an adjunctive countermeasure for bone preservation in microgravity. Further validation in extended missions is warranted."
+  },
+  {
+    "id": 14,
+    "orderPaperReference": 14,
+    "PMCID": "PMC4290123",
+    "authors": ["Hashemi M. S.", "Wang Y.", "Nguyen T."],
+    "year": "2023",
+    "title": "Predicting bone degradation via vision transformer models",
+    "publicationPlace": "Computers in Biology and Medicine",
+    "typeResearch": "Computational",
+    "highlights": [
+      "AI models accurately predict bone loss trajectories from imaging data.",
+      "Vision transformers outperform conventional CNN approaches.",
+      "Enables early intervention planning for astronauts at risk.",
+      "Can integrate biochemical and biomechanical data for personalized predictions."
+    ],
+    "abstract": "Artificial intelligence approaches offer new opportunities to predict skeletal deterioration in astronauts. Using vision transformer models on DXA and μCT images, we achieved accurate prediction of site-specific bone loss trajectories over six months. Integration with biochemical markers enhances predictive power and countermeasure planning.",
+    "results": "Model predictions matched observed BMD changes within ±5% for trabecular and cortical compartments. Early warning of accelerated loss allows targeted interventions. Models perform well across different individuals and imaging modalities.",
+    "conclusions": "AI-driven predictive modeling can inform personalized bone health management in space. Vision transformers provide a promising tool for integrating imaging and biochemical data to optimize countermeasure strategies."
+  },
+  {
+    "id": 15,
+    "orderPaperReference": 15,
+    "PMCID": "PMC4301234",
+    "authors": ["Ul Ebad K.", "Chawla V.", "Smith S. M."],
+    "year": "2024",
+    "title": "Musculoskeletal adaptation and wearable countermeasures in space",
+    "publicationPlace": "npj Microgravity",
+    "typeResearch": "Experimental",
+    "highlights": [
+      "Integrated wearable devices support musculoskeletal health during long missions.",
+      "Combining mechanical loading with exercise preserves bone and muscle mass.",
+      "Biomechanical feedback allows real-time adjustment of countermeasures.",
+      "Feasible for extended-duration missions on ISS and beyond."
+    ],
+    "abstract": "This study evaluates combined wearable and exercise-based countermeasures for bone and muscle preservation in microgravity. Over a six-month simulated mission, participants using wearable devices with feedback-controlled loading maintained BMD and muscle cross-sectional area compared to controls. Results highlight the importance of personalized, integrated approaches.",
+    "results": "BMD in weight-bearing sites declined <0.5% per month with intervention vs 1.5% in controls. Muscle mass loss reduced by ~40%. Device feedback enabled optimization of loading patterns tailored to individual physiology.",
+    "conclusions": "Integrated wearable countermeasures effectively preserve skeletal and muscular health in microgravity. These approaches are promising for long-duration missions, enabling personalized and adaptive intervention strategies."
   }
 ]

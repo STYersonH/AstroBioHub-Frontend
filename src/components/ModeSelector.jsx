@@ -12,9 +12,27 @@ function ModeSelector({ changeToPage = false }) {
     <div
       className={cn(
         "flex gap-[24px] rounded-lg p-[10px]",
-        selectedMode === "discover" ? "bg-green-50" : "bg-blue-50",
+        selectedMode === "discover" && "bg-green-50",
+        selectedMode === "academic" && "bg-blue-50",
+        selectedMode === "interactive" && "bg-orange-50",
       )}
     >
+      {!changeToPage && (
+        <button
+          className={cn(
+            "text-ui-lg-r flex h-full flex-1 cursor-pointer items-center justify-center rounded-md p-[10px]",
+            selectedMode === "interactive" && "text-ui-lg-sb bg-orange-100",
+          )}
+          onClick={() => {
+            if (searchActive && selectedMode !== "discover" && changeToPage) {
+              navigate("/summary/discover");
+            }
+            setMode("interactive");
+          }}
+        >
+          Interactive mode
+        </button>
+      )}
       <button
         className={cn(
           "text-ui-lg-r flex h-full flex-1 cursor-pointer items-center justify-center rounded-md p-[10px]",

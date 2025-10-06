@@ -1,4 +1,4 @@
-import dataJSON from "../data/academic_data_50_papers.json";
+import dataJSON from "../data/space_biology_research.json";
 
 const graphData = {
   nodes: [],
