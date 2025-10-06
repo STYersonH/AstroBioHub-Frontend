@@ -1,7 +1,7 @@
 import { useState } from "react";
 import useAppStore from "./store/useAppStore";
 import { motion, AnimatePresence } from "framer-motion";
-import { useNavigate } from "react-router";
+import { useNavigate, Link } from "react-router";
 import ModeSelector from "./components/ModeSelector";
 import SearchBar from "./components/SearchBar";
 
@@ -29,22 +29,37 @@ function App() {
           <div className="gap-4xl flex w-[665px] flex-col items-center justify-center">
             <div className="gap-lg flex w-full flex-col">
               <ModeSelector />
-              {selectedMode === "discover" ? (
+              {selectedMode === "discover" && (
                 <p className="text-ui-md-r w-full text-center text-gray-600">
-                  Explora los hallazgos de la ciencia espacial en un lenguaje
-                  claro. Obtén resúmenes accesibles y conexiones fáciles de
-                  entender.
+                  Explore the findings of space science in clear language. Get
+                  accessible summaries and easy-to-understand connections.
                 </p>
-              ) : (
+              )}
+              {selectedMode === "academic" && (
                 <p className="text-ui-md-r w-full text-center text-gray-600">
-                  Accede a resúmenes científicos detallados, gráficos, papers
-                  completos y mapas de conocimiento para un análisis riguroso.
+                  Access detailed scientific summaries, graphs, complete papers
+                  and knowledge maps for a rigorous analysis.
+                </p>
+              )}
+              {selectedMode === "interactive" && (
+                <p className="text-ui-md-r w-full text-center text-gray-600">
+                  Explore the most relevant papers in space biology in a virtual
+                  library and interact with them
                 </p>
               )}
             </div>
 
             {/* Search bar */}
-            <SearchBar />
+            {selectedMode === "discover" || selectedMode === "academic" ? (
+              <SearchBar />
+            ) : (
+              <a
+                href=""
+                className="text-ui-md-r px-6xl py-lg rounded-full bg-white text-center text-gray-600 transition-all duration-300 hover:bg-orange-500 hover:text-white"
+              >
+                Go to Virtual Library
+              </a>
+            )}
           </div>
         </div>
       </motion.div>

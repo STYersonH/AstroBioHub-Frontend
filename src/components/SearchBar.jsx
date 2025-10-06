@@ -7,7 +7,7 @@ import useSummaryPageStore from "../store/useSummaryPageStore";
 import axios from "axios";
 
 const SearchBar = () => {
-  const { selectedMode } = useAppStore();
+  const { selectedMode, setRelatedPapers } = useAppStore();
   const { setSearchActive, searchActive, searchQuery, setSearchQuery } =
     useAppStore();
   const navigate = useNavigate();
@@ -34,6 +34,7 @@ const SearchBar = () => {
       });
       console.log("res.data academic", res.data);
       setDataAcademic(res.data);
+      setRelatedPapers(res.data.relatedPapers);
     } catch (error) {
       console.error("Error en academic:", error);
     }

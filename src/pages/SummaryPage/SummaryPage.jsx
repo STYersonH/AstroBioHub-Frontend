@@ -7,7 +7,6 @@ import useAppStore from "../../store/useAppStore";
 import { motion } from "framer-motion";
 import { cn } from "../../utils/cn";
 import Chat from "../../components/Chat";
-import dataJSON from "../../data/space_biology_research.json";
 import axios from "axios";
 // const data = {
 //   discoverData: {

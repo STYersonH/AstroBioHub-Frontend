@@ -107,6 +107,12 @@ const PaperAcademicSummaryContent = () => {
         <h4 className="text-s-body-md-b">Results</h4>
         <p className="text-s-body-md-r">{paperSummaryData?.results}</p>
       </div>
+
+      {/* Conclusions */}
+      <div className="space-y-md">
+        <h4 className="text-s-body-md-b">Conclusions</h4>
+        <p className="text-s-body-md-r">{paperSummaryData?.conclusions}</p>
+      </div>
     </div>
   );
 };

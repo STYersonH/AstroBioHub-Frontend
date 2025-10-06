@@ -18,7 +18,7 @@ import useAppStore from "../../store/useAppStore";
 
 const KnowledgeGraphPage = () => {
   const navigate = useNavigate();
-  const { showPaperSummary } = useSummaryPageStore();
+  const { showPaperSummary, dataAcademic } = useSummaryPageStore();
   const { searchQuery } = useAppStore();
   const handleBackToSummary = () => {
     navigate("/summary/academic");
@@ -117,7 +117,7 @@ const KnowledgeGraphPage = () => {
           {!showPaperSummary && (
             <motion.div layout className="w-full flex-1 overflow-hidden">
               <ListOfRelatedPapers
-                relatedPapers={data.academicData.relatedPapers}
+                relatedPapers={dataAcademic.relatedPapers}
                 className="h-full w-full"
               />
             </motion.div>

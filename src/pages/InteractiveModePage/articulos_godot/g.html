@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Controlling Electron Spin for Future Computing</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+    body {
+      margin: 0;
+      padding: 40px;
+      background: #fff9e6;
+      font-family: 'Patrick Hand', cursive;
+      color: #333;
+    }
+
+    .infografia {
+      max-width: 800px;
+      margin: auto;
+      background: #fffdf5;
+      border: 2px dashed #d4a017;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 0 12px rgba(0,0,0,.1);
+    }
+
+    h1 {
+      font-size: 2.2em;
+      color: #b8860b;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      color: #b8860b;
+      margin-top: 30px;
+    }
+
+    p, li {
+      font-size: 1.25em;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    .resumen {
+      background: #ffe680;
+      padding: 15px;
+      border-left: 5px solid #d4a017;
+      margin-bottom: 30px;
+    }
+
+    /* --- ESTILOS PARA LA IMAGEN (ACTUALIZADOS) --- */
+    .imagen-espacial {
+      max-width: 800px; /* Ancho completo del contenedor */
+      height: 280px;      /* Altura fija para recortar */
+      margin: 25px auto;
+      overflow: hidden;   /* Oculta el sobrante */
+      border-radius: 10px;
+      border: 3px solid #d4a017; /* Borde a juego con el tema */
+      position: relative;
+    }
+
+    .imagen-espacial img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%); /* Centra la imagen verticalmente */
+    }
+    /* --- FIN DE ESTILOS PARA LA IMAGEN --- */
+
+    .highlight {
+      background: #ffe680;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #ffd966;
+      color: #5c3d00;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-weight: bold;
+      margin: 4px 2px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 30px;
+    }
+  </style>
+<base target="_blank">
+</head>
+<body>
+  <div class="infografia">
+    <h1>💡 Controlling the Electron's Spin: Toward the Future of Computing</h1>
+
+    <div class="resumen">
+      <p><strong>In short:</strong> Scientists have found a way to control the "memory" of an electron's spin at room temperature. By using a special material and applying strain to it, they can switch this property on and off—a key step in creating spin transistors, the foundation of future computing.</p>
+    </div>
+
+    <!-- Imagen Centrada -->
+    <div class="imagen-espacial">
+        <img src="/images/g/g.jpg" alt="Ilustración del espín de un electrón en un material cuántico">
+    </div>
+
+    <h2>🎯 The Challenge: Spintronics</h2>
+    <p>Today's electronics use an electron's charge (on/off). <span class="badge">Spintronics</span> aims to also use its "spin" (up/down), which could lead to much faster and more powerful devices. The big problem is that an electron's spin "forgets" its direction very quickly. The goal is to <span class="highlight">control how long that spin memory lasts</span>.</p>
+
+    <h2>🔬 The Experiment: A Quantum Sandwich</h2>
+    <ul>
+      <li>They created a special material with ultra-thin layers of <span class="badge">Indium Gallium Nitride (InGaN/GaN)</span>. This structure is known as a "quantum well."</li>
+      <li>Inside this material, two opposing forces that normally erase spin memory <span class="highlight">almost perfectly cancelled each other out</span>.</li>
+      <li>They used ultrafast lasers to measure how long the electrons "remembered" their spin direction (spin relaxation time).</li>
+      <li>Then, they applied <span class="highlight">mechanical strain</span> (stretching the material) to see if they could disrupt this balance.</li>
+    </ul>
+
+    <h2>📊 Key Findings: A Switch for Spin</h2>
+    <ul>
+      <li><strong>"On" State:</strong> Without strain, the spin memory in the special material lasted for <span class="badge">311 picoseconds</span>—much longer than in normal gallium nitride! This was due to the perfect balance of forces.</li>
+      <li><strong>"Off" State:</strong> When strain was applied, the material slightly deformed, creating an internal electric field that broke the balance. As a result, the spin memory <span class="highlight">dramatically decreased</span>.</li>
+      <li>They demonstrated that they could <span class="highlight">effectively manipulate the spin lifetime</span> simply by applying an external force.</li>
+    </ul>
+
+    <h2>✅ Conclusion: A Step Towards the Spin Transistor</h2>
+    <p>This study demonstrates a practical way to control a fundamental quantum property at room temperature. By being able to switch the spin state between "on" (long memory) and "off" (short memory), it lays the groundwork for building a <span class="badge">Spin Field-Effect Transistor (Spin FET)</span>, the essential component for the next generation of computers and electronic devices.</p>
+    
+    <footer>
+      Source: Liu et al., 2020. <em>Advanced Science</em>. DOI: <a href="https://doi.org/10.1002/advs.201903400" target="_blank">10.1002/advs.201903400</a>
+    </footer>
+  </div>
+</body>
+</html>

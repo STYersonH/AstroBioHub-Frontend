@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import TableOfContents from "./components/TableOfContents";
 import PaperDiscoverSummary from "./components/PaperDiscoverSummary";
@@ -19,6 +19,22 @@ const SummaryDiscoverPage = () => {
   const { breakpoints } = useBreakpointStore();
 
   const activeSection = useScrollSpy(sectionIds);
+
+  // Show loading state if dataDiscover is not loaded yet
+  if (!dataDiscover) {
+    return (
+      <div className="py-8xl flex w-full items-center justify-center">
+        <div className="text-center">
+          <div className="mx-auto mb-4 h-8 w-8 animate-spin rounded-full border-b-2 border-gray-900"></div>
+          <p className="text-c-body-lg-r text-gray-600">Loading content...</p>
+        </div>
+      </div>
+    );
+  }
+
+  useEffect(() => {
+    console.log("dataDiscover cambio", dataDiscover);
+  }, [dataDiscover]);
 
   const scrollToSection = (sectionId) => {
     const refs = {
@@ -107,24 +123,26 @@ const SummaryDiscoverPage = () => {
 
             {/* summary content */}
             <div className="gap-xl flex flex-col">
-              {dataDiscover?.sections.map((section) => (
-                <div key={section.title} className="gap-lg flex flex-col">
-                  <h3 className="text-c-heading-md-sb">{section.title}</h3>
-                  {section.contentBlocks.map((contentBlock, index) => (
+              {dataDiscover?.sections?.map((section) => (
+                <div key={section?.title} className="gap-lg flex flex-col">
+                  {section?.title && (
+                    <h3 className="text-c-heading-md-sb">{section.title}</h3>
+                  )}
+                  {section.contentBlocks?.map((contentBlock, index) => (
                     <div key={index} className="gap-lg flex flex-col">
                       <p className="text-c-body-lg-r">
                         <p className="text-c-body-lg-r">{contentBlock.text}</p>
                       </p>
                       {/* paragraph image */}
-                      {contentBlock.image && (
+                      {contentBlock?.image && (
                         <div className="py-xl flex flex-col items-center">
                           <img
-                            src={contentBlock.image.src}
-                            alt={contentBlock.image.alt}
+                            src={contentBlock?.image?.src}
+                            alt={contentBlock?.image?.alt}
                             className="h-auto w-3/4 rounded-lg object-cover"
                           />
                           <p className="text-c-body-sm mt-2 text-center text-gray-600 italic">
-                            {contentBlock.image.caption}
+                            {contentBlock?.image?.caption}
                           </p>
                         </div>
                       )}
@@ -142,7 +160,7 @@ const SummaryDiscoverPage = () => {
             className="p-2xl gap-xl flex flex-col rounded-xl bg-gray-50"
           >
             <h3 className="text-c-heading-md-sb">Why this matters</h3>
-            {dataDiscover?.importance.map((importance) => (
+            {dataDiscover?.importance?.map((importance) => (
               <p key={importance} className="text-c-body-lg-r">
                 {importance}
               </p>
@@ -159,7 +177,7 @@ const SummaryDiscoverPage = () => {
               Most relevant investigations
             </h3>
             <div className="gap-lg flex flex-col">
-              {dataDiscover?.relatedPapers.map((paper) => (
+              {dataDiscover?.relatedPapers?.map((paper) => (
                 <PaperDiscoverCard key={paper.id} paper={paper} />
               ))}
             </div>
