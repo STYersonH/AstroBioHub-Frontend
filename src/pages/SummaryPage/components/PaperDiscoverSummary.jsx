@@ -6,23 +6,6 @@ import "../../../styles/scrollbar.css";
 import { CloseIcon } from "../../../components/icons/Icons";
 import dataPapersJSON from "../../../data/discover_data_papers_backend.json";
 
-const paperSummaryData = {
-  id: 1,
-  author: "Mortz",
-  year: "2020",
-  title:
-    "Evaluation of in vitro macrophage differentiation during space flight.",
-  tags: [
-    "Risk factors",
-    "Proteomics",
-    "Systems biology",
-    "Mocular Biology",
-    "Transcriptomics",
-  ],
-  summary:
-    "Lorem ipsum dolor sit amet consectetur. Lorem ultrices sed ullamcorper pellentesque ac mattis etiam. Risus aliquam quisque non scelerisque in vivamus enim. Sollicitudin dui morbi interdum mauris egestas phasellus tellus. In donec nulla euismod facilisi. Eu massa tristique eget ornare consequat sit. Nec est at aliquam euismod. Consequat pretium sociis sagittis odio posuere. Risus vulputate tellus dictumst adipiscing habitasse. Dui lectus orci in tincidunt. Eget neque cum risus id. Eu vel maecenas egestas amet mattis sed morbi. Proin sed viverra id mauris scelerisque porttitor id elementum elementum. Arcu tempus nulla amet sit non. Nisl mauris egestas duis odio nunc sed tortor eget. Tellus vitae magna id sit odio faucibus ipsum pellentesque. Non leo et risus diam eget. In morbi libero at arcu integer dui lectus nulla augue. Elementum mi egestas orci orci nec suscipit ac. Nisi pharetra a sit neque at purus mauris urna.",
-};
-
 const PaperDiscoverSummary = () => {
   const { showPaperSummary, setShowPaperSummary, selectedPaperCitationNumber } =
     useSummaryPageStore();

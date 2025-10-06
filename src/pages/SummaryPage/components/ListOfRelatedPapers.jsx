@@ -2,13 +2,15 @@ import React, { useEffect, useRef } from "react";
 import useSummaryPageStore from "../../../store/useSummaryPageStore";
 import PaperAcademicCard from "./PaperAcademicCard";
 import { cn } from "../../../utils/cn";
+import useAppStore from "../../../store/useAppStore";
 
-const ListOfRelatedPapers = ({ relatedPapers, className }) => {
+const ListOfRelatedPapers = ({ className }) => {
   // inside the papers container
   const papersContainerRef = useRef(null);
   const isHoveringRef = useRef(false);
   const { showRelatedPapers, selectedPaperCitationNumber } =
     useSummaryPageStore();
+  const { relatedPapers } = useAppStore();
 
   // Auto scroll to selected paper card
   useEffect(() => {

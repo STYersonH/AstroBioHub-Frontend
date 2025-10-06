@@ -322,10 +322,7 @@ const SummaryAcademicPage = () => {
         </div>
 
         {/* related papers */}
-        <ListOfRelatedPapers
-          relatedPapers={data.relatedPapers}
-          className="pt-3xl"
-        />
+        <ListOfRelatedPapers className="pt-3xl" />
 
         {/* paper summary */}
         <PaperAcademicSummary className="pt-3xl" />

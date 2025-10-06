@@ -100,11 +100,11 @@ const KnowledgeGraphPage = () => {
                 className="space-y-2 text-sm text-gray-600"
               >
                 <li>
-                  • Haz hover sobre un paper o nodo para ver sus conexiones en
-                  el grafo
+                  • Hover over a paper or node to see its connections in the
+                  graph
                 </li>
-                <li>• Haz click en un paper o nodo para ver su resumen</li>
-                <li>• Reacomoda los nodos para una mejor visualización</li>
+                <li>• Click on a paper or node to see its summary</li>
+                <li>• Rearrange the nodes for a better visualization</li>
               </motion.ul>
             )}
           </motion.div>
@@ -116,10 +116,7 @@ const KnowledgeGraphPage = () => {
 
           {!showPaperSummary && (
             <motion.div layout className="w-full flex-1 overflow-hidden">
-              <ListOfRelatedPapers
-                relatedPapers={data.academicData.relatedPapers}
-                className="h-full w-full"
-              />
+              <ListOfRelatedPapers className="h-full w-full" />
             </motion.div>
           )}
           {showPaperSummary && (

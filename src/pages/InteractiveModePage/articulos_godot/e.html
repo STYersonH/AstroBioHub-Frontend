@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Danish Psychiatric Registries: Are the Data Stable?</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+      body {
+        margin: 0;
+        padding: 40px;
+        background: #fff9e6;
+        font-family: "Patrick Hand", cursive;
+        color: #333;
+      }
+
+      .infografia {
+        max-width: 800px;
+        margin: auto;
+        background: #fffdf5;
+        border: 2px dashed #d4a017;
+        border-radius: 12px;
+        padding: 30px;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        font-size: 2.2em;
+        color: #b8860b;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: 1.8em;
+        color: #b8860b;
+        margin-top: 30px;
+      }
+
+      p,
+      li {
+        font-size: 1.25em;
+        line-height: 1.5;
+        text-align: justify;
+      }
+
+      .resumen {
+        background: #ffe680;
+        padding: 15px;
+        border-left: 5px solid #d4a017;
+        margin-bottom: 30px;
+      }
+
+      /* --- ESTILOS PARA LA IMAGEN (ACTUALIZADOS) --- */
+      .imagen-espacial {
+        max-width: 800px; /* Ancho completo del contenedor */
+        height: 280px; /* Altura fija para recortar */
+        margin: 25px auto;
+        overflow: hidden; /* Oculta el sobrante */
+        border-radius: 10px;
+        border: 3px solid #d4a017; /* Borde a juego con el tema */
+        position: relative;
+      }
+
+      .imagen-espacial img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%); /* Centra la imagen verticalmente */
+      }
+      /* --- FIN DE ESTILOS PARA LA IMAGEN --- */
+
+      .highlight {
+        background: #ffe680;
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+
+      .badge {
+        display: inline-block;
+        background: #ffd966;
+        color: #5c3d00;
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-weight: bold;
+        margin: 4px 2px;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 0.9em;
+        color: #666;
+        margin-top: 30px;
+      }
+    </style>
+    <base target="_blank" />
+  </head>
+  <body>
+    <div class="infografia">
+      <h1>📋 Danish Psychiatric Registries: Is the Data Still Stable?</h1>
+
+      <div class="resumen">
+        <p>
+          <strong>In short:</strong> In 2019, Denmark changed how psychiatric
+          diagnoses are recorded in its famous National Patient Registry.
+          Scientists worried this could ruin the data's reliability for
+          research. This study investigated whether that change actually caused
+          a problem.
+        </p>
+      </div>
+
+      <!-- Imagen Centrada -->
+      <div class="imagen-espacial">
+        <img
+          src="/images/e/e.jpg"
+          alt="Ilustración de bases de datos y registros médicos"
+        />
+      </div>
+
+      <h2>🎯 The Problem: A Change in the Rules</h2>
+      <p>
+        Denmark's health registries are a treasure trove for global research.
+        But in 2019, the system for outpatients changed dramatically:
+      </p>
+      <ul>
+        <li>
+          <strong>Old System (DNPR2):</strong> An entire treatment course,
+          regardless of the number of visits, was given
+          <span class="highlight">a single main diagnosis</span> at the end.
+        </li>
+        <li>
+          <strong>New System (DNPR3):</strong> Now,
+          <span class="highlight">every single visit</span> gets its own main
+          diagnosis.
+        </li>
+      </ul>
+      <p>
+        The concern was: Did this change create an artificial "jump" in the
+        statistics, making it look like certain disorders suddenly increased?
+      </p>
+
+      <h2>🔬 How Did They Check?</h2>
+      <p>
+        Researchers analyzed data from over
+        <span class="badge">100,000 psychiatric patients</span> in one region of
+        Denmark from 2013 to 2021. They compared diagnostic trends in the year
+        before the change to the year after.
+      </p>
+
+      <h2>📊 Results: Good News for Science!</h2>
+      <ul>
+        <li>
+          Although there were some statistically significant shifts, they were
+          <span class="highlight">very small in absolute terms</span>. For
+          example, psychotic disorders (F2) and mood disorders (F3) only
+          increased by 0.6%.
+        </li>
+        <li>
+          The number of different diagnoses a single patient received during a
+          treatment course
+          <span class="highlight">did not change substantially</span>.
+        </li>
+        <li>
+          Even under the new system, clinicians are very consistent: over
+          <span class="badge">90% of the time</span>, the diagnosis from the
+          first visit matches the diagnosis from the last visit.
+        </li>
+      </ul>
+
+      <h2>✅ Conclusion: Researchers Can Rest Assured</h2>
+      <p>
+        The study concludes that the administrative change in the registry
+        system
+        <span class="highlight">did not significantly destabilize the data</span
+        >. The Danish psychiatric registries remain a robust and reliable source
+        for scientific research.
+      </p>
+      <p>
+        This finding is crucial to ensure the validity of hundreds of past,
+        present, and future studies that rely on this data to better understand
+        mental disorders.
+      </p>
+
+      <footer>
+        Source: Bernstorff et al., 2022.
+        <em>Acta Psychiatrica Scandinavica</em>. DOI:
+        <a href="https://doi.org/10.1111/acps.13463" target="_blank"
+          >10.1111/acps.13463</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>

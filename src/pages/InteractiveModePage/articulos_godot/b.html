@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bones in Space: Why Do They Weaken?</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+      body {
+        margin: 0;
+        padding: 40px;
+        background: #fff9e6;
+        font-family: "Patrick Hand", cursive;
+        color: #333;
+      }
+
+      .infografia {
+        max-width: 800px;
+        margin: auto;
+        background: #fffdf5;
+        border: 2px dashed #d4a017;
+        border-radius: 12px;
+        padding: 30px;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        font-size: 2.2em;
+        color: #b8860b;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: 1.8em;
+        color: #b8860b;
+        margin-top: 30px;
+      }
+
+      p,
+      li {
+        font-size: 1.25em;
+        line-height: 1.5;
+        text-align: justify;
+      }
+
+      .resumen {
+        background: #ffe680;
+        padding: 15px;
+        border-left: 5px solid #d4a017;
+        margin-bottom: 30px;
+      }
+
+      /* --- ESTILOS PARA LA IMAGEN (ACTUALIZADOS) --- */
+      .imagen-espacial {
+        max-width: 800px; /* Ancho completo del contenedor */
+        height: 280px; /* Altura fija para recortar */
+        margin: 25px auto;
+        overflow: hidden; /* Oculta el sobrante */
+        border-radius: 10px;
+        border: 3px solid #d4a017; /* Borde a juego con el tema */
+        position: relative;
+      }
+
+      .imagen-espacial img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%); /* Centra la imagen verticalmente */
+      }
+      /* --- FIN DE ESTILOS PARA LA IMAGEN --- */
+
+      .highlight {
+        background: #ffe680;
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+
+      .badge {
+        display: inline-block;
+        background: #ffd966;
+        color: #5c3d00;
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-weight: bold;
+        margin: 4px 2px;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 0.9em;
+        color: #666;
+        margin-top: 30px;
+      }
+    </style>
+    <base target="_blank" />
+  </head>
+  <body>
+    <div class="infografia">
+      <h1>🦴 Bones in Space: Why Do They Weaken?</h1>
+
+      <div class="resumen">
+        <p>
+          <strong>In short:</strong> The lack of gravity in space causes bones
+          to weaken. A study with mice on a
+          <span class="highlight">15-day</span> space shuttle mission found this
+          happens because of a "triple attack" at the cellular level.
+        </p>
+      </div>
+      <!-- Imagen Centrada -->
+      <div class="imagen-espacial">
+        <img
+          src="/images/b/b.jpg"
+          alt="Ilustración del debilitamiento de los huesos en el espacio"
+        />
+      </div>
+
+      <h2>🎯 The Mystery to Solve</h2>
+      <p>
+        We know astronauts lose bone mass, but scientists wanted to understand
+        the exact reasons why. The hypothesis was that microgravity causes a
+        three-fold problem:
+      </p>
+      <ul>
+        <li>
+          Bone-destroying cells <span class="badge">"Osteoclasts"</span> become
+          hyperactive.
+        </li>
+        <li>
+          Bone-maintaining cells <span class="badge">"Osteocytes"</span> start
+          to dissolve the bone around them.
+        </li>
+        <li>
+          Bone-building cells <span class="badge">"Osteoblasts"</span> simply
+          stop working.
+        </li>
+      </ul>
+
+      <h2>🔬 The Mouse Experiment</h2>
+      <p>
+        Female mice were sent to space for 15 days on the STS-131 mission. Upon
+        their return, their pelvic bones were analyzed to see the changes at a
+        microscopic and genetic level.
+      </p>
+
+      <h2>📊 What Was Discovered? The Triple Attack!</h2>
+      <ul>
+        <li>
+          <strong>1. More Destruction:</strong> The activity of the "destroyer"
+          cells (osteoclasts)
+          <span class="highlight">increased by an incredible 170%</span>. They
+          were demolishing bone at an accelerated rate.
+        </li>
+        <li>
+          <strong>2. Self-Sabotage:</strong> The cavities where the "maintainer"
+          cells (osteocytes) live became
+          <span class="highlight">17% larger</span>. They were dissolving their
+          own walls!
+        </li>
+        <li>
+          <strong>3. Construction Halted (The Key Finding):</strong> A molecule
+          called <span class="badge">CDKN1a/p21</span> was found in the
+          "builder" cells (osteoblasts). This molecule acts as a
+          <span class="highlight">"STOP signal,"</span> completely halting the
+          creation of new bone.
+        </li>
+      </ul>
+
+      <h2>✅ Conclusion</h2>
+      <p>
+        Bone loss in space is not just one process, but three happening at once:
+        <span class="highlight"
+          >more demolition, self-destruction, and zero construction</span
+        >. Identifying the "brake" molecule p21 is a huge step, as it could be a
+        target for future drugs to help protect astronauts' skeletons on long
+        journeys, like a mission to Mars!
+      </p>
+
+      <footer>
+        Source: Blaber et al., 2013. <em>PLoS ONE</em>. DOI:
+        <a href="https://doi.org/10.1371/journal.pone.0061372" target="_blank"
+          >10.1371/journal.pone.0061372</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>

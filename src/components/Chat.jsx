@@ -86,7 +86,7 @@ const Chat = () => {
   const handleExplainText = (text) => {
     addPromptFromSelection(text);
     setChatOpened(true);
-    const promptText = `Explicar: "${text}"`;
+    const promptText = `Explain "${text}"`;
     setChatInput(promptText);
     handleSendPromt(promptText);
   };
