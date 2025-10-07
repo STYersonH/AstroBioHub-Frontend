@@ -10,11 +10,10 @@ import {
   HorizontalLineIcon,
   LeftArrowIcon,
 } from "../../components/icons/Icons";
-import { cn } from "../../utils/cn";
-import PaperAcademicSummary from "../SummaryPage/components/PaperAcademicSummary";
 import useSummaryPageStore from "../../store/useSummaryPageStore";
 import { motion } from "framer-motion";
 import useAppStore from "../../store/useAppStore";
+import { PaperAcademicSummaryContent } from "../SummaryPage/components/PaperAcademicSummary";
 
 const KnowledgeGraphPage = () => {
   const navigate = useNavigate();
@@ -67,7 +66,7 @@ const KnowledgeGraphPage = () => {
       {/* Main Content */}
       <div className="flex h-[calc(100vh-80px)]">
         {/* Left Sidebar */}
-        <div className="p-xl gap-xl flex h-full w-[400px] flex-col border-r border-gray-200 bg-white">
+        <div className="p-xl gap-xl flex h-full w-[500px] flex-col border-r border-gray-200 bg-white">
           <motion.div
             layout
             className="gap-md flex flex-col rounded-lg border-gray-200 bg-gray-50 p-4"
@@ -121,7 +120,7 @@ const KnowledgeGraphPage = () => {
           )}
           {showPaperSummary && (
             <motion.div layout className="w-full flex-1 overflow-hidden">
-              <PaperAcademicSummary className="h-full w-full" />
+              <PaperAcademicSummaryContent />
             </motion.div>
           )}
         </div>

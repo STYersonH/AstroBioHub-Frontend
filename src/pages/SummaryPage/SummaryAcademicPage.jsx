@@ -27,7 +27,8 @@ const SummaryAcademicPage = () => {
   const subsectionRefs = useRef({});
 
   const { breakpoints } = useBreakpointStore();
-  const { showPaperSummary, setShowPaperSummary } = useSummaryPageStore();
+  const { showPaperSummary, setShowPaperSummary, setShowRelatedPapers } =
+    useSummaryPageStore();
   const { searchQuery } = useAppStore();
 
   // Function to get or create a ref for a subsection
@@ -80,6 +81,7 @@ const SummaryAcademicPage = () => {
   // restart the summary box
   useEffect(() => {
     setShowPaperSummary(false);
+    setShowRelatedPapers(true);
   }, []);
 
   // effect to update subSections
