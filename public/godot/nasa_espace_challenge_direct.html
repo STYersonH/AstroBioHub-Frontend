@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>NASA Space Challenge</title>
+    <script>
+        // Script para manejar enlaces externos en Godot - Abrir directamente
+        (function() {
+            'use strict';
+            
+            // Función para abrir enlaces externos directamente en la misma pestaña
+            function openExternalLink(url) {
+                console.log('Abriendo enlace externo:', url);
+                if (window.parent && window.parent !== window) {
+                    // Si estamos en un iframe, navegar en la ventana padre
+                    window.parent.location.href = url;
+                } else {
+                    // Si no hay padre, navegar directamente
+                    window.location.href = url;
+                }
+            }
+            
+            // Interceptar clics en enlaces
+            document.addEventListener('click', function(event) {
+                const target = event.target;
+                
+                console.log('Click en:', target.tagName, target.href || target.getAttribute('href'));
+                
+                // Si es un enlace
+                if (target.tagName === 'A' && target.href) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    openExternalLink(target.href);
+                    return false;
+                }
+                
+                // Si es un elemento con data-href
+                if (target.hasAttribute('data-href')) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    openExternalLink(target.getAttribute('data-href'));
+                    return false;
+                }
+                
+                // Buscar enlaces en elementos padre
+                let parent = target.parentElement;
+                while (parent && parent !== document.body) {
+                    if (parent.tagName === 'A' && parent.href) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        openExternalLink(parent.href);
+                        return false;
+                    }
+                    if (parent.hasAttribute('data-href')) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        openExternalLink(parent.getAttribute('data-href'));
+                        return false;
+                    }
+                    parent = parent.parentElement;
+                }
+            });
+            
+            // Función global para usar desde Godot
+            window.openExternalLink = function(url) {
+                openExternalLink(url);
+            };
+            
+            // Interceptar window.open
+            const originalOpen = window.open;
+            window.open = function(url, target, features) {
+                console.log('window.open interceptado:', url);
+                if (url && (url.startsWith('http://') || url.startsWith('https://'))) {
+                    openExternalLink(url);
+                    return null;
+                }
+                return originalOpen.call(this, url, target, features);
+            };
+            
+            // Interceptar location.href
+            const originalLocationSetter = Object.getOwnPropertyDescriptor(window.location, 'href').set;
+            Object.defineProperty(window.location, 'href', {
+                set: function(url) {
+                    console.log('location.href interceptado:', url);
+                    if (url && (url.startsWith('http://') || url.startsWith('https://'))) {
+                        openExternalLink(url);
+                        return;
+                    }
+                    originalLocationSetter.call(this, url);
+                },
+                get: Object.getOwnPropertyDescriptor(window.location, 'href').get
+            });
+            
+            console.log('Sistema de enlaces externos inicializado - Abrir directamente');
+        })();
+    </script>
+</head>
+<body>
+    <!-- Tu contenido de Godot aquí -->
+</body>
+</html>

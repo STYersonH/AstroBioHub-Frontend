@@ -9,9 +9,7 @@ const ArticleG = () => {
   useEffect(() => {
     const loadArticle = async () => {
       try {
-        const response = await fetch(
-          "/src/pages/InteractiveModePage/articulos_godot/g.html",
-        );
+        const response = await fetch("/articles/g.html");
         const html = await response.text();
         setHtmlContent(html);
       } catch (error) {

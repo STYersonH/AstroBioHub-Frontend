@@ -18,6 +18,8 @@ import ArticleJ from "./pages/ArticlePage/ArticleJ.jsx";
 import ArticleK from "./pages/ArticlePage/ArticleK.jsx";
 import ArticleL from "./pages/ArticlePage/ArticleL.jsx";
 import ArticleM from "./pages/ArticlePage/ArticleM.jsx";
+import JuegoPage from "./pages/JuegoPage.jsx";
+import JuegoPageDirect from "./pages/JuegoPageDirect.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -91,6 +93,10 @@ const routes = createBrowserRouter([
   {
     path: "/article/m",
     Component: ArticleM,
+  },
+  {
+    path: "/juego",
+    Component: JuegoPageDirect,
   },
 ]);
 

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>NASA Space Challenge</title>
+    <script>
+        // Script para manejar enlaces externos en Godot
+        (function() {
+            'use strict';
+            
+            // Función para enviar enlaces externos al padre
+            function sendExternalLink(url) {
+                console.log('Enviando enlace externo:', url);
+                if (window.parent && window.parent !== window) {
+                    window.parent.postMessage({
+                        type: 'external-link',
+                        url: url
+                    }, '*');
+                } else {
+                    // Si no hay padre, abrir directamente
+                    window.open(url, '_blank', 'noopener,noreferrer');
+                }
+            }
+            
+            // Interceptar clics en enlaces
+            document.addEventListener('click', function(event) {
+                const target = event.target;
+                
+                console.log('Click en:', target.tagName, target.href || target.getAttribute('href'));
+                
+                // Si es un enlace
+                if (target.tagName === 'A' && target.href) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    sendExternalLink(target.href);
+                    return false;
+                }
+                
+                // Si es un elemento con data-href
+                if (target.hasAttribute('data-href')) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    sendExternalLink(target.getAttribute('data-href'));
+                    return false;
+                }
+                
+                // Buscar enlaces en elementos padre
+                let parent = target.parentElement;
+                while (parent && parent !== document.body) {
+                    if (parent.tagName === 'A' && parent.href) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        sendExternalLink(parent.href);
+                        return false;
+                    }
+                    if (parent.hasAttribute('data-href')) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        sendExternalLink(parent.getAttribute('data-href'));
+                        return false;
+                    }
+                    parent = parent.parentElement;
+                }
+            });
+            
+            // Escuchar mensajes del padre
+            window.addEventListener('message', function(event) {
+                if (event.data && event.data.type === 'setup-external-links') {
+                    console.log('Comunicación con padre establecida');
+                }
+            });
+            
+            // Función global para usar desde Godot
+            window.openExternalLink = function(url) {
+                sendExternalLink(url);
+            };
+            
+            // Interceptar window.open
+            const originalOpen = window.open;
+            window.open = function(url, target, features) {
+                console.log('window.open interceptado:', url);
+                if (url && (url.startsWith('http://') || url.startsWith('https://'))) {
+                    sendExternalLink(url);
+                    return null;
+                }
+                return originalOpen.call(this, url, target, features);
+            };
+            
+            // Interceptar location.href
+            const originalLocationSetter = Object.getOwnPropertyDescriptor(window.location, 'href').set;
+            Object.defineProperty(window.location, 'href', {
+                set: function(url) {
+                    console.log('location.href interceptado:', url);
+                    if (url && (url.startsWith('http://') || url.startsWith('https://'))) {
+                        sendExternalLink(url);
+                        return;
+                    }
+                    originalLocationSetter.call(this, url);
+                },
+                get: Object.getOwnPropertyDescriptor(window.location, 'href').get
+            });
+            
+            console.log('Sistema de enlaces externos inicializado');
+        })();
+    </script>
+</head>
+<body>
+    <!-- Tu contenido de Godot aquí -->
+</body>
+</html>

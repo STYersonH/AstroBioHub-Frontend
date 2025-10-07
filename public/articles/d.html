@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>High-Risk Plaques: How Does Blood Flow Matter?</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+      body {
+        margin: 0;
+        padding: 40px;
+        background: #fff9e6;
+        font-family: "Patrick Hand", cursive;
+        color: #333;
+      }
+
+      .infografia {
+        max-width: 800px;
+        margin: auto;
+        background: #fffdf5;
+        border: 2px dashed #d4a017;
+        border-radius: 12px;
+        padding: 30px;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        font-size: 2.2em;
+        color: #b8860b;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: 1.8em;
+        color: #b8860b;
+        margin-top: 30px;
+      }
+
+      p,
+      li {
+        font-size: 1.25em;
+        line-height: 1.5;
+        text-align: justify;
+      }
+
+      .resumen {
+        background: #ffe680;
+        padding: 15px;
+        border-left: 5px solid #d4a017;
+        margin-bottom: 30px;
+      }
+
+      /* --- ESTILOS PARA LA IMAGEN (ACTUALIZADOS) --- */
+      .imagen-espacial {
+        max-width: 800px; /* Ancho completo del contenedor */
+        height: 280px; /* Altura fija para recortar */
+        margin: 25px auto;
+        overflow: hidden; /* Oculta el sobrante */
+        border-radius: 10px;
+        border: 3px solid #d4a017; /* Borde a juego con el tema */
+        position: relative;
+      }
+
+      .imagen-espacial img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%); /* Centra la imagen verticalmente */
+      }
+      /* --- FIN DE ESTILOS PARA LA IMAGEN --- */
+
+      .highlight {
+        background: #ffe680;
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+
+      .badge {
+        display: inline-block;
+        background: #ffd966;
+        color: #5c3d00;
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-weight: bold;
+        margin: 4px 2px;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 0.9em;
+        color: #666;
+        margin-top: 30px;
+      }
+    </style>
+    <base target="_blank" />
+  </head>
+  <body>
+    <div class="infografia">
+      <h1>🩸 Risky Plaques: Can Blood Flow Predict a Stroke?</h1>
+
+      <div class="resumen">
+        <p>
+          <strong>In short:</strong> Not all cholesterol plaques in the carotid
+          arteries are equally dangerous. This study used advanced MRI (<span
+            class="highlight"
+            >4D Flow MRI</span
+          >) to measure the "frictional force" of blood and found that high-risk
+          plaques experience much greater stress.
+        </p>
+      </div>
+
+      <!-- Imagen Centrada -->
+      <div class="imagen-espacial">
+        <img
+          src="/images/d/d.jpg"
+          alt="Ilustración de placas de colesterol en una arteria carótida"
+        />
+      </div>
+
+      <h2>🎯 The Problem to Solve</h2>
+      <p>
+        When a carotid artery (in the neck) is moderately blocked (30% to 70%),
+        doctors don't always know whether to treat it aggressively (surgery) or
+        conservatively (medication). They need a way to tell if a plaque is
+        <span class="badge">"high-risk"</span> (prone to rupture and cause a
+        stroke) or <span class="badge">"low-risk"</span>.
+      </p>
+
+      <h2>🔬 How Did They Study It?</h2>
+      <ul>
+        <li>
+          They analyzed 30 patients with plaques in their carotid arteries.
+        </li>
+        <li>
+          They used a special MRI (4D Flow MRI) that allows them to
+          <span class="highlight">see and measure blood flow</span> in 3D
+          throughout the entire cardiac cycle.
+        </li>
+        <li>
+          They measured the <strong>Wall Shear Stress (WSS)</strong>, which is
+          basically the frictional force that blood exerts on the artery walls
+          as it flows past.
+        </li>
+        <li>
+          They classified plaques as "high-risk" (if they had already caused a
+          small stroke visible in the brain) and "low-risk".
+        </li>
+      </ul>
+
+      <h2>📊 Key Findings: The Force Matters!</h2>
+      <ul>
+        <li>
+          <span class="badge">High-risk</span> plaques experienced
+          <span class="highlight">significantly higher</span> wall shear stress
+          (WSS) than low-risk plaques.
+        </li>
+        <li>
+          This force difference was
+          <span class="highlight">more noticeable during diastole</span> (when
+          the heart relaxes) than during systole (when the heart pumps).
+        </li>
+        <li>
+          The main force was exerted in the direction of blood flow (<span
+            class="badge"
+            >axial WSS</span
+          >), which was much stronger than the sideways force (<span
+            class="badge"
+            >circumferential WSS</span
+          >).
+        </li>
+        <li>
+          The 3D WSS (the combination of all forces) was the best indicator,
+          showing clear differences at
+          <span class="highlight">every single time point</span> of the
+          heartbeat.
+        </li>
+      </ul>
+
+      <h2>✅ Conclusion and Clinical Application</h2>
+      <p>
+        Elevated wall shear stress (WSS), especially during diastole and in the
+        axial direction, could be a
+        <span class="highlight">warning sign</span> that a plaque is unstable
+        and dangerous, even if it doesn't cause a severe blockage.
+      </p>
+      <p>
+        Measuring this force with 4D Flow MRI can give doctors crucial
+        information to decide on the best treatment and potentially
+        <span class="highlight">prevent a stroke</span> in patients with
+        moderate stenosis.
+      </p>
+
+      <footer>
+        Source: Zhang et al., 2021. <em>Frontiers in Neuroscience</em>. DOI:
+        <a href="https://doi.org/10.3389/fnins.2021.678358" target="_blank"
+          >10.3389/fnins.2021.678358</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>

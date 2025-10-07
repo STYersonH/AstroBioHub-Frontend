@@ -53,12 +53,12 @@ function App() {
             {selectedMode === "discover" || selectedMode === "academic" ? (
               <SearchBar />
             ) : (
-              <a
-                href="https://astrobiohub.library"
+              <Link
+                to="/juego"
                 className="text-ui-md-r px-6xl py-lg rounded-full bg-white text-center text-gray-600 transition-all duration-300 hover:bg-orange-500 hover:text-white"
               >
                 Go to Virtual Library
-              </a>
+              </Link>
             )}
           </div>
         </div>
